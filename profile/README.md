@@ -19,7 +19,7 @@ Obtain FAIR tokens through Sunpump purchase or third-party transfer, and stake t
 
 ### Contribute Professional Skills
 You can gain recognition by contributing skills, and when cumulative contributions reach a certain threshold, you can receive FAIR token rewards:
-- Participate in technical development; we welcome submitting PRs or reporting issues in every project of FAIR DAO, please refer to the [Contribution Guidelines](../CONTRIBUTING.md)
+- Participate in technical development; we welcome submitting PRs or reporting issues in every project of FAIR DAO, please refer to the [Contribution Guidelines](../CONTRIBUTING.md) and [Code of Conduct](../CODE_OF_CONDUCT.md)
 - Participate in content creation, community operations, and other fields
 
 ## Contact Us

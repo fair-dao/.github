@@ -19,7 +19,7 @@ Obtenga tokens FAIR mediante compra en Sunpump o transferencia de terceros, y ap
 
 ### Contribuir Habilidades Profesionales
 Puede ganar reconocimiento al contribuir con sus habilidades, y cuando las contribuciones acumuladas alcancen cierto umbral, puede recibir recompensas en tokens FAIR:
-- Participar en el desarrollo técnico; damos la bienvenida a la presentación de PR o la denuncia de problemas en cada proyecto de FAIR DAO, consulte las [Directrices de Contribución](../CONTRIBUTING_ES.md)
+- Participar en el desarrollo técnico; damos la bienvenida a la presentación de PR o la denuncia de problemas en cada proyecto de FAIR DAO, consulte las [Directrices de Contribución](../CONTRIBUTING_ES.md) y el [Código de Conducta](../CODE_OF_CONDUCT_ES.md)
 - Participar en la creación de contenido, operaciones comunitarias y otros campos
 
 ## Contáctenos
