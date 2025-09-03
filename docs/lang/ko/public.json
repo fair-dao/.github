@@ -1,0 +1,29 @@
+﻿{
+  "ver": 1000,
+  "lang": "한국어",
+  "kvs": {
+    "page-title": "FAIR DAO | 중앙집중식 자치단체",
+    "page-des": "FAIR DAO는 공개적이고 투명한 중앙집중식 자치단체입니다. 사용자, 개발자, 디자이너 및 $FAIR 보유자는 모두 거버넌스에 참여하여 생태계를 구축하고 FAIR DAO의 지속적인 성장을 추진하며 모든 생태계 참가자가 함께 혜택을 누릴 수 있도록 합니다.",
+    "code-license": "코드 라이선스: ",
+    "code-edit": "웹 페이지 편집",
+    "coin-address": "컨트랙트 주소",
+    "content-license": "웹사이트 내용 라이선스: ",
+    "buy-coin": "구매",
+    "nav-items-bak": [
+      {
+        "_name": "오픈소스",
+        "_link": "index.html?page=opensource"
+      }
+    ],
+    "nav-items": [
+      {
+        "name": "참여",
+        "_link": "/contributor.html"
+      },
+      {
+        "name": "백서",
+        "_link": "/whitepaper.html"
+      }
+    ]
+  }
+}

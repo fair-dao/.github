@@ -1,0 +1,30 @@
+﻿{
+  "ver": 1000,
+  "lang": "Français",
+  "kvs": {
+    "page-title": "White Paper de l'Accord Fair",
+    "page-description": "Un protocole sécurisante, transparent et décentralisé pour la génération prochaine de jetons.",
+    "items": [
+      {
+        "name": "Vision",
+        "detail": "Avec le développement continu de la communauté open-source, de l'écosystème WEB3 et de l'industrie blockchain, une organisation autonome décentralisée - FAIR DAO - est créée. Nous visons la transparence et la justice pour construire une plateforme de trading libre, fiable et équitable où les escrocs n'ont pas de place."
+      },
+      {
+        "name": "Modèle de Gouvernance",
+        "detail": "Le jeton Fair est émis de manière équitable sur la plateforme SunPump du réseau Tron, sans aucune vente préalable ou mécanisme de distribution. Les détenteurs de jetons Fair peuvent participer aux votes de propositions par le stake de leurs jetons. Les participants à l'écosystème peuvent mettre en ligne des applications open source sur le marché écologique FairBox en staking des jetons Fair, offrant ainsi aux utilisateurs de FairBox des options de consommation. Les revenus générés par le marché écologique sont utilisés pour le développement du projet DAO, les opérations quotidiennes du DAO, les activités de donation caritative du DAO et le rachat et la destruction des jetons Fair."
+      },
+      {
+        "name": "Émission de Jetons",
+        "detail": "Le jeton Fair (contract address: TU6x2QQoiU6TU6iePvV9Kacv2fADvMT2F6) a été émis de manière équitable sur la plateforme SunPump du réseau Tron. Il n'y a pas de pré-vente ou de distribution d' équipe. Il est utilisé pour la gouvernance décentralisée et peut également servir à la consommation, garantie, récompense et don dans l'écosystème."
+      },
+      {
+        "name": "Distribution des Jetons",
+        "detail": "Chaque personne est traitée équitablement, sans aucune pré-vente ou distribution."
+      },
+      {
+        "name": "Déclaration de Non-Responsabilité",
+        "detail": "FAIR DAO est une organisation autonome décentralisée composée de tous les détenteurs de jetons FAIR. FAIR DAO n'est pas une entité juridique et ne gère pas centralement l'offre de jetons FAIR. Les jetons FAIR n'ont aucune utilité intrinsèque avant leur émission. Les jetons FAIR ne représentent aucun droit sur un actif réel ou financier, et ne promettent aucune valeur de retour. Les détenteurs de jetons FAIR ne devraient pas s'attendre à ce type de revendication ou de retour. Le jeton FAIR est un type typique de monnaie-mème, sans valeur intrinsèque, valeur interne ou valeur d'investissement."
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+﻿{
+  "ver": 1000,
+  "lang": "繁體中文",
+  "kvs": {
+    "page-title": "如何購買",
+    "join-plan": "加入返佣計劃",
+    "join-plan-des": "通過FAIR DAO邀請加入SunPump返佣計劃，每筆交易手續費返還8%（僅限綁定曲線進度未達100%的代幣），每兩週結算一次，需簽署返佣合約。<a href='https://sunpump.meme/invite?ref=Wl5GzazB'>立即加入</a>",
+    "buy-sale": "買賣操作",
+    "buy-sale-des": "進入SunPump FAIR代幣銷售頁面下單，<a href='https://sunpump.meme/token/TU6x2QQoiU6TU6iePvV9Kacv2fADvMT2F6'>立即交易</a>"
+  }
+}

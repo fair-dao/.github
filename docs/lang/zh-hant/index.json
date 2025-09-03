@@ -1,0 +1,46 @@
+﻿{
+  "ver": 1000,
+  "lang": "中文",
+  "kvs": {
+    "subtitle": "--- FAIR DAO（公開透明的去中心化自治組織）",
+    "subdescription": "FAIR 代幣在 SunPump 平台上公平發射，超低Gas, 無預售, 無增發, 無任何分配計劃。",
+    "page-title-opensource": "開源項目",
+    "page-description-opensource": "我們開源了大部分的代碼。如果您有閒餘時間，可以加入我們，共同促進FAIR DAO 的發展。",
+    "dao-1": "去中心化，公開治理",
+    "dao-1-des": "FAIR 協議由去中心化的全球社區進行管理，所有FAIR代幣持有者、開發者、生態參與者均可對社區治理提出想法、意見。",
+    "dao-2": "鏈上透明，安全高效",
+    "dao-2-des": "FAIR DAO 所有的投票均在鏈上產生，任何人不可進行篡改。從而保證治理的公平性、效率和透明度。",
+    "dao-3": "無預售機制，無團隊分配",
+    "dao-3-des": "每個人都是平等的，Fair代幣在SunPump平台上發行並交易，無預售機制，沒有任何團隊分配。",
+    "dao-4": "抵押運營，共建生態",
+    "dao-4-des": "生態參與者通過抵押Fair代幣，構建開源應用，共創繁榮生態。",
+    "open-items": [
+      {
+        "name": "共享庫",
+        "des": "FAIR DAO 共享庫用於快速開發桌面應用和移動應用的框架，支持主流移動端、PC端、以及Web 瀏覽器。",
+        "_link": "https://github.com/fair-dao/fair-lib"
+      },
+      {
+        "name": "生態應用程式",
+        "des": "Fair Box 為生態應用的載體，已集成波場錢包和以太坊錢包。",
+        "_link": "https://github.com/fair-dao/fair-box"
+      },
+      {
+        "name": "官方網站",
+        "des": "當前網站的源代碼",
+        "_link": "https://github.com/fair-dao/fair-web"
+      },
+      {
+        "name": "智能合約庫",
+        "des": "FAIR DAO 智能合約集合",
+        "_link": "https://github.com/fair-dao/fair-contracts"
+      },
+      {
+        "name": "開源生態集合",
+        "des": "FAIR DAO 開源生態集合",
+        "_link": "https://github.com/fair-eco"
+      }
+    ]
+
+  }
+}

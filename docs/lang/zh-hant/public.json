@@ -1,0 +1,29 @@
+﻿{
+  "ver": 1000,
+  "lang": "中文",
+  "kvs": {
+    "page-title": "FAIR DAO|去中心化自治組織",
+    "page-des": "FAIR DAO 是公開透明的去中心化自治組織|用戶、開發者、設計者和 $FAIR 持有者均可參與治理，共建生態，推動FAIR DAO持續發展，讓所有生態參與者共同受益",
+    "code-license": "代碼授權: ",
+    "code-edit": "編輯網頁",
+    "coin-address": "合約地址",
+    "content-license": "網站內容授權: ",
+    "buy-coin": "購買",
+    "nav-items-bak": [
+      {
+        "_name": "開源",
+        "_link": "index.html?page=opensource"
+      }
+    ],
+    "nav-items": [
+      {
+        "name": "參與",
+        "_link": "/contributor.html"
+      },
+      {
+        "name": "白皮書",
+        "_link": "/whitepaper.html"
+      }
+    ]
+  }
+}

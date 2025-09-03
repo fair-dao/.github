@@ -1,0 +1,11 @@
+﻿{
+  "ver": 1000,
+  "lang": "fr",
+  "kvs": {
+    "page-title": "Comment acheter",
+    "join-plan": "Rejoindre le programme de commissions",
+    "join-plan-des": "Rejoignez le programme de commissions SunPump via l'invitation de FAIR DAO. Obtenez 8% de remboursement sur chaque transaction (seules les pièces avec un progress d'intégration inférieur à 100% sont éligibles). Les commissions sont calculées tous les deux semaines. Un contrat de commission doit être signé. <a href='https://sunpump.meme/invite?ref=Wl5GzazB'>Rejoignez maintenant</a>",
+    "buy-sale": "Acheter/Vendre",
+    "buy-sale-des": "Accéder à la page de vente de jetons FAIR SunPump pour passer une commande. <a href='https://sunpump.meme/token/TU6x2QQoiU6TU6iePvV9Kacv2fADvMT2F6'>Trader maintenant</a>"
+  }
+}

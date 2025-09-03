@@ -1,0 +1,22 @@
+﻿{
+  "ver": 1000,
+  "lang": "越南语",
+  "kvs": {
+    "page-title": "Tham gia",
+    "page-description": "Bất cứ người nào sở hữu Tiền điện tử Fair tự động trở thành thành viên của FAIR DAO. Nếu bạn có thời gian rảnh, bạn còn có thể tham gia vào việc phát triển và vận hành dự án FAIR DAO.",
+    "worker-items": [
+      {
+        "name": "Gia nhập DAO",
+        "des": "Bạn sẽ tự động trở thành một phần của tổ chức FAIR DAO chỉ cần sở hữu Tiền điện tử Fair."
+      },
+      {
+        "name": "Mua token",
+        "des": "Hiện tại chỉ có thể mua trên trang chủ của SunPump."
+      },
+      {
+        "name": "Tham gia phát triển",
+        "des": "Nếu bạn là lập trình viên, nhà thiết kế UI, nhân viên dịch thuật hoặc các nghề nghiệp khác, chúng tôi mời bạn tham gia phát triển và vận hành dự án FAIR DAO."
+      }
+    ]
+  }
+}

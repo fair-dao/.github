@@ -1,0 +1,11 @@
+﻿{
+  "ver": 1000,
+  "lang": "日本語",
+  "kvs": {
+    "page-title": "購入方法",
+    "join-plan": "報酬プラン参加",
+    "join-plan-des": "FAIR DAOの招待でSunPump報酬プランに参加。各取引手数料の8%を返還（縛定カーブ進捗が100%未満のトークンのみ）。2週間に一度決済。報酬契約の締結が必要です。<a href='https://sunpump.meme/invite?ref=Wl5GzazB'>今すぐ参加</a>",
+    "buy-sale": "売買操作",
+    "buy-sale-des": "SunPump FAIRトークン販売ページに入り注文。<a href='https://sunpump.meme/token/TU6x2QQoiU6TU6iePvV9Kacv2fADvMT2F6'>今すぐ取引</a>"
+  }
+}

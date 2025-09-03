@@ -1,0 +1,22 @@
+﻿{
+  "ver": 1000,
+  "lang": "中文",
+  "kvs": {
+    "page-title": "參與",
+    "page-description": "任何個人持有Fair代幣就自動加入FAIR DAO，如果您有閒餘的時間，還可以參與FAIR DAO 項目的開發和運營。",
+    "worker-items": [
+      {
+        "name": "加入DAO",
+        "des": "您只要持有Fair代幣就自動成為FAIR DAO 組織的一員。"
+      },
+      {
+        "name": "獲取代幣",
+        "des": "目前只能在SunPump官網購買"
+      },
+      {
+        "name": "參與開發",
+        "des": "如果您是程序員、UI設計師、翻譯工作者等，我們歡迎您參與FAIR DAO項目開發與運營。"
+      }
+    ]
+  }
+}

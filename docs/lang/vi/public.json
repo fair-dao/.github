@@ -1,0 +1,29 @@
+﻿{
+  "ver": 1000,
+  "lang": "Tiếng Việt",
+  "kvs": {
+    "page-title": "Đào Tạo Trung Tâm FAIR | Tổ Chức Tự Điều Hành Của Cộng đồng",
+    "page-des": "Đào Tạo Trung Tâm FAIR là tổ chức tự điều hành trung tâm hóa, công khai và minh bạch| Người dùng, nhà phát triển, người thiết kế và sở hữu $FAIR đều có thể tham gia vào quá trình quản lý, cùng xây dựng hệ sinh thái, thúc đẩy sự phát triển bền vững của Đào Tạo Trung Tâm FAIR, mang lại lợi ích chung cho tất cả các thành viên trong hệ sinh thái.",
+    "code-license": "Bản quyền mã nguồn: ",
+    "code-edit": "Sửa trang web",
+    "coin-address": "Địa chỉ hợp đồng",
+    "content-license": "Bản quyền nội dung website: ",
+    "buy-coin": "Mua tiền điện tử",
+    "nav-items-bak": [
+      {
+        "_name": "Mở nguồn",
+        "_link": "index.html?page=opensource"
+      }
+    ],
+    "nav-items": [
+      {
+        "name": "Tham gia",
+        "_link": "/contributor.html"
+      },
+      {
+        "name": "Bản tin trắng",
+        "_link": "/whitepaper.html"
+      }
+    ]
+  }
+}
