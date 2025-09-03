@@ -24,3 +24,6 @@ Al informar problemas, incluya siempre:
 * Instantáneas o archivos de registro si es necesario
 
 Debido a que estos issues son de acceso público, al enviar archivos, asegúrese de eliminar toda información confidencial, como nombres de usuario, contraseñas, direcciones IP y nombres de empresas. Puede reemplazar esas partes con "REDACTED" u otras cadenas como "****"。
+
+## Recompensas por Contribuciones
+Animamos a todos a participar en las contribuciones y pueden dejar su dirección de billetera TRON (al menos una vez). Evaluaremos su nivel de contribución en cada ciclo (un mes o un trimestre) y distribuiremos tokens FAIR como recompensas a los participantes activos.

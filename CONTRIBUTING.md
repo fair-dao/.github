@@ -27,3 +27,6 @@ When reporting issues, always include:
 Because the issues are open to the public, when submitting files, be sure to remove any sensitive information, e.g. user name, password, IP address, and company name. You can
 replace those parts with "REDACTED" or other strings like "****"。
 
+## Contribution Rewards
+We encourage everyone to participate in contributions and can leave your TRON wallet address (at least once). We will evaluate your contribution level in each cycle (a month or a quarter) and distribute FAIR tokens as rewards to active participants.
+
