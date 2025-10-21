@@ -133,9 +133,10 @@ function getLang() {
     let lsLang = localStorage.getItem("lang");
     if (!lang && lsLang) return lsLang;
     if (!lang) {
-        lang = navigator.language.toLowerCase();
+        lang = navigator.language.toUpperCase();
+        lang=lang.split("-")[1];
     } else {
-        lang = lang.toLowerCase();
+        lang = lang.toUpperCase();
     }
     if (lang != lsLang) {
         localStorage.setItem("lang", lang);
@@ -184,7 +185,7 @@ var elang;
 
 
 document.addEventListener('DOMContentLoaded', async () => {  
-    var lang2 = navigator.language.toLowerCase();
+    var lang2 = navigator.language;
     console.log("navigator.language:" + lang2);
     r = await fetch("/docs/footer.html");
     html = await r.text();
@@ -214,7 +215,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             el.onclick = function () {
                 let code = this.getAttribute("code");
                 localStorage.setItem("lang", code);
-                location.href = location.href + location.href.indexOf('?') > 0 ? "&" : "?" + "lang=" + code;
+                location.href = location.href + location.href.indexOf('?') > 0 ? "&" : "?" + "lang=" + code.ToUpperCase();
             };
         }
     }
@@ -241,6 +242,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (path == "-") path = "index";
     if (path[0] == '-') path = path.substring(1);
     var dataKey = lang + "-" + path;
+    document.querySelectorAll("a").forEach(a => {
+        a.setAttribute("href", a.getAttribute("href").replace("{lang}", lang));
+    });
     var langfile = "/docs/lang/" + lang + "/" + path + ".json";
     response = await fetch(langfile);
     curData = await response.json();

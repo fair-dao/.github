@@ -1,57 +1,53 @@
 {
   "Name": "fair web",
-  "Lang": "zh-Hans",
+  "Lang": "CN",
   "Langs": [
     {
-      "Name": "en",
+      "Name": "EN",
       "DisplayName": "英语",
       "RealName": "English",
       "EnglishName": "English (United States)"
     },
     {
-      "Name": "fr",
+      "Name": "FR",
       "DisplayName": "法语",
       "RealName": "français",
       "EnglishName": "French (France)"
     },
     {
-      "Name": "ja",
+      "Name": "JA",
       "DisplayName": "日语",
       "RealName": "日本語",
       "EnglishName": "Japanese (Japan)"
     },
     {
-      "Name": "ru",
+      "Name": "RU",
       "DisplayName": "俄语",
       "RealName": "русский",
       "EnglishName": "Russian (Russia)"
     },
     {
-      "Name": "th",
+      "Name": "TH",
       "DisplayName": "泰语",
       "RealName": "ไทย",
       "EnglishName": "Thai (Thailand)"
     },
     {
-      "Name": "zh-hant",
-      "DisplayName": "中文（繁体）",
-      "RealName": "中文（繁體字）",
-      "EnglishName": "Chinese (Hong Kong SAR)"
-    },
+   
     {
-      "Name": "zh-hans",
+      "Name": "CN",
       "DisplayName": "中文（简体）",
       "RealName": "中文（简体）",
       "EnglishName": "Chinese (China)"
     },
     {
-      "Name": "vi",
+      "Name": "VI",
       "DisplayName": "越南语",
       "RealName": "Tiếng Việt",
       "EnglishName": "Vietnamese (Vietnam)"
     },
     {
-      "Name": "ko",
+      "Name": "KO",
       "DisplayName": "韩语",
       "RealName": "한국어",
       "EnglishName": "Korean (Korea)"
