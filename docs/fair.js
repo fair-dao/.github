@@ -50,7 +50,6 @@ function loadJS(url, callback) {
 
 function translate(key,json,item) {
     if (typeof (key) === "undefined" || key === null || key === "") return "";
-    let val = com.kvs[key];
     if (typeof (val) === "undefined") {
         try {
             val = eval(key);
@@ -146,11 +145,7 @@ function processBind(element,json,item) {
 
 function loadData() {
 
-    document.title = com.kvs["page-title"];
-    const meta = document.querySelector('meta[name="description"]');
-    if (meta) {
-        meta.setAttribute('content', com.kvs["page-des"]);
-    }
+   
 
     // <div bind-html="page/header.html"></div> or <div bind-html="page/header"></div> (page/header_cn.html)
     document.querySelectorAll("[" + BIND_HTML + "]").forEach( async(e) => {
@@ -192,7 +187,6 @@ function getLang() {
 var lang = getLang();
 
 var eBuilding = document.getElementById("building");
-var com = null;
 var container = document.getElementById("container");
 
 
