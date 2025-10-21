@@ -100,7 +100,7 @@ function processBindFor(element,json) {
             var reg = new RegExp("\{\-[^\}]+?\-\}", "g");
             let itemHtml = html.replace(reg, function (s) {
                 var old = s;
-                s = s.replace(new RegExp(key + "\."), "").replace(/\-\}/g, "").replace(/\{\-/g, "");
+                s = s.replace(new RegExp("item\."), "").replace(/\-\}/g, "").replace(/\{\-/g, "");
                 let val = eval("item." + s);
                 return val;
             });
