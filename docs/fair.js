@@ -208,7 +208,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             el.onclick = function () {
                 let code = this.getAttribute("code");
                 localStorage.setItem("lang", code);
-                location.href = location.href + location.href.indexOf('?') > 0 ? "&" : "?" + "lang=" + code.ToUpperCase();
+                location.href = location.href + location.href.indexOf('?') > 0 ? "&" : "?" + "lang=" + code;
             };
         }
     }
