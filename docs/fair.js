@@ -113,7 +113,7 @@ function processBindFor(element,json) {
         e.removeAttribute(BIND_FOR);
         processBind(e,json,item);
     });
-    processBind(element);
+    processBind(element,json);
 }
 
 function processBind(element,json,item) {
