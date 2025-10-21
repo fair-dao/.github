@@ -48,7 +48,7 @@ function loadJS(url, callback) {
 }
 
 
-function translate(key,json) {
+function translate(key,json,item) {
     if (typeof (key) === "undefined" || key === null || key === "") return "";
     let val = com.kvs[key];
     if (typeof (val) === "undefined") {
@@ -111,15 +111,15 @@ function processBindFor(element,json) {
         }
         e.innerHTML = newHtml;
         e.removeAttribute(BIND_FOR);
-        processBind(e);
+        processBind(e,json,item);
     });
     processBind(element);
 }
 
-function processBind(element) {
+function processBind(element,json,item) {
     element.querySelectorAll("[" + BIND_IF + "]").forEach(e => {
         let key = e.getAttribute(BIND_IF);
-        let val = translate(key);
+        let val = translate(key, json,item);
         if (!val) {
             e.parentNode.removeChild(e);
         } else e.removeAttribute(BIND_IF);
@@ -127,7 +127,7 @@ function processBind(element) {
 
     element.querySelectorAll("[" + BIND + "]").forEach(e => {
         let key = e.getAttribute(BIND);     
-        e.innerHTML = translate(key);
+        e.innerHTML = translate(key, json,item);
         e.removeAttribute(BIND);
     }); 
 }
