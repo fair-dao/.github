@@ -50,7 +50,7 @@ function loadJS(url, callback) {
 
 function translate(key,json,item) {
     if (typeof (key) === "undefined" || key === null || key === "") return "";
-    if (typeof (val) === "undefined") {
+    var val = "";
         try {
             val = eval(key);
         } catch (e) {
