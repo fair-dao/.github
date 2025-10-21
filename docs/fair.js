@@ -48,14 +48,14 @@ function loadJS(url, callback) {
 }
 
 
-function translate(key,json,item) {
+function translate(key, json, item) {
     if (typeof (key) === "undefined" || key === null || key === "") return "";
     var val = "";
-        try {
-            val = eval(key);
-        } catch (e) {
-        }
+    try {
+        val = eval(key);
+    } catch (e) {
     }
+
     if (typeof (val) === "undefined") return "";
     return val;
 }
@@ -66,7 +66,7 @@ function processHtmlTemplate(element) {
         let key = e.getAttribute(BIND_JSON);
         let response = await fetch(key + "_" + lang + ".json");
         let json = await response.json();
-        processBindFor(e,json);  
+        processBindFor(e, json);
     });
     element.querySelectorAll(".tabs").forEach((e) => {
         let contents = e.querySelectorAll("li");
@@ -102,11 +102,11 @@ function processHtmlTemplate(element) {
 }
 
 
-function processBindFor(element,json) {
+function processBindFor(element, json) {
     element.querySelectorAll("[" + BIND_FOR + "]").forEach(e => {
         let html = e.innerHTML;
         let key = e.getAttribute(BIND_FOR);
-        let items = translate(key,json);
+        let items = translate(key, json);
         let newHtml = "";
         for (var i = 0; i < items.length; i++) {
             var item = items[i];
@@ -122,33 +122,33 @@ function processBindFor(element,json) {
         }
         e.innerHTML = newHtml;
         e.removeAttribute(BIND_FOR);
-        processBind(e,json,item);
+        processBind(e, json, item);
     });
-    processBind(element,json);
+    processBind(element, json);
 }
 
-function processBind(element,json,item) {
+function processBind(element, json, item) {
     element.querySelectorAll("[" + BIND_IF + "]").forEach(e => {
         let key = e.getAttribute(BIND_IF);
-        let val = translate(key, json,item);
+        let val = translate(key, json, item);
         if (!val) {
             e.parentNode.removeChild(e);
         } else e.removeAttribute(BIND_IF);
     });
 
     element.querySelectorAll("[" + BIND + "]").forEach(e => {
-        let key = e.getAttribute(BIND);     
-        e.innerHTML = translate(key, json,item);
+        let key = e.getAttribute(BIND);
+        e.innerHTML = translate(key, json, item);
         e.removeAttribute(BIND);
-    }); 
+    });
 }
 
 function loadData() {
 
-   
+
 
     // <div bind-html="page/header.html"></div> or <div bind-html="page/header"></div> (page/header_cn.html)
-    document.querySelectorAll("[" + BIND_HTML + "]").forEach( async(e) => {
+    document.querySelectorAll("[" + BIND_HTML + "]").forEach(async (e) => {
         let page = e.getAttribute(BIND_HTML);
         if (!page.endsWith(".html")) {
             page = page + + "_" + lang + ".html";
@@ -161,7 +161,7 @@ function loadData() {
     });
 
     processHtmlTemplate(document.body);
-    
+
 
 
 }
@@ -194,10 +194,10 @@ var enav;
 var elang;
 
 
-document.addEventListener('DOMContentLoaded', async () => {  
+document.addEventListener('DOMContentLoaded', async () => {
     var lang2 = navigator.language;
     console.log("navigator.language:" + lang2);
-  
+
     enav = document.getElementById("dvnav");
     elang = enav.querySelector(".lang");
     var XyConfig = null;
