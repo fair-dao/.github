@@ -1,0 +1,35 @@
+{
+  "title": "FAIR DAO 개발 로드맵",
+  "items": [
+    {
+      "time": "2025년 5월 20일",
+      "icon": "fas fa-rocket",
+      "title": "Sunflare 왕관 획득",
+      "description": "Sunflare 왕관을 획득하고 SunSwap에서 거래할 수 있습니다",
+      "tags": [
+        "마일스톤",
+        "계획 중"
+      ]
+    },
+    {
+      "time": "2025년 5월 6일",
+      "icon": "fas fa-code",
+      "title": "FAIR 토큰 출시",
+      "description": "FAIR 토큰이 SunPump 플랫폼에서 공정하게 출시됩니다.",
+      "tags": [
+        "개발",
+        "진행 중"
+      ]
+    },
+    {
+      "time": "2025년 5월 1일",
+      "icon": "fas fa-code",
+      "title": "FAIR DAO 웹사이트 생성",
+      "description": "FAIR DAO 웹사이트를 생성하고 도메인을 FAIRDAO.NET으로 설정",
+      "tags": [
+        "개발",
+        "진행 중"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "title": "แผนการพัฒนา FAIR DAO",
+  "items": [
+    {
+      "time": "20 พฤษภาคม 2568",
+      "icon": "fas fa-rocket",
+      "title": "รับมงกุฎ Sunflare",
+      "description": "รับมงกุฎ Sunflare และสามารถซื้อขายได้ใน SunSwap",
+      "tags": [
+        "ก้าวหน้าประสงค์",
+        "กำลังวางแผน"
+      ]
+    },
+    {
+      "time": "6 พฤษภาคม 2568",
+      "icon": "fas fa-code",
+      "title": "เปิดตัวโทเค็น FAIR",
+      "description": "โทเค็น FAIR เปิดตัวอย่างยุติธรรมบนแพลตฟอร์ม SunPump",
+      "tags": [
+        "การพัฒนา",
+        "อยู่ในระหว่างดำเนินการ"
+      ]
+    },
+    {
+      "time": "1 พฤษภาคม 2568",
+      "icon": "fas fa-code",
+      "title": "การสร้างเว็บไซต์ FAIR DAO",
+      "description": "สร้างเว็บไซต์ FAIR DAO ด้วยโดเมน FAIRDAO.NET",
+      "tags": [
+        "การพัฒนา",
+        "อยู่ในระหว่างดำเนินการ"
+      ]
+    }
+  ]
+}

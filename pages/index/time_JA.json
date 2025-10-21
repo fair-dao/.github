@@ -1,0 +1,35 @@
+{
+  "title": "FAIR DAO 開発ロードマップ",
+  "items": [
+    {
+      "time": "2025年5月20日",
+      "icon": "fas fa-rocket",
+      "title": "Sunflareクラウン獲得",
+      "description": "Sunflareクラウンを獲得し、SunSwapで取引可能になります",
+      "tags": [
+        "マイルストーン",
+        "計画中"
+      ]
+    },
+    {
+      "time": "2025年5月6日",
+      "icon": "fas fa-code",
+      "title": "FAIRトークン発行",
+      "description": "FAIRトークンをSunPumpプラットフォームで公平に発行します。",
+      "tags": [
+        "開発",
+        "進行中"
+      ]
+    },
+    {
+      "time": "2025年5月1日",
+      "icon": "fas fa-code",
+      "title": "FAIR DAOウェブサイト作成",
+      "description": "FAIR DAOウェブサイトを作成し、ドメインをFAIRDAO.NETに設定",
+      "tags": [
+        "開発",
+        "進行中"
+      ]
+    }
+  ]
+}

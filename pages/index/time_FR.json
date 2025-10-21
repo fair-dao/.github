@@ -1,0 +1,35 @@
+{
+  "title": "Feuille de route du développement de FAIR DAO",
+  "items": [
+    {
+      "time": "20 mai 2025",
+      "icon": "fas fa-rocket",
+      "title": "Obtenir la couronne Sunflare",
+      "description": "Obtenir la couronne Sunflare et devenir échangeable sur SunSwap",
+      "tags": [
+        "Jalon",
+        "Planification"
+      ]
+    },
+    {
+      "time": "6 mai 2025",
+      "icon": "fas fa-code",
+      "title": "Lancement du token FAIR",
+      "description": "Lancement équitable du token FAIR sur la plateforme SunPump.",
+      "tags": [
+        "Développement",
+        "En cours"
+      ]
+    },
+    {
+      "time": "1er mai 2025",
+      "icon": "fas fa-code",
+      "title": "Création du site web FAIR DAO",
+      "description": "Création du site web FAIR DAO avec le domaine FAIRDAO.NET",
+      "tags": [
+        "Développement",
+        "En cours"
+      ]
+    }
+  ]
+}

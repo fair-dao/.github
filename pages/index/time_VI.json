@@ -1,0 +1,35 @@
+{
+  "title": "Lộ trình phát triển FAIR DAO",
+  "items": [
+    {
+      "time": "Ngày 20 tháng 5 năm 2025",
+      "icon": "fas fa-rocket",
+      "title": "Nhận vương miện Sunflare",
+      "description": "Nhận vương miện Sunflare và có thể giao dịch trên SunSwap",
+      "tags": [
+        "Cột mốc",
+        "Đang lên kế hoạch"
+      ]
+    },
+    {
+      "time": "Ngày 6 tháng 5 năm 2025",
+      "icon": "fas fa-code",
+      "title": "Ra mắt Token FAIR",
+      "description": "Token FAIR ra mắt công bằng trên nền tảng SunPump.",
+      "tags": [
+        "Phát triển",
+        "Đang tiến hành"
+      ]
+    },
+    {
+      "time": "Ngày 1 tháng 5 năm 2025",
+      "icon": "fas fa-code",
+      "title": "Tạo website FAIR DAO",
+      "description": "Đã tạo website FAIR DAO với tên miền FAIRDAO.NET",
+      "tags": [
+        "Phát triển",
+        "Đang tiến hành"
+      ]
+    }
+  ]
+}

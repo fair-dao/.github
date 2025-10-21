@@ -1,21 +1,31 @@
 {
-  "title": "项目时间线",
+  "title": "FAIR DAO 发展路线",
   "items": [
     {
-      "time": "2025年5月",
+      "time": "2025年5月20日",
       "icon": "fas fa-rocket",
-      "title": "项目启动",
-      "description": "项目正式启动，确定技术栈和项目架构，完成团队组建和任务分配。",
+      "title": "获得Sunflare桂冠",
+      "description": "获得Sunflare桂冠,并可以在SunSwap交易",
       "tags": [
         "里程碑",
         "规划"
       ]
     },
     {
-      "time": "2025年4月",
+      "time": "2025年5月6日",
       "icon": "fas fa-code",
-      "title": "FAIR 代币发射",
+      "title": "发布FAIR代币",
       "description": "FAIR 代币在 SunPump 平台公平发射。",
+      "tags": [
+        "开发",
+        "进行中"
+      ]
+    },
+    {
+      "time": "2025年5月1日",
+      "icon": "fas fa-code",
+      "title": "FAIR DAO 网站创建",
+      "description": "创建了FAIR DAO网站，域名为 FAIRDAO.NET",
       "tags": [
         "开发",
         "进行中"

@@ -1,0 +1,35 @@
+{
+  "title": "Дорожная карта развития FAIR DAO",
+  "items": [
+    {
+      "time": "20 мая 2025 года",
+      "icon": "fas fa-rocket",
+      "title": "Получение короны Sunflare",
+      "description": "Получить корону Sunflare и стать торговым на SunSwap",
+      "tags": [
+        "Милestone",
+        "Планирование"
+      ]
+    },
+    {
+      "time": "6 мая 2025 года",
+      "icon": "fas fa-code",
+      "title": "Запуск токена FAIR",
+      "description": "Справедливый запуск токена FAIR на платформе SunPump.",
+      "tags": [
+        "Разработка",
+        "В процессе"
+      ]
+    },
+    {
+      "time": "1 мая 2025 года",
+      "icon": "fas fa-code",
+      "title": "Создание веб-сайта FAIR DAO",
+      "description": "Создан веб-сайт FAIR DAO с доменом FAIRDAO.NET",
+      "tags": [
+        "Разработка",
+        "В процессе"
+      ]
+    }
+  ]
+}
