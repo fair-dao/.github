@@ -234,7 +234,13 @@ document.addEventListener('DOMContentLoaded', async () => {
     let path = location.pathname.replace(/\//g, "-").replace(/\.html/g, "");
     document.querySelectorAll("a").forEach(a => {
         let href = a.getAttribute("href");
-        a.setAttribute("href", href.replace("\{lang\}", lang));
+        if (href) {
+            try {
+                a.setAttribute("href", href.replace("\{lang\}", lang));
+            } catch(e) {
+                console.error(e,href);
+            }
+        }
     });
   
 
