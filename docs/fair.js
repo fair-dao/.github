@@ -97,10 +97,10 @@ function processBindFor(element,json) {
         for (var i = 0; i < items.length; i++) {
             let item = items[i];
             item.index = i;
-            var reg = new RegExp("\{\{[^\}]+?\}\}", "g");
+            var reg = new RegExp("\{\-[^\}]+?\-\}", "g");
             let itemHtml = html.replace(reg, function (s) {
                 var old = s;
-                s = s.replace(new RegExp(key + "\."), "").replace(/\}/g, "").replace(/\{/g, "");
+                s = s.replace(new RegExp(key + "\."), "").replace(/\-\}/g, "").replace(/\{\-/g, "");
                 return eval("item." + s);
             });
             newHtml += itemHtml;

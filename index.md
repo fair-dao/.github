@@ -14,21 +14,21 @@ layout: default  # 引用 _layouts/default.html
                                 <i class="{{item.icon}}"></i>
                             </div>
                             <div class="columns">
-                                <div class="column is-6" data-bind-if="{{item.index}} %2==1">
+                                <div class="column is-6" data-bind-if="{-item.index-} % 2==1">
                                     <!-- 右侧内容留空，形成交替布局 -->
                                 </div>
                                 <div class="column is-6">
                                     <div class="timeline-content">
-                                        <div class="timeline-date">{{item.time}}</div>
-                                        <h3 class="timeline-title">{{item.title}}</h3>
-                                        <p class="timeline-description">{{item.description}}</p>
+                                        <div class="timeline-date">{-item.time-}</div>
+                                        <h3 class="timeline-title">{-item.title-}</h3>
+                                        <p class="timeline-description">{-item.description-}</p>
                                         <div class="tags mt-3">
                                             <span class="tag is-primary">里程碑</span>
                                             <span class="tag is-info">规划</span>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="column is-6" data-bind-if="{{item.index}} %2==0">
+                                <div class="column is-6" data-bind-if="{-item.index-} % 2 == 0">
                                     <!-- 右侧内容留空，形成交替布局 -->
                                 </div>
                             </div>
