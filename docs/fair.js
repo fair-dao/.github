@@ -48,7 +48,7 @@ function loadJS(url, callback) {
 }
 
 
-function translate(key) {
+function translate(key,json) {
     if (typeof (key) === "undefined" || key === null || key === "") return "";
     let val = com.kvs[key];
     if (typeof (val) === "undefined") {
@@ -92,7 +92,7 @@ function processBindFor(element,json) {
     element.querySelectorAll("[" + BIND_FOR + "]").forEach(e => {
         let html = e.innerHTML;
         let key = e.getAttribute(BIND_FOR);
-        let items = translate(key);
+        let items = translate(key,json);
         let newHtml = "";
         for (var i = 0; i < items.length; i++) {
             let item = items[i];
