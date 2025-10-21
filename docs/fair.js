@@ -52,7 +52,10 @@ function translate(key,json) {
     if (typeof (key) === "undefined" || key === null || key === "") return "";
     let val = com.kvs[key];
     if (typeof (val) === "undefined") {
-        val = eval(key);
+        try {
+            val = eval(key);
+        } catch (e) {
+        }
     }
     if (typeof (val) === "undefined") return "";
     return val;

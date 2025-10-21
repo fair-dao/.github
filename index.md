@@ -11,7 +11,7 @@ layout: default  # 引用 _layouts/default.html
                     <div class="timeline">
                         <div class="timeline-item" data-bind-for="json.items">
                             <div class="timeline-icon">
-                                <i class="{{item.icon}}"></i>
+                                <i class="{-item.icon-}"></i>
                             </div>
                             <div class="columns">
                                 <div class="column is-6" data-bind-if="{-item.index-} % 2==1">
