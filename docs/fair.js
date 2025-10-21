@@ -187,9 +187,7 @@ var elang;
 document.addEventListener('DOMContentLoaded', async () => {  
     var lang2 = navigator.language;
     console.log("navigator.language:" + lang2);
-    r = await fetch("/docs/footer.html");
-    html = await r.text();
-    document.getElementById("footer").innerHTML = html;
+  
     enav = document.getElementById("dvnav");
     elang = enav.querySelector(".lang");
     var XyConfig = null;
