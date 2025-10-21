@@ -233,7 +233,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
 
     if (!foundLang) {
-        lang = XyConfig.Lang.toLowerCase();
+        lang = XyConfig.Lang;
     }
 
     let response = await fetch("/docs/lang/" + lang + "/public.json");
@@ -243,7 +243,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (path[0] == '-') path = path.substring(1);
     var dataKey = lang + "-" + path;
     document.querySelectorAll("a").forEach(a => {
-        a.setAttribute("href", a.getAttribute("href").replace("{lang}", lang));
+        let href = a.getAttribute("href");
+        a.setAttribute("href", href.replace("\{lang\}", lang));
     });
     var langfile = "/docs/lang/" + lang + "/" + path + ".json";
     response = await fetch(langfile);
