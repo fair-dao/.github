@@ -1,6 +1,6 @@
 # FAIR DAO: Una Organización Autónoma Descentralizada para una Gobernanza Justa
 
-[Español](README_ES.md) | [English](README.md) | [中文](README_CN.md) | [हिन्दी](README_HI.md) | [日本語](README_JA.md) | [Русский](README_RU.md)
+[Español](README_ES.md) | [English](README.md) | [中文](README_CN.md) | [Français](README_FR.md) | [हिन्दी](README_HI.md) | [日本語](README_JA.md) | [Русский](README_RU.md) | [العربية](README_AR.md) | [Deutsch](README_DE.md) | [한국어](README_KR.md) | [Português](README_PT.md)
 
 ## Descripción General
 En el mundo actual, arrasado por la ola de Web3, las Organizaciones Autónomas Descentralizadas (DAO) se están convirtiendo gradualmente en una fuerza fundamental para remodelar los modelos de gobernanza tradicionales. Como una DAO innovadora centrada en la gobernanza justa, FAIR DAO se compromete a construir un ecosistema colaborativo transparente, democrático e inclusivo a través de la tecnología blockchain. Sirve como una plataforma de trading descentralizada que conecta a los participantes ecológicos y los consumidores, proporcionando a los participantes ecológicos una plataforma para demostrar integridad y valor, y a los consumidores un canal para interponer recursos y sancionar a los malos participantes ecológicos mientras obtienen compensación.
@@ -21,6 +21,10 @@ Obtenga tokens FAIR mediante compra en Sunpump o transferencia de terceros, y ap
 Puede ganar reconocimiento al contribuir con sus habilidades, y cuando las contribuciones acumuladas alcancen cierto umbral, puede recibir recompensas en tokens FAIR:
 - Participar en el desarrollo técnico; damos la bienvenida a la presentación de PR o la denuncia de problemas en cada proyecto de FAIR DAO, consulte las [Directrices de Contribución](../CONTRIBUTING_ES.md) y el [Código de Conducta](../CODE_OF_CONDUCT_ES.md)
 - Participar en la creación de contenido, operaciones comunitarias y otros campos
+
+## Descargo de responsabilidad
+FAIR DAO es una organización autónoma descentralizada compuesta por todos los titulares de tokens FAIR. FAIR DAO no es una entidad legal y no tiene como objetivo administrar centralmente el suministro de tokens FAIR. Los tokens FAIR no tienen utilidad inherente antes de su emisión, los tokens FAIR no representan ningún derecho sobre ningún activo del mundo real o activo financiero, y no ofrecen ni garantizan valor de retorno. Los titulares de tokens FAIR no deben esperar tales reclamaciones o retornos. Los tokens FAIR son una típica moneda meme sin valor inherente, valor intrínseco o valor de inversión.
+Todo el contenido de FAIR DAO no constituye ninguna forma de asesoramiento de inversión o asesoramiento comercial. Los usuarios deben asumir sus propios riesgos al usar los proyectos de esta organización.
 
 ## Contáctenos
 ### Sitio Web Oficial: https://fairdao.net

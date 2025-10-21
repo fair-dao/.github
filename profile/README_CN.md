@@ -1,6 +1,6 @@
 ﻿# FAIR DAO：公平治理的去中心化自治组织
 
-[中文](README_CN.md) | [English](README.md) | [Español](README_ES.md) | [हिन्दी](README_HI.md) | [日本語](README_JA.md) | [Русский](README_RU.md)
+[中文](README_CN.md) | [English](README.md) | [Español](README_ES.md) | [Français](README_FR.md) | [हिन्दी](README_HI.md) | [日本語](README_JA.md) | [Русский](README_RU.md) | [العربية](README_AR.md) | [Deutsch](README_DE.md) | [한국어](README_KR.md) | [Português](README_PT.md)
 
 ## 概述​
 在 Web3 浪潮席卷全球的今天，去中心化自治组织（DAO）正逐渐成为重塑传统治理模式的核心力量。FAIR DAO 作为专注于公平治理的创新型 DAO，致力于通过区块链技术构建一个透明、民主且具有包容性的协作生态。它是连接生态参与者与消费者的去中心化交易平台，它为生态参与者提供一个展示诚信以及价值的平台，为消费者提供一个申诉惩罚不良生态参与者，并获取赔偿的通道。
@@ -16,6 +16,9 @@ FAIR DAO 欢迎所有认同公平治理理念的个人和组织加入，参与�
 可以通过贡献技能获得认可，累计贡献达到一定阈值可获得FAIR代币奖励：
 * 参与技术开发，我们欢迎在FAIR DAO的每一个项目里提交PR投稿或报告问题，规则请参考 [贡献指南](../CONTRIBUTING_CN.md)、[贡献者契约行为准则](../CODE_OF_CONDUCT.md)
 * 参与内容创作、社区运营等多个领域
+## 免责声明
+FAIR DAO 是由所有 FAIR 代币持有者组成的去中心化自治组织。 FAIR DAO 不是法律实体，也不以集中管理 FAIR 代币供应为目的。 FAIR 代币在发行前不具有固有的实用性，FAIR 代币不代表对任何现实世界资产或金融资产的任何索取，也不提供或保证回报价值。 FAIR 代币持有者不应期望任何此类要求或回报。 FAIR 代币是一种典型的模因币，没有固有价值、内在价值或投资价值。
+FAIR DAO 的所有内容不构成任何形式的投资建议或交易建议。用户在使用本组织项目时应自行承担风险。
 ## 联系我们​
 ### 官方网站：https://fairdao.net
 ### Telegram群：https://t.me/fairdaogroup
