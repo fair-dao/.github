@@ -64,7 +64,7 @@ function processHtmlTemplate(element) {
         let key = e.getAttribute(BIND_JSON);
         let response = await fetch(key + "_" + lang + ".json");
         let json = await response.json();
-        processBindFor(e);  
+        processBindFor(e,json);  
     });
     element.querySelectorAll(".tabs").forEach((e) => {
         let contents = e.querySelectorAll("li");
@@ -88,7 +88,7 @@ function processHtmlTemplate(element) {
 }
 
 
-function processBindFor(element) {
+function processBindFor(element,json) {
     element.querySelectorAll("[" + BIND_FOR + "]").forEach(e => {
         let html = e.innerHTML;
         let key = e.getAttribute(BIND_FOR);

@@ -9,7 +9,6 @@ layout: default  # 引用 _layouts/default.html
                         <h1 class="title is-2 has-text-primary" data-bind="json.title"></h1>
                     </div>                    
                     <div class="timeline">
-                        <!-- 时间线项目1 -->
                         <div class="timeline-item" data-bind-for="json.items">
                             <div class="timeline-icon">
                                 <i class="{{item.icon}}"></i>
