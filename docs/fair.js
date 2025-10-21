@@ -45,12 +45,7 @@ function loadJS(url, callback) {
 
 function translate(key) {
     if (typeof (key) === "undefined" || key === null || key === "") return "";
-    let val = curData && curData.kvs[key];
-    if (typeof (val) === "undefined" || val === null) {
-        if (com) {
-            val = com.kvs[key];
-        }
-    }
+    let val = com.kvs[key];
     if (typeof (val) === "undefined") return "";
     return val;
 }
@@ -58,10 +53,10 @@ function loadData() {
     const BIND_IF = "data-bind-if";
     const BIND = "data-bind";
     const BIND_FOR = "data-bind-for"; //循环
-    document.title = curData && curData.kvs["page-title"] || com.kvs["page-title"];
+    document.title = com.kvs["page-title"];
     const meta = document.querySelector('meta[name="description"]');
     if (meta) {
-        meta.setAttribute('content', curData && curData.kvs["page-des"] || com.kvs["page-des"]);
+        meta.setAttribute('content', com.kvs["page-des"]);
     }
     //循环绑定
     document.querySelectorAll("[" + BIND_FOR + "]").forEach(e => {
@@ -174,8 +169,6 @@ var subpage = getQuery("page");
 var lang = getLang();
 
 var eBuilding = document.getElementById("building");
-//当前界面语言数据 
-var curData = null;
 var com = null;
 var container = document.getElementById("container");
 
@@ -239,17 +232,12 @@ document.addEventListener('DOMContentLoaded', async () => {
     let response = await fetch("/docs/lang/" + lang + "/public.json");
     com = await response.json();
     let path = location.pathname.replace(/\//g, "-").replace(/\.html/g, "");
-    if (path == "-") path = "index";
-    if (path[0] == '-') path = path.substring(1);
-    var dataKey = lang + "-" + path;
     document.querySelectorAll("a").forEach(a => {
         let href = a.getAttribute("href");
         a.setAttribute("href", href.replace("\{lang\}", lang));
     });
-    var langfile = "/docs/lang/" + lang + "/" + path + ".json";
-    response = await fetch(langfile);
-    curData = await response.json();
-    localStorage.setItem(dataKey, JSON.stringify(curData));
+  
+
     loadData();
 
 });
