@@ -9,21 +9,7 @@
     "coin-address": "合约地址",
     "content-license": "网站内容授权: ",
     "buy-coin": "购买",
-    "nav-items-bak": [
-      {
-        "_name": "开源",
-        "_link": "index.html?page=opensource"
-      }
-    ],
-    "nav-items": [
-      {
-        "name": "参与",
-        "_link": "/contributor.html"
-      },
-      {
-        "name": "白皮书",
-        "_link": "/whitepaper.html"
-      }
-    ]
+    "whitepaper": "白皮书",
+    "contributor": "参与"
   }
 }

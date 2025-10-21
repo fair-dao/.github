@@ -9,21 +9,7 @@
     "coin-address": "Contract Address",
     "content-license": "Website Content License: ",
     "buy-coin": "Buy",
-    "nav-items-bak": [
-      {
-        "_name": "Open Source",
-        "_link": "index.html?page=opensource"
-      }
-    ],
-    "nav-items": [
-      {
-        "name": "Participate",
-        "_link": "/contributor.html"
-      },
-      {
-        "name": "Whitepaper",
-        "_link": "/whitepaper.html"
-      }
-    ]
+    "whitepaper": "Whitepaper",
+    "contributor": "Join"
   }
 }

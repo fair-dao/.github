@@ -183,10 +183,9 @@ var enav;
 var elang;
 
 
-document.addEventListener('DOMContentLoaded', async () => {
-    let r = await fetch("/docs/header.html");
-    let html = await r.text();
-    document.getElementById("header").innerHTML = html;
+document.addEventListener('DOMContentLoaded', async () => {  
+    var lang2 = navigator.language.toLowerCase();
+    console.log("navigator.language:" + lang2);
     r = await fetch("/docs/footer.html");
     html = await r.text();
     document.getElementById("footer").innerHTML = html;
