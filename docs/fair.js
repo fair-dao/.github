@@ -1,4 +1,4 @@
-﻿
+
 function getQuery(key) {
     var query = window.location.search.substring(1);
     var key_values = query.split("&");
@@ -141,7 +141,10 @@ function getLang() {
     if (!lang && lsLang) return lsLang;
     if (!lang) {
         lang = navigator.language.toUpperCase();
-        lang=lang.split("-")[1];
+        let langs = lang.split("-");
+        if (langs.length > 1) {
+            lang = langs[1];
+        } else lang = lang[0];
     } else {
         lang = lang.toUpperCase();
     }
@@ -198,15 +201,24 @@ document.addEventListener('DOMContentLoaded', async () => {
     enav = document.getElementById("dvnav");
     elang = enav.querySelector(".lang");
     var XyConfig = null;
-    //let strConfig = localStorage.getItem("config");
-
-    //if (strConfig) {
-    //    XyConfig = JSON.parse(strConfig);
-    //} else {
-    let langResponse = await fetch("/docs/lang/langs.json");
-    XyConfig = await langResponse.json();
-    localStorage.setItem("config", JSON.stringify(XyConfig));
-    //}
+    let strConfig = localStorage.getItem("config");
+    let needUpdate = true;
+    if (strConfig) {
+        try {
+            XyConfig = JSON.parse(strConfig);
+            let lastUpdate = XyConfig.lastUpdate;
+            if (Date.now() - lastUpdate < 600000) { //小于10分钟不用更新
+                needUpdate = false;
+            }
+        } catch (e) {
+        }
+    }
+    if (needUpdate) {
+        let langResponse = await fetch("/docs/lang/langs.json");
+        XyConfig = await langResponse.json();
+        XyConfig.lastUpdate = Date.now();
+        localStorage.setItem("config", JSON.stringify(XyConfig));
+    }
     let foundLang = false;
     for (let i = 0; i < XyConfig.Langs.length; i++) {
         let nav = XyConfig.Langs[i];
