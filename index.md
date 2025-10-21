@@ -6,16 +6,16 @@ layout: default  # 引用 _layouts/default.html
             <div class="columns is-centered" bind-json="/pages/index/time">
                 <div class="column is-10">
                     <div class="content has-text-centered mb-6">
-                        <h1 class="title is-2 has-text-primary" bind-data="json.title"></h1>
+                        <h1 class="title is-2 has-text-primary" data-bind="json.title"></h1>
                     </div>                    
                     <div class="timeline">
                         <!-- 时间线项目1 -->
-                        <div class="timeline-item" bind-for="json.items">
+                        <div class="timeline-item" data-bind-for="json.items">
                             <div class="timeline-icon">
                                 <i class="{{item.icon}}"></i>
                             </div>
                             <div class="columns">
-                                <div class="column is-6" bind-if="{{item.index}} %2==1">
+                                <div class="column is-6" data-bind-if="{{item.index}} %2==1">
                                     <!-- 右侧内容留空，形成交替布局 -->
                                 </div>
                                 <div class="column is-6">
@@ -29,7 +29,7 @@ layout: default  # 引用 _layouts/default.html
                                         </div>
                                     </div>
                                 </div>
-                                <div class="column is-6" bind-if="{{item.index}} %2==0">
+                                <div class="column is-6" data-bind-if="{{item.index}} %2==0">
                                     <!-- 右侧内容留空，形成交替布局 -->
                                 </div>
                             </div>
