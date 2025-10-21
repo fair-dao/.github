@@ -184,10 +184,10 @@ var elang;
 
 
 document.addEventListener('DOMContentLoaded', async () => {
-    let r = await fetch("/header.html");
+    let r = await fetch("/docs/header.html");
     let html = await r.text();
     document.getElementById("header").innerHTML = html;
-    r = await fetch("/footer.html");
+    r = await fetch("/docs/footer.html");
     html = await r.text();
     document.getElementById("footer").innerHTML = html;
     enav = document.getElementById("dvnav");
@@ -198,7 +198,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     //if (strConfig) {
     //    XyConfig = JSON.parse(strConfig);
     //} else {
-    let langResponse = await fetch("/lang/langs.json");
+    let langResponse = await fetch("/docs/lang/langs.json");
     XyConfig = await langResponse.json();
     localStorage.setItem("config", JSON.stringify(XyConfig));
     //}
@@ -236,13 +236,13 @@ document.addEventListener('DOMContentLoaded', async () => {
         lang = XyConfig.Lang.toLowerCase();
     }
 
-    let response = await fetch("/lang/" + lang + "/public.json");
+    let response = await fetch("/docs/lang/" + lang + "/public.json");
     com = await response.json();
     let path = location.pathname.replace(/\//g, "-").replace(/\.html/g, "");
     if (path == "-") path = "index";
     if (path[0] == '-') path = path.substring(1);
     var dataKey = lang + "-" + path;
-    var langfile = "/lang/" + lang + "/" + path + ".json";
+    var langfile = "/docs/lang/" + lang + "/" + path + ".json";
     response = await fetch(langfile);
     curData = await response.json();
     localStorage.setItem(dataKey, JSON.stringify(curData));
