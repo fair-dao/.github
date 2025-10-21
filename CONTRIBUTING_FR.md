@@ -1,5 +1,7 @@
 # Contributions
 
+**Disponible dans d'autres langues :** [English](CONTRIBUTING.md) - Anglais, [中文](CONTRIBUTING_CN.md) - Chinois, [Español](CONTRIBUTING_ES.md) - Espagnol, [العربية](CONTRIBUTING_AR.md) - Arabe, [हिन्दी](CONTRIBUTING_HI.md) - Hindi, [日本語](CONTRIBUTING_JA.md) - Japonais, [Русский](CONTRIBUTING_RU.md) - Russe
+
 En tant que contributeur, vous acceptez que :
 
 - Les contributeurs peuvent ajuster la licence open source selon les besoins, la rendant plus stricte ou plus flexible.

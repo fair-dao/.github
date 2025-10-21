@@ -1,5 +1,7 @@
 # Contribución
 
+**Disponible en otros idiomas:** [English](CONTRIBUTING.md) - Inglés, [中文](CONTRIBUTING_CN.md) - Chino, [Français](CONTRIBUTING_FR.md) - Francés, [العربية](CONTRIBUTING_AR.md) - Árabe, [हिन्दी](CONTRIBUTING_HI.md) - Hindi, [日本語](CONTRIBUTING_JA.md) - Japonés, [Русский](CONTRIBUTING_RU.md) - Ruso
+
 Como colaborador, debes aceptar que:
 
 - El productor puede ajustar el acuerdo de código abierto para que sea más estricto o más flexible según sea necesario.

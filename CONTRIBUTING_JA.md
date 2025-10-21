@@ -1,5 +1,7 @@
 # 貢献
 
+**他の言語でも利用可能:** [English](CONTRIBUTING.md) - 英語, [中文](CONTRIBUTING_CN.md) - 中国語, [Español](CONTRIBUTING_ES.md) - スペイン語, [Français](CONTRIBUTING_FR.md) - フランス語, [العربية](CONTRIBUTING_AR.md) - アラビア語, [हिन्दी](CONTRIBUTING_HI.md) - ヒンディー語, [Русский](CONTRIBUTING_RU.md) - ロシア語
+
 貢献者として、以下のことに同意します：
 
 - 貢献者は、必要に応じてオープンソースライセンスをより厳格または柔軟に調整することができます。

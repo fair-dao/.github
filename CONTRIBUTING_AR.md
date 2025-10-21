@@ -1,5 +1,7 @@
 # المساهمات
 
+**متوفر بلغات أخرى:** [English](CONTRIBUTING.md) - الإنجليزية, [中文](CONTRIBUTING_CN.md) - الصينية, [Español](CONTRIBUTING_ES.md) - الإسبانية, [Français](CONTRIBUTING_FR.md) - الفرنسية, [हिन्दी](CONTRIBUTING_HI.md) - الهندية, [日本語](CONTRIBUTING_JA.md) - اليابانية, [Русский](CONTRIBUTING_RU.md) - الروسية
+
 كمساهم، فإنك توافق على ما يلي:
 
 - يمكن للمساهمين ضبط رخصة المصدر المفتوح حسب الحاجة، مما يجعلها أكثر صرامة أو مرونة.

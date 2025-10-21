@@ -1,5 +1,7 @@
 # Contributing
 
+**Available in other languages:** [中文](CONTRIBUTING_CN.md) - Chinese, [Español](CONTRIBUTING_ES.md) - Spanish, [Français](CONTRIBUTING_FR.md) - French, [العربية](CONTRIBUTING_AR.md) - Arabic, [हिन्दी](CONTRIBUTING_HI.md) - Hindi, [日本語](CONTRIBUTING_JA.md) - Japanese, [Русский](CONTRIBUTING_RU.md) - Russian
+
 As a contributor, you should agree that:
 
 - The producer can adjust the open-source agreement to be more strict or relaxed as deemed necessary.

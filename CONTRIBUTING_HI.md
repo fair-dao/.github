@@ -1,5 +1,7 @@
 # योगदान
 
+**अन्य भाषाओं में उपलब्ध:** [English](CONTRIBUTING.md) - अंग्रेजी , [中文](CONTRIBUTING_CN.md) - चीनी , [Español](CONTRIBUTING_ES.md) - स्पेनिश , [Français](CONTRIBUTING_FR.md) - फ्रेंच , [العربية](CONTRIBUTING_AR.md) - अरबी , [日本語](CONTRIBUTING_JA.md) - जापानी , [Русский](CONTRIBUTING_RU.md) - रूसी
+
 एक योगदानकर्ता के रूप में, आपको सहमति है कि:
 
 - निर्माता आवश्यकतानुसार खुला स्रोत समझौते को अधिक सख्त या ढीला बनाने के लिए समायोजित कर सकता है।

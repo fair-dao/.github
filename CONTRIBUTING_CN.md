@@ -1,5 +1,7 @@
 ﻿# 贡献
 
+**其他语言版本：** [English](CONTRIBUTING.md) - 英文, [Español](CONTRIBUTING_ES.md) - 西班牙语, [Français](CONTRIBUTING_FR.md) - 法语, [العربية](CONTRIBUTING_AR.md) - 阿拉伯语, [हिन्दी](CONTRIBUTING_HI.md) - 印地语, [日本語](CONTRIBUTING_JA.md) - 日语, [Русский](CONTRIBUTING_RU.md) - 俄语
+
 作为贡献者，您同意：
 
 - 贡献者可以根据需要调整开源协议，使其更加严格或宽松。
