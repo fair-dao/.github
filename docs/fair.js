@@ -93,10 +93,11 @@ function loadData() {
     });
 
 
-    document.querySelectorAll("[" + BIND + "]").forEach(e => {
+    document.querySelectorAll("[" + BIND + "]").forEach(async(e) => {
         let key = e.getAttribute(BIND);
         if (key.startsWith("lang:")) {
-            key = key.replace("lang:", "");
+            let page = key.replace("lang:", "");
+
             let response = await fetch(key + "_" + lang + ".html");
             com = await response.test();
             e.innerHTML = com;
@@ -112,7 +113,7 @@ function loadData() {
 
 
 
-    document.querySelectorAll(".tabs").forEach((e) => {
+    document.querySelectorAll(".tabs").forEach( (e) => {
         let contents = e.querySelectorAll("li");
         contents.forEach((e2, index) => {
             e2.onclick = function () {
