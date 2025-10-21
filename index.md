@@ -39,10 +39,3 @@ layout: default  # 引用 _layouts/default.html
             </div>
         </div>
 </section>
-
-      <div class="items" data-bind-for="worker-items">
-                        <div class="item">
-                            <div class="item-title is-size-4">{{worker-items.name}}</div>
-                            <div class="item-des">{{worker-items.des}}</div>
-                        </div>
-                    </div>

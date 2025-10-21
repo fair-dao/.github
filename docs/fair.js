@@ -1,4 +1,9 @@
-
+const BIND_IF = "data-bind-if";
+const BIND_JSON = "bind-json";
+const BIND_HTML = "bind-html";
+const BIND = "data-bind";
+const BIND_LANG = "data-bind-lang";
+const BIND_FOR = "data-bind-for"; //循环
 function getQuery(key) {
     var query = window.location.search.substring(1);
     var key_values = query.split("&");
@@ -124,12 +129,7 @@ function processBind(element) {
 }
 
 function loadData() {
-    const BIND_IF = "data-bind-if";
-    const BIND_JSON = "bind-json";
-    const BIND_HTML = "bind-html";
-    const BIND = "data-bind";
-    const BIND_LANG = "data-bind-lang";
-    const BIND_FOR = "data-bind-for"; //循环
+
     document.title = com.kvs["page-title"];
     const meta = document.querySelector('meta[name="description"]');
     if (meta) {
