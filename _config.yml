@@ -1,5 +1,5 @@
 # _config.yml
-title: FAIR DAO          # 网页标题
-description: FAIR DAO    # 描述
-theme: minima           # 内置主题（可选：minima、jekyll-theme-primer 等）
-# 如需使用第三方主题，需在仓库中添加主题依赖（见步骤2）
+title: FAIR DAO          
+description: FAIR DAO  
+markdown: kramdown
+theme: minima  

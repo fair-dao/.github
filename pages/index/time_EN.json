@@ -1,0 +1,26 @@
+{
+  "title": "Project Time",
+  "items": [
+    {
+      "time": "2025年5月",
+      "icon": "fas fa-rocket",
+      "title": "Project Start",
+      "description": "项目正式启动，确定技术栈和项目架构，完成团队组建和任务分配。",
+      "tags": [
+        "里程碑",
+        "规划"
+      ]
+    },
+    {
+      "time": "2025年4月",
+      "icon": "fas fa-code",
+      "title": "FAIR 代币发射",
+      "description": "FAIR 代币在 SunPump 平台公平发射。",
+      "tags": [
+        "开发",
+        "进行中"
+      ]
+    }
+  ]
+
+}

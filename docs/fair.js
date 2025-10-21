@@ -46,74 +46,22 @@ function loadJS(url, callback) {
 function translate(key) {
     if (typeof (key) === "undefined" || key === null || key === "") return "";
     let val = com.kvs[key];
+    if (typeof (val) === "undefined") {
+        val = eval(key);
+    }
     if (typeof (val) === "undefined") return "";
     return val;
 }
-function loadData() {
-    const BIND_IF = "data-bind-if";
-    const BIND = "data-bind";
-    const BIND_LANG = "data-bind-lang";
-    const BIND_FOR = "data-bind-for"; //循环
-    document.title = com.kvs["page-title"];
-    const meta = document.querySelector('meta[name="description"]');
-    if (meta) {
-        meta.setAttribute('content', com.kvs["page-des"]);
-    }
-    //循环绑定
-    document.querySelectorAll("[" + BIND_FOR + "]").forEach(e => {
-        let html = e.innerHTML;
-        let key = e.getAttribute(BIND_FOR);
-        let items = translate(key);
-        let newHtml = "";
-        for (var i = 0; i < items.length; i++) {
-            let item = items[i];
-            var reg = new RegExp("\{\{[^\}]+?\}\}", "g");
-            let itemHtml = html.replace(reg, function (s) {
-                var old = s;
-                s = s.replace(new RegExp(key + "\."), "").replace(/\}/g, "").replace(/\{/g, "");
-                return eval("item." + s);
-            });
-            newHtml += itemHtml;
-        }
-        e.innerHTML = newHtml;
-        e.removeAttribute(BIND_FOR);
 
+
+function processHtmlTemplate(element) {
+    element.querySelectorAll("[" + BIND_JSON + "]").forEach(async (e) => {
+        let key = e.getAttribute(BIND_JSON);
+        let response = await fetch(key + "_" + lang + ".json");
+        let json = await response.json();
+        processBindFor(e);  
     });
-
-    document.querySelectorAll("[" + BIND_IF + "]").forEach(e => {
-        let key = e.getAttribute(BIND_IF);
-
-        if (subpage && key.indexOf("{subpage}") > 0) {
-            key = key.replace(/\{subpage\}/g, subpage);
-        }
-        let val = translate(key);
-        if (!val) {
-            e.parentNode.removeChild(e);
-        } else e.removeAttribute(BIND_IF);
-    });
-
-
-    document.querySelectorAll("[" + BIND + "]").forEach(async(e) => {
-        let key = e.getAttribute(BIND);
-        if (key.startsWith("lang:")) {
-            let page = key.replace("lang:", "") + "_" + lang + ".html";
-
-            let response = await fetch(page);
-            com = await response.text();
-            e.innerHTML = com;
-        } else {
-            if (key.indexOf("{subpage}") > 0) {
-                key = key.replace(/\{subpage\}/g, subpage);
-            }
-            e.innerHTML = translate(key);
-        }
-        e.removeAttribute(BIND);
-    });
-    
-
-
-
-    document.querySelectorAll(".tabs").forEach( (e) => {
+    element.querySelectorAll(".tabs").forEach((e) => {
         let contents = e.querySelectorAll("li");
         contents.forEach((e2, index) => {
             e2.onclick = function () {
@@ -132,7 +80,79 @@ function loadData() {
         });
 
     });
-    showpage();
+}
+
+
+function processBindFor(element) {
+    element.querySelectorAll("[" + BIND_FOR + "]").forEach(e => {
+        let html = e.innerHTML;
+        let key = e.getAttribute(BIND_FOR);
+        let items = translate(key);
+        let newHtml = "";
+        for (var i = 0; i < items.length; i++) {
+            let item = items[i];
+            item.index = i;
+            var reg = new RegExp("\{\{[^\}]+?\}\}", "g");
+            let itemHtml = html.replace(reg, function (s) {
+                var old = s;
+                s = s.replace(new RegExp(key + "\."), "").replace(/\}/g, "").replace(/\{/g, "");
+                return eval("item." + s);
+            });
+            newHtml += itemHtml;
+        }
+        e.innerHTML = newHtml;
+        e.removeAttribute(BIND_FOR);
+        processBind(e);
+    });
+    processBind(element);
+}
+
+function processBind(element) {
+    element.querySelectorAll("[" + BIND_IF + "]").forEach(e => {
+        let key = e.getAttribute(BIND_IF);
+        let val = translate(key);
+        if (!val) {
+            e.parentNode.removeChild(e);
+        } else e.removeAttribute(BIND_IF);
+    });
+
+    element.querySelectorAll("[" + BIND + "]").forEach(e => {
+        let key = element.getAttribute(BIND);     
+        element.innerHTML = translate(key);
+        element.removeAttribute(BIND);
+    }); 
+}
+
+function loadData() {
+    const BIND_IF = "data-bind-if";
+    const BIND_JSON = "bind-json";
+    const BIND_HTML = "bind-html";
+    const BIND = "data-bind";
+    const BIND_LANG = "data-bind-lang";
+    const BIND_FOR = "data-bind-for"; //循环
+    document.title = com.kvs["page-title"];
+    const meta = document.querySelector('meta[name="description"]');
+    if (meta) {
+        meta.setAttribute('content', com.kvs["page-des"]);
+    }
+
+    // <div bind-html="page/header.html"></div> or <div bind-html="page/header"></div> (page/header_cn.html)
+    document.querySelectorAll("[" + BIND_HTML + "]").forEach( async(e) => {
+        let page = e.getAttribute(BIND_HTML);
+        if (!page.endsWith(".html")) {
+            page = page + + "_" + lang + ".html";
+        }
+        let response = await fetch(page);
+        let html = await response.text();
+        e.innerHTML = html;
+        e.removeAttribute(BIND_HTML);
+        processHtmlTemplate(e);
+    });
+
+    processHtmlTemplate(document.body);
+    
+
+
 }
 
 function getLang() {
@@ -152,35 +172,7 @@ function getLang() {
         localStorage.setItem("lang", lang);
     }
     return lang;
-
 }
-
-
-function showpage() {
-    let page = subpage;
-    if (!page) page = "index";
-    if (page) {
-        let dom = document.getElementById(page);
-        if (dom) {
-            let title = translate("page-title-" + page);
-            if (title) document.title = title;
-
-            let des = translate("page-description-" + page);
-            if (des) {
-                const meta = document.querySelector('meta[name="description"]');
-                if (meta) {
-                    meta.setAttribute('content', des);
-                }
-            }
-            var main = document.querySelector(".main-content");
-            main.innerHTML = dom.innerHTML;
-        }
-    }
-}
-
-
-
-var subpage = getQuery("page");
 var lang = getLang();
 
 var eBuilding = document.getElementById("building");
