@@ -52,6 +52,7 @@ function translate(key) {
 function loadData() {
     const BIND_IF = "data-bind-if";
     const BIND = "data-bind";
+    const BIND_LANG = "data-bind-lang";
     const BIND_FOR = "data-bind-for"; //循环
     document.title = com.kvs["page-title"];
     const meta = document.querySelector('meta[name="description"]');
@@ -94,12 +95,22 @@ function loadData() {
 
     document.querySelectorAll("[" + BIND + "]").forEach(e => {
         let key = e.getAttribute(BIND);
-        if (key.indexOf("{subpage}") > 0) {
-            key = key.replace(/\{subpage\}/g, subpage);
+        if (key.startsWith("lang:")) {
+            key = key.replace("lang:", "");
+            let response = await fetch(key + "_" + lang + ".html");
+            com = await response.test();
+            e.innerHTML = com;
+        } else {
+            if (key.indexOf("{subpage}") > 0) {
+                key = key.replace(/\{subpage\}/g, subpage);
+            }
+            e.innerHTML = translate(key);
         }
-        e.innerHTML = translate(key);
         e.removeAttribute(BIND);
     });
+    
+
+
 
     document.querySelectorAll(".tabs").forEach((e) => {
         let contents = e.querySelectorAll("li");
