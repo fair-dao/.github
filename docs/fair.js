@@ -96,10 +96,10 @@ function loadData() {
     document.querySelectorAll("[" + BIND + "]").forEach(async(e) => {
         let key = e.getAttribute(BIND);
         if (key.startsWith("lang:")) {
-            let page = key.replace("lang:", "");
+            let page = key.replace("lang:", "") + "_" + lang + ".html";
 
-            let response = await fetch(key + "_" + lang + ".html");
-            com = await response.test();
+            let response = await fetch(page);
+            com = await response.text();
             e.innerHTML = com;
         } else {
             if (key.indexOf("{subpage}") > 0) {
