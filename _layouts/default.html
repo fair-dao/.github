@@ -2,20 +2,43 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <title>{{ page.title | default: site.title }}</title>
-  <!-- 主题自带样式会自动加载 -->
+   <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="FAIR DAO|FAIR|FAIR tokens are launched fairly on the SunPump platform, with no presale, no additional issuance, and no allocation plans">
+    <title>
+        FAIR DAO
+    </title>
+    <base href="/" />
+    <link rel="icon" type="image/png" href="/docs/icon-512.png" />
+    <link href="docs/manifest.webmanifest" rel="manifest" />
+    <link rel="apple-touch-icon" sizes="512x512" href="/docs/icon-512.png" />
+    <link rel="apple-touch-icon" sizes="192x192" href="/docs/icon-192.png" />
+    <link rel="stylesheet" href="docs/bulma.min.css">
+    <link href="/docs/fair.css" rel="stylesheet" />
 </head>
 <body>
-  <header>
-    <h1>{{ site.title }}</h1>
-    <nav>
-      <a href="/">首页</a>
-      <a href="/docs">文档</a>
-    </nav>
-  </header>
-  <main>
-    {{ content }}  <!-- 这里会插入 index.md（即 README.md）的内容 -->
-  </main>
+     <div>
+        <div id="header"></div>
+        <div class="body">
+            <div data-bind-if="page-title-{subpage}" style="padding:1rem;">
+
+                <article class="message is-link">
+                    <div class="message-header">
+                        <p data-bind="page-title-{subpage}"></p>
+                    </div>
+                    <div class="message-body" data-bind="page-description-{subpage}">
+                    </div>
+                </article>
+            </div>
+            <main class="main-content">
+              {{ content }}
+            </main>
+        </div>
+        <footer id="footer" class="footer">
+        </footer>
+
+    </div>
+      <script src="/docs/fair.js"></script>
 </body>
 </html>
