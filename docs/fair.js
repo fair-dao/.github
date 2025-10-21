@@ -123,9 +123,9 @@ function processBind(element) {
     });
 
     element.querySelectorAll("[" + BIND + "]").forEach(e => {
-        let key = element.getAttribute(BIND);     
-        element.innerHTML = translate(key);
-        element.removeAttribute(BIND);
+        let key = e.getAttribute(BIND);     
+        e.innerHTML = translate(key);
+        e.removeAttribute(BIND);
     }); 
 }
 
