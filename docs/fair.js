@@ -88,6 +88,18 @@ function processHtmlTemplate(element) {
         });
 
     });
+
+    element.querySelectorAll("a").forEach(a => {
+        let href = a.getAttribute("href");
+        if (href) {
+            try {
+                a.setAttribute("href", href.replace("\{lang\}", lang));
+            } catch (e) {
+                console.error(e, href);
+            }
+        }
+    });
+
 }
 
 
@@ -247,20 +259,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         lang = XyConfig.Lang;
     }
 
-    let response = await fetch("/docs/lang/" + lang + "/public.json");
-    com = await response.json();
-    let path = location.pathname.replace(/\//g, "-").replace(/\.html/g, "");
-    document.querySelectorAll("a").forEach(a => {
-        let href = a.getAttribute("href");
-        if (href) {
-            try {
-                a.setAttribute("href", href.replace("\{lang\}", lang));
-            } catch(e) {
-                console.error(e,href);
-            }
-        }
-    });
-  
 
     loadData();
 

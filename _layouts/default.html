@@ -20,14 +20,14 @@
 </head>
 <body>
      <div>
-         <div id="header">
+         <div id="header" bind-json="/pages/index/public">
              <nav class="navbar" role="navigation" aria-label="main navigation">
                  <div class="navbar-brand">
                      <a class="navbar-item logo" href="/">
                          <img src="/docs/icon-512.png" style="width:32px" />
                          <div class="logo-title">FAIR DAO</div>
                      </a>
-                     <a class="navbar-item" href="/buy.html" data-bind="buy-coin">购买</a>
+                     <a class="navbar-item" href="/buy.html" data-bind="json.kvs.buyCoin">购买</a>
 
                      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="dvnav">
                          <span aria-hidden="true"></span>
@@ -39,8 +39,8 @@
 
                  <div id="dvnav" class="navbar-menu">
                      <div class="navbar-start">
-                         <a class="navbar-item" href="/contributor.html" data-bind="contributor"> </a>
-                         <a class="navbar-item" href="/profile/README_{lang}.html" data-bind="whitepaper"> </a>
+                         <a class="navbar-item" href="/contributor.html" data-bind="json.kvs.contributor"> </a>
+                         <a class="navbar-item" href="/profile/README_{lang}.html" data-bind="json.kvs.whitepaper"> </a>
                      </div>
                      <a class="navbar-item" href="https://t.me/fairdaonet" target="_blank">
                          <svg width="32px" height="32px" viewBox="0 0 32 32" fill="#352" xmlns="http://www.w3.org/2000/svg">
@@ -71,24 +71,15 @@
 
          </div>
         <div class="body">
-            <div data-bind-if="page-title-{subpage}" style="padding:1rem;">
-                <article class="message is-link">
-                    <div class="message-header">
-                        <p data-bind="page-title-{subpage}"></p>
-                    </div>
-                    <div class="message-body" data-bind="page-description-{subpage}">
-                    </div>
-                </article>
-            </div>
             <main class="main-content">
               {{ content }}
             </main>
         </div>        
-        <footer class="footer">
+        <footer class="footer"  bind-json="/pages/index/public">
             <div class="container">
                 <div class="content has-text-centered">
-                    <strong>FAIR DAO （<a href="https://github.com/fair-dao/fair-web" data-bind="code-edit"></a>）</strong> by <a href="/">FAIR DAO</a>.
-                    <span data-bind="code-license"></span>
+                    <strong>FAIR DAO （<a href="https://github.com/fair-dao/fair-web" data-bind="json.kvs.codeEdit"></a>）</strong> by <a href="/">FAIR DAO</a>.
+                    <span data-bind="json.kvs.codeLicense"></span>
                     <a href="https://www.gnu.org/licenses/gpl-3.0.html">GPL-3.0</a>.
                     <span  data-bind="content-license"></span> <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
                 </div>
