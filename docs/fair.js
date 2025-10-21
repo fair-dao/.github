@@ -95,12 +95,11 @@ function processBindFor(element,json) {
         let items = translate(key,json);
         let newHtml = "";
         for (var i = 0; i < items.length; i++) {
-            let item1 = items[i];
-            item1.index = i;
+            var item = items[i];
+            item.index = i;
             var reg = new RegExp("\{\-[^\}]+?\-\}", "g");
             let itemHtml = html.replace(reg, function (s) {
                 var old = s;
-                var item = item1;
                 s = s.replace(new RegExp(key + "\."), "").replace(/\-\}/g, "").replace(/\{\-/g, "");
                 let val = eval("item." + s);
                 return val;
