@@ -1,4 +1,4 @@
-﻿
+
 html {
     font-size: 16px;
 }
@@ -12,9 +12,6 @@ html {
     margin-top: 4rem;
 }
 
-.subpage {
-    display: none;
-}
 
 [data-bind-if], [data-bind], [data-bind-for] > * {
     display: none !important;
@@ -46,40 +43,6 @@ html {
 #Title {
     padding: 0.25rem 0;
 }
-
-.dao {
-    display: flex;
-    align-content: space-around;
-    flex-direction: row;
-    align-items: center;
-    padding: 2rem 0 2rem 0;
-    background-color: #b9d6f2;
-}
-
-    .dao > div > div {
-        padding: 0 5vw;
-    }
-
-    .dao > div:first-child {
-        text-align: left;
-        width: 35%;
-    }
-
-    .dao .dao-des {
-        min-height: 10rem;
-    }
-
-    .dao > div:last-child {
-        text-align: right;
-        width: 35%;
-    }
-
-    .dao .mid {
-        width: 30%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
 
 
 .content .items {
@@ -139,25 +102,44 @@ html {
     z-index: 1;
 }
 
-h1{
-
+.post{
+    padding:3rem;
 }
 
-h2{
-    
+.post-header{
+    display:none;
+}
+
+.post-content h1 {
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.post-content h2 {
+    padding: 1rem 1rem 0.5rem 0rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.post-content p{
+    line-height:1.75rem;
 }
 
 
 @media screen and (min-width: 1024px) {
     #main {
     }
+
 }
 
 @media screen and (max-width: 744px) {
     html {
         font-size: 12px;
     }
-
+    .post{
+        padding:1rem;
+    }
     .content .items {
         display: unset;
     }

@@ -3,7 +3,7 @@ layout: default  # 引用 _layouts/default.html
 ---
 <section class="section">
         <div class="container">
-            <div class="columns is-centered" bind-json="/pages/index/time">
+            <div class="columns is-centered" bind-json="index/time">
                 <div class="column is-10">
                     <div class="content has-text-centered mb-6">
                         <h1 class="title is-2 has-text-primary" data-bind="json.title"></h1>

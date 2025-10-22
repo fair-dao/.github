@@ -63,8 +63,11 @@ function translate(key, json, item) {
 
 function processHtmlTemplate(element) {
     element.querySelectorAll("[" + BIND_JSON + "]").forEach(async (e) => {
-        let key = e.getAttribute(BIND_JSON);
-        let response = await fetch(key + "_" + lang + ".json");
+        let page = e.getAttribute(BIND_JSON);
+        if (!page.endsWith(".json")) {
+            page = "/pages/" + lang + "/" + page + ".json";
+        }
+        let response = await fetch(page);
         let json = await response.json();
         processBindFor(e, json);
     });
@@ -151,7 +154,7 @@ function loadData() {
     document.querySelectorAll("[" + BIND_HTML + "]").forEach(async (e) => {
         let page = e.getAttribute(BIND_HTML);
         if (!page.endsWith(".html")) {
-            page = page + + "_" + lang + ".html";
+            page = "/pages/" + lang + "/" + page + ".html";
         }
         let response = await fetch(page);
         let html = await response.text();

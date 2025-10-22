@@ -9,18 +9,18 @@
         FAIR DAO
     </title>
     <base href="/" />
-    <link rel="icon" type="image/png" href="/docs/icon-512.png" />
-    <link href="/docs/manifest.webmanifest" rel="manifest" />
-    <link rel="apple-touch-icon" sizes="512x512" href="/docs/icon-512.png" />
-    <link rel="apple-touch-icon" sizes="192x192" href="/docs/icon-192.png" />
-    <link rel="stylesheet" href="/docs/bulma.min.css">
-    <link href="/pages/res/timeline.css" rel="stylesheet" />
-    <link href="/docs/fair.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="res/icon-512.png" />
+    <link href="res/manifest.webmanifest" rel="manifest" />
+    <link rel="apple-touch-icon" sizes="512x512" href="res/icon-512.png" />
+    <link rel="apple-touch-icon" sizes="192x192" href="res/icon-192.png" />
+    <link rel="stylesheet" href="res/bulma.min.css">
+    <link href="res/timeline.css" rel="stylesheet" />
+    <link href="res/fair.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
      <div>
-         <div id="header" bind-json="/pages/index/public">
+         <div id="header" bind-json="index/public">
              <nav class="navbar" role="navigation" aria-label="main navigation">
                  <div class="navbar-brand">
                      <a class="navbar-item logo" href="/">
@@ -75,7 +75,7 @@
               {{ content }}
             </main>
         </div>        
-        <footer class="footer"  bind-json="/pages/index/public">
+        <footer class="footer"  bind-json="index/public">
             <div class="container">
                 <div class="content has-text-centered">
                     <strong>FAIR DAO （<a href="https://github.com/fair-dao/fair-web" data-bind="json.kvs.codeEdit"></a>）</strong> by <a href="/">FAIR DAO</a>.
