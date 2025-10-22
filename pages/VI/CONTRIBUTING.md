@@ -1,6 +1,3 @@
----
-layout: default  
----
 # Đóng góp
 
 Là một nhà đóng góp, bạn đồng ý rằng:

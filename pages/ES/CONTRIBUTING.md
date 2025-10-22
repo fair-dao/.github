@@ -1,6 +1,3 @@
----
-layout: default  
----
 # Contribuir
 
 Como colaborador, aceptas:
