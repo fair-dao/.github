@@ -1,36 +1,32 @@
 # Contributing
 
-**Available in other languages:** [中文](CONTRIBUTING_CN.md) - Chinese, [Español](CONTRIBUTING_ES.md) - Spanish, [Français](CONTRIBUTING_FR.md) - French, [العربية](CONTRIBUTING_AR.md) - Arabic, [हिन्दी](CONTRIBUTING_HI.md) - Hindi, [日本語](CONTRIBUTING_JA.md) - Japanese, [Русский](CONTRIBUTING_RU.md) - Russian
+This project welcomes contributions from the community! Here are some ways you can contribute:
 
-As a contributor, you should agree that:
+## Language Versions
+Choose a language version of this contributing guide:
 
-- The producer can adjust the open-source agreement to be more strict or relaxed as deemed necessary.
-- Your contributed code may be used for commercial purposes, including but not limited to its cloud business operations.
+- [English](pages/EN/CONTRIBUTING.md)
+- [中文](pages/CN/CONTRIBUTING.md)
+- [العربية](pages/AR/CONTRIBUTING.md)
+- [Español](pages/ES/CONTRIBUTING.md)
+- [Français](pages/FR/CONTRIBUTING.md)
+- [हिन्दी](pages/HI/CONTRIBUTING.md)
+- [日本語](pages/JA/CONTRIBUTING.md)
+- [한국어](pages/KO/CONTRIBUTING.md)
+- [Русский](pages/RU/CONTRIBUTING.md)
+- [ไทย](pages/TH/CONTRIBUTING.md)
+- [Tiếng Việt](pages/VI/CONTRIBUTING.md)
 
-Please note that by participating in this project, you are expected to uphold our [Code of Conduct](CODE_OF_CONDUCT.md).
+## Quick Start
 
-## Create pull request
-PR are always welcome, even if they only contain small fixes like typos or a few lines of code. If there will be a significant effort, please document it as an issue and get a discussion going before starting to work on it.
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-Please submit a PR broken down into small changes bit by bit. A PR consisting of a lot features and code changes may be hard to review. It is recommended to submit PRs in an incremental fashion.
+For more detailed information about contributing, please refer to the language-specific guide above.
 
-Note: If you split your pull request to small changes, please make sure any of the changes goes to main will not break anything. Otherwise, it can not be merged until this feature complete.
+## Code of Conduct
 
-## Report issues
-It is a great way to contribute by reporting an issue. Well-written and complete bug reports are always welcome! Please open an issue and follow the template to fill in required information.
-
-Before opening any issue, please look up the existing issues to avoid submitting a duplication.
-If you find a match, you can "subscribe" to it to get notified on updates. If you have additional helpful information about the issue, please leave a comment.
-
-When reporting issues, always include:
-
-* Which version you are using.
-* Steps to reproduce the issue.
-* Snapshots or log files if needed
-
-Because the issues are open to the public, when submitting files, be sure to remove any sensitive information, e.g. user name, password, IP address, and company name. You can
-replace those parts with "REDACTED" or other strings like "****"。
-
-## Contribution Rewards
-We encourage everyone to participate in contributions and can leave your TRON wallet address (at least once). We will evaluate your contribution level in each cycle (a month or a quarter) and distribute FAIR tokens as rewards to active participants.
-
+By participating in this project, you agree to abide by the [Code of Conduct](CODE_OF_CONDUCT.md).

@@ -97,7 +97,11 @@ function processHtmlTemplate(element) {
         let href = a.getAttribute("href");
         if (href) {
             try {
-                a.setAttribute("href", href.replace("\{lang\}", lang));
+                if(href.startsWith("pages:")){
+                    href="/pages/" + lang + "/" + href.substring(6)+".html";
+                    a.setAttribute("href", href);
+                }                    
+                
             } catch (e) {
                 console.error(e, href);
             }

@@ -1,0 +1,23 @@
+# FAIR DAO: Une Organisation Autonome Décentralisée pour une Gouvernance Equitable
+## Aperçu
+Dans l'ère actuelle où la vague Web3 envahit le monde, les Organisations Autonomes Décentralisées (DAOs) deviennent progressivement une force essentielle pour remodeler les modèles de gouvernance traditionnels. FAIR DAO, en tant que DAO innovante axée sur la gouvernance équitable, s'efforce de construire un écosystème collaboratif transparent, démocratique et inclusif grâce à la technologie blockchain. C'est une plateforme de trading décentralisée qui connecte les participants de l'écosystème aux consommateurs, offrant aux participants une plateforme pour démontrer leur intégrité et leur valeur, et aux consommateurs un canal pour déposer des plaintes, sanctionner de mauvais participants et obtenir une compensation.
+## Structure de Gouvernance
+FAIR DAO participe à la gouvernance en détenant des jetons FAIR, qui sont une crypto-monnaie Meme émise équitablement sur la plateforme SunPump du réseau Tron, sans prévente ni allocation à l'équipe. La gouvernance adopte un double mécanisme de participation par contribution et de vote par jetons, garantissant les droits des partisans de base tout en encourageant le comportement de participation réelle.
+## Mécanisme de Décision
+Le processus décisionnel de l'organisation se divise en trois phases : soumission de propositions, discussion communautaire et exécution par vote. Tout membre détenant des jetons FAIR et les ayant mis en jeu peut soumettre des propositions. Les propositions font l'objet d'une période de discussion communautaire de 72 heures, au cours de laquelle les contributeurs clés peuvent fournir des avis professionnels pour les améliorer.
+## Comment Participer
+FAIR DAO accueille chaleureusement tous les individus et organisations qui adhèrent au concept de gouvernance équitable, avec des méthodes de participation flexibles :
+### Détenir des Jetons de Gouvernance
+Achetez via Sunpump ou obtenez des jetons FAIR par transferts tiers, et mettez en jeu les jetons dans le contrat de garantie pour devenir un participant officiel à la gouvernance. Les personnes qui mettent en jeu peuvent soumettre des propositions, participer aux votes sur les décisions clés, et également participer aux votes d'appel et de vérification de la distribution des contributions pour recevoir des récompenses, encourageant ainsi la détention à long terme et la construction communautaire.
+### Contribuer avec des Compétences Professionnelles
+Vous pouvez obtenir une reconnaissance en contribuant avec vos compétences, et lorsque les contributions cumulées atteignent un certain seuil, vous pouvez recevoir des récompenses en jetons FAIR :
+* Participez au développement technique. Nous accueillons favorablement les contributions PR ou les signalements de problèmes dans chacun des projets de FAIR DAO. Veuillez vous référer au [Guide de Contribution](../CONTRIBUTING.md) et au [Code de Conduite des Contributeurs](../CODE_OF_CONDUCT.md)
+* Participez à la création de contenu, à l'exploitation communautaire et à d'autres domaines
+## Déclaration de Non-Responsabilité
+FAIR DAO est une organisation autonome décentralisée composée de tous les détenteurs de jetons FAIR. FAIR DAO n'est pas une entité juridique et n'a pas pour but de gérer centralement l'offre de jetons FAIR. Les jetons FAIR n'ont pas d'utilité intrinsèque avant leur émission. Les jetons FAIR ne représentent aucune revendication sur des actifs réels ou financiers, et ne fournissent ni ne garantissent une valeur de retour. Les détenteurs de jetons FAIR ne doivent pas s'attendre à de telles revendications ou retours. Les jetons FAIR sont une crypto-monnaie Meme typique, sans valeur intrinsèque, valeur inhérente ou valeur d'investissement.
+Tout le contenu de FAIR DAO ne constitue pas une forme quelconque de conseil en investissement ou en trading. Les utilisateurs supportent leurs propres risques lors de l'utilisation des projets de l'organisation.
+## Contactez-Nous
+### Site Web Officiel : https://fairdao.net
+### Groupe Telegram : https://t.me/fairdaogroup
+## Conclusion
+FAIR DAO est en phase de développement rapide, et nous vous invitons chaleureusement à rejoindre cet écosystème équitable construit par la communauté et à explorer ensemble les possibilités futures de la gouvernance décentralisée. Toutes les décisions de gouvernance et données opérationnelles sont publiques et transparentes via la blockchain, et nous accueillons favorablement la surveillance et l'orientation de tous les secteurs de la société.
