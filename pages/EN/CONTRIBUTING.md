@@ -1,3 +1,6 @@
+---
+layout: default  
+---
 # Contributing
 
 As a contributor, you agree to:
