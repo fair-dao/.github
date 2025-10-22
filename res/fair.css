@@ -7,7 +7,7 @@ html {
     min-height:70vh;
 }
 /* Arabic special styles */
-lang[lang="ar"] .main-content {
+body[lang="ar"] .main-content {
     direction: rtl;
 }
 
