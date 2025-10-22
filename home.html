@@ -9,28 +9,27 @@
         FAIR DAO
     </title>
     <base href="/" />
-    <link rel="icon" type="image/png" href="res/fair-512.png" />
+    <link rel="icon" type="image/png" href="res/icon-512.png" />
     <link href="res/manifest.webmanifest" rel="manifest" />
-    <link rel="apple-touch-icon" sizes="512x512" href="res/fair-512.png" />
-    <link rel="apple-touch-icon" sizes="192x192" href="res/fair-192.png" />
+    <link rel="apple-touch-icon" sizes="512x512" href="res/icon-512.png" />
+    <link rel="apple-touch-icon" sizes="192x192" href="res/icon-192.png" />
     <link rel="stylesheet" href="res/bulma.min.css">
     <link href="res/timeline.css" rel="stylesheet" />
     <link href="res/fair.css" rel="stylesheet" />
-    <link rel="stylesheet" href="res/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <div>
         <header class="header" bind-html="/pages/header.html" bind-html-loaded="headerLoaded(e)">
         </header>
         <div class="body">
-            <main class="main-content">
-                {{ content }}
+            <main class="main-content" bind-html="/pages/index.html">
             </main>
         </div>
         <footer class="footer" bind-html="/pages/footer.html">
         </footer>
 
     </div>
-      <script src="/res/fair.js"></script>
+    <script src="/res/fair.js"></script>
 </body>
 </html>

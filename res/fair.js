@@ -1,6 +1,7 @@
 const BIND_IF = "data-bind-if";
 const BIND_JSON = "bind-json";
 const BIND_HTML = "bind-html";
+const BIND_HTML_LOADED = "bind-html-loaded";
 const BIND = "data-bind";
 const BIND_LANG = "data-bind-lang";
 const BIND_FOR = "data-bind-for"; //循环
@@ -66,6 +67,7 @@ function processHtmlTemplate(element) {
         let page = e.getAttribute(BIND_JSON);
         if (!page.endsWith(".json")) {
             page = "/pages/" + lang + "/" + page + ".json";
+            console.log("page:", page);
         }
         let response = await fetch(page);
         let json = await response.json();
@@ -148,8 +150,6 @@ function processBind(element, json, item) {
 
 function loadData() {
 
-
-
     // <div bind-html="page/header.html"></div> or <div bind-html="page/header"></div> (page/header_cn.html)
     document.querySelectorAll("[" + BIND_HTML + "]").forEach(async (e) => {
         let page = e.getAttribute(BIND_HTML);
@@ -159,6 +159,16 @@ function loadData() {
         let response = await fetch(page);
         let html = await response.text();
         e.innerHTML = html;
+        let loaded = e.getAttribute(BIND_HTML_LOADED);
+        if (loaded) {
+            try {
+                eval(loaded);
+            } catch (e1) {
+                console.log(e1);
+            }
+
+        }
+
         e.removeAttribute(BIND_HTML);
         processHtmlTemplate(e);
     });
@@ -192,18 +202,48 @@ var lang = getLang();
 var eBuilding = document.getElementById("building");
 var container = document.getElementById("container");
 
+var XyConfig = null;
 
-var enav;
-var elang;
 
+function headerLoaded(e) {
+
+    
+    var elang = e.querySelector(".lang");
+    for (let i = 0; i < XyConfig.Langs.length; i++) {
+        let nav = XyConfig.Langs[i];
+        if (nav.Name) {
+            var el = document.createElement("a");
+            el.setAttribute("class", "navbar-item");
+            el.innerHTML = nav.RealName;
+            el.setAttribute("code", nav.Name);
+            elang.appendChild(el);
+            el.onclick = function () {
+                let code = this.getAttribute("code");
+                localStorage.setItem("lang", code);
+                let href = location.href + (location.href.indexOf('?') > 0 ? "&" : "?" )+ "lang=" + code;
+                location.href = href;
+            };
+        }
+    }
+
+    const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+    $navbarBurgers.forEach(el => {
+        el.addEventListener('click', () => {
+            const target = el.dataset.target;
+            const $target = document.getElementById(target);
+            el.classList.toggle('is-active');
+            $target.classList.toggle('is-active');
+
+        });
+    });
+
+}
 
 document.addEventListener('DOMContentLoaded', async () => {
     var lang2 = navigator.language;
     console.log("navigator.language:" + lang2);
 
-    enav = document.getElementById("dvnav");
-    elang = enav.querySelector(".lang");
-    var XyConfig = null;
+
     let strConfig = localStorage.getItem("config");
     let needUpdate = true;
     if (strConfig) {
@@ -217,46 +257,26 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
     }
     if (needUpdate) {
-        let langResponse = await fetch("/docs/lang/langs.json");
+        let langResponse = await fetch("/res/langs.json");
         XyConfig = await langResponse.json();
         XyConfig.lastUpdate = Date.now();
         localStorage.setItem("config", JSON.stringify(XyConfig));
     }
+
+
     let foundLang = false;
     for (let i = 0; i < XyConfig.Langs.length; i++) {
         let nav = XyConfig.Langs[i];
         if (nav.Name) {
-            var el = document.createElement("a");
-            el.setAttribute("class", "navbar-item");
-            el.innerHTML = nav.RealName;
-            el.setAttribute("code", nav.Name);
-            if (nav.Name === lang) foundLang = true;
-            elang.appendChild(el);
-            el.onclick = function () {
-                let code = this.getAttribute("code");
-                localStorage.setItem("lang", code);
-                location.href = location.href + location.href.indexOf('?') > 0 ? "&" : "?" + "lang=" + code;
-            };
+            if (nav.Name === lang) {
+                foundLang = true;
+                break;
+            }
         }
     }
-
-
-    const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
-    $navbarBurgers.forEach(el => {
-        el.addEventListener('click', () => {
-            const target = el.dataset.target;
-            const $target = document.getElementById(target);
-            el.classList.toggle('is-active');
-            $target.classList.toggle('is-active');
-
-        });
-    });
-
     if (!foundLang) {
         lang = XyConfig.Lang;
     }
-
-
     loadData();
 
 });

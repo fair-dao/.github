@@ -2,14 +2,14 @@
 html {
     font-size: 16px;
 }
+.main-content {
+    border-top: 0.5px #f5f5f5 solid;
+    min-height:70vh;
+}
 
-.donate {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    margin-top: 4rem;
+
+.header{
+    padding:0.5rem;
 }
 
 
@@ -17,11 +17,6 @@ html {
     display: none !important;
 }
 
-.logo img {
-    height: 2.25rem;
-    max-height: 2.25rem !important;
-    width: 2.25rem;
-}
 
 .mid svg {
     width: 300px;
