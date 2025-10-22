@@ -3,3 +3,5 @@ title: FAIR DAO
 description: FAIR DAO  
 markdown: kramdown
 theme: minima  
+include:
+  - pages/**/*.md
