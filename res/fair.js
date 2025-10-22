@@ -276,5 +276,6 @@ document.addEventListener("DOMContentLoaded", async () => {
   if (!foundLang) {
     lang = XyConfig.Lang;
   }
+  document.body.setAttribute("lang", lang.toLowerCase());
   loadData();
 });
