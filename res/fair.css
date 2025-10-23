@@ -31,6 +31,11 @@ body[lang="ar"] .main-content {
     font-family: montserrat;
 }
 
+.navbar i {
+    font-size:1.65rem;
+    color:var(--bulma-text-weak);
+}
+
 
 .tabs-content > div {
     display: none;
@@ -49,13 +54,16 @@ body[lang="ar"] .main-content {
 
 .footer {
     background-color: var(--bulma-scheme-main);
-    --bulma-footer-padding: 3rem 1.5rem 3rem;
+    padding: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
     background: var(--bulma-background);
     color: var(--bulma-text-weak);
-    position: relative;
-    z-index: 1;
 }
-
+.footer i{
+    font-size:1.5rem;
+    color:var(--bulma-text-weak);
+}
 .post{
     max-width:900px;
     margin:0 auto;
@@ -92,37 +100,4 @@ body[lang="ar"] .main-content {
     .post{
         padding:1rem;
     }
-    .content .items {
-        display: unset;
-    }
-
-    .whitepaper .item {
-        padding: 1rem;
-    }
-
-
-    .dao {
-        display: block;
-    }
-
-        .dao .mid {
-            display: none;
-        }
-
-        .dao > div {
-            width: 100vw !important;
-        }
-
-        .dao * {
-            text-align: left !important;
-        }
-
-        .dao .dao-des {
-            min-height: unset;
-        }
-
-
-        .dao > div:last-child {
-            padding-top: 1.5rem;
-        }
 }
