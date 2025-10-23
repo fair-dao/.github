@@ -13,7 +13,7 @@
       "icon": "fas fa-database",
       "title": "开发 FAIR DAO 存储合约",
       "description": "开发FAIR DAO存储合约，为后续合约提供数据存储以及管理服务",
-      "successTag": "进行中"
+      "infoTag": "进行中"
     },
     {
       "time": "2025年8月",

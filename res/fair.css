@@ -25,9 +25,6 @@ body[lang="ar"] .main-content {
     width: 300px;
 }
 
-.tpl {
-    display: none !important;
-}
 
 .logo-title {
     font-weight: 900;
@@ -62,6 +59,7 @@ body[lang="ar"] .main-content {
 .post{
     max-width:900px;
     margin:0 auto;
+    padding: 2rem;
 }
 
 .post-header{
@@ -81,16 +79,11 @@ body[lang="ar"] .main-content {
     font-size: 1.25rem;
     font-weight: 600;
 }
-.post-content p{
-    line-height:1.75rem;
+.post-content p {
+    line-height:2rem;
 }
 
 
-@media screen and (min-width: 1024px) {
-    #main {
-    }
-
-}
 
 @media screen and (max-width: 744px) {
     html {
