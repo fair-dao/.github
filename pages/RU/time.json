@@ -13,7 +13,7 @@
       "icon": "fas fa-database",
       "title": "Разработка контракта хранения FAIR DAO",
       "description": "Разработать контракт хранения FAIR DAO для предоставления услуг хранения и управления данными для будущих контрактов",
-      "successTag": "В процессе"
+      "infoTag": "В процессе"
     },
     {
       "time": "Август 2025 года",
@@ -42,14 +42,14 @@
       "title": "Запуск токена FAIR",
       "description": "Справедливый запуск токена FAIR на платформе SunPump.",
       "link": "https://sunpump.meme/token/TU6x2QQoiU6TU6iePvV9Kacv2fADvMT2F6",
-      "successTag": "Милestone"
+      "successTag": "Мilestone"
     },
     {
       "time": "Апрель 2025 года",
       "icon": "fas fa-circle-nodes",
       "title": "Создание веб-сайта FAIR DAO",
       "description": "Создан веб-сайт FAIR DAO с доменом FAIRDAO.NET",
-      "successTag": "Милestone"
+      "successTag": "Мilestone"
     }
   ]
 }

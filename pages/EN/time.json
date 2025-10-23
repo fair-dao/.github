@@ -13,7 +13,7 @@
       "icon": "fas fa-database",
       "title": "Develop FAIR DAO Storage Contract",
       "description": "Develop FAIR DAO storage contract to provide data storage and management services for subsequent contracts",
-      "successTag": "In Progress"
+      "infoTag": "In Progress"
     },
     {
       "time": "August 2025",

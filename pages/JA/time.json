@@ -13,7 +13,7 @@
       "icon": "fas fa-database",
       "title": "FAIR DAOストレージコントラクトを開発",
       "description": "将来のコントラクトにストレージとデータ管理サービスを提供するためのFAIR DAOストレージコントラクトを開発",
-      "successTag": "進行中"
+      "infoTag": "進行中"
     },
     {
       "time": "2025年8月",

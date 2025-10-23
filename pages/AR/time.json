@@ -1,55 +1,55 @@
 {
-  "title": "FAIR DAO 历程",
+  "title": "تاريخ FAIR DAO",
   "items": [
     {
-      "time": "2025年9月",
+      "time": "سبتمبر 2025",
       "icon": "fas fa-rocket",
-      "title": "创建Create2 部署合约",
-      "description": "创建Create2 部署合约，用于部署FAIR DAO合约",
-      "successTag": "已完成"
+      "title": "إنشاء العقد النشر Create2",
+      "description": "إنشاء العقد النشر Create2 للنشر على العقود الخاصة بـ FAIR DAO",
+      "successTag": "مكتمل"
     },
     {
-      "time": "2025年9月",
+      "time": "سبتمبر 2025",
       "icon": "fas fa-database",
-      "title": "开发 FAIR DAO 存储合约",
-      "description": "开发FAIR DAO存储合约，为后续合约提供数据存储以及管理服务",
-      "successTag": "进行中"
+      "title": "تطوير العقد التخزين FAIR DAO",
+      "description": "تطوير العقد التخزين FAIR DAO لتوفير خدمات تخزين بيانات وإدارة للعقود اللاحقة",
+      "infoTag": "جاري التنفيذ"
     },
     {
-      "time": "2025年8月",
+      "time": "أغسطس 2025",
       "icon": "fas fa-code",
-      "title": "开发担保合约",
-      "description": "通过担保合约为商家提高信誉，为消费者进行担保赔付",
-      "infoTag": "进行中"
+      "title": "تطوير العقد التأمين",
+      "description": "تعزيز سمعت التجار وتوفير تعويضات التأمين للعملاء من خلال العقد التأمين",
+      "infoTag": "جاري التنفيذ"
     },
     {
-      "time": "2025年7月",
+      "time": "يوليو 2025",
       "icon": "fas fa-bitcoin-sign",
-      "title": "开发FAIR 代币质押合约",
-      "description": "通过质押FAIR代币，可以获得投票代币FVT",
-      "infoTag": "进行中"
+      "title": "تطوير العقد التثبيت لعملة FAIR",
+      "description": "يمكن الحصول على عملة التصويت FVT عن طريق تثبيت عملة FAIR",
+      "infoTag": "جاري التنفيذ"
     },
     {
-      "time": "2025年5月20日",
+      "time": "20 مايو 2025",
       "icon": "fas fa-crown",
-      "title": "获得Sunflare桂冠",
-      "description": "获得Sunflare桂冠,并可以在SunSwap交易",
-      "successTag": "里程碑"
+      "title": "حصول على تاج Sunflare",
+      "description": "حصول على تاج Sunflare والتجارة عليه في SunSwap",
+      "successTag": "معلم"
     },
     {
-      "time": "2025年5月6日",
+      "time": "6 مايو 2025",
       "icon": "fas fa-bitcoin-sign",
-      "title": "发布FAIR代币",
-      "description": "FAIR 代币在 SunPump 平台公平发射。",
+      "title": "إطلاق عملة FAIR",
+      "description": "عملة FAIR تم إطلاقها على منصة SunPump على أساس العدالة.",
       "link": "https://sunpump.meme/token/TU6x2QQoiU6TU6iePvV9Kacv2fADvMT2F6",
-      "successTag": "里程碑"
+      "successTag": "معلم"
     },
     {
-      "time": "2025年4月",
+      "time": "أبريل 2025",
       "icon": "fas fa-circle-nodes",
-      "title": "FAIR DAO 网站创建",
-      "description": "创建了FAIR DAO网站，域名为 FAIRDAO.NET",
-      "successTag": "里程碑"
+      "title": "إنشاء موقع الويب FAIR DAO",
+      "description": "تم إنشاء موقع الويب FAIR DAO، وكان اسم النطاق هو FAIRDAO.NET",
+      "successTag": "معلم"
     }
   ]
 }
