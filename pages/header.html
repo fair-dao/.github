@@ -1,10 +1,10 @@
-<nav class="navbar" role="navigation" aria-label="main navigation"  bind-json="public">
+<nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
         <a class="navbar-item logo" href="/">
             <img src="res/fair-192.png" />
             <div class="logo-title">FAIR DAO</div>
         </a>
-        <a class="navbar-item" href="/trading.html" data-bind="json.trading">交易</a>
+        <a class="navbar-item" href="/trading.html" data-bind="com.trading">交易</a>
 
         <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="dvnav">
             <span aria-hidden="true"></span>
@@ -16,8 +16,8 @@
 
     <div id="dvnav" class="navbar-menu">
         <div class="navbar-start">
-            <a class="navbar-item" href="pages:CONTRIBUTING" data-bind="json.contributor"> </a>
-            <a class="navbar-item" href="pages:WHITEPAPER" data-bind="json.whitepaper"> </a>
+            <a class="navbar-item" href="pages:CONTRIBUTING" data-bind="com.contributor"> </a>
+            <a class="navbar-item" href="pages:WHITEPAPER" data-bind="com.whitepaper"> </a>
         </div>
         <a class="navbar-item" href="https://t.me/fairdaonet" target="_blank">
             <svg width="32px" height="32px" viewBox="0 0 32 32" fill="#352" xmlns="http://www.w3.org/2000/svg">

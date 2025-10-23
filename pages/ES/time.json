@@ -1,36 +1,55 @@
 {
-  "title": "FAIR DAO 发展路线",
+  "title": "Línea de Tiempo de FAIR DAO",
   "items": [
     {
-      "time": "2025年5月20日",
+      "time": "Septiembre 2025",
       "icon": "fas fa-rocket",
-      "title": "获得Sunflare桂冠",
-      "description": "获得Sunflare桂冠,并可以在SunSwap交易",
-      "tags": [
-        "里程碑",
-        "规划"
-      ]
+      "title": "Crear Contrato de Despliegue Create2",
+      "description": "Crear contrato de despliegue Create2 para desplegar contratos de FAIR DAO",
+      "successTag": "Completado"
     },
     {
-      "time": "2025年5月6日",
-      "icon": "fas fa-code",
-      "title": "发布FAIR代币",
-      "description": "FAIR 代币在 SunPump 平台公平发射。",
-      "tags": [
-        "开发",
-        "进行中"
-      ]
+      "time": "Septiembre 2025",
+      "icon": "fas fa-database",
+      "title": "Desarrollar Contrato de Almacenamiento de FAIR DAO",
+      "description": "Desarrollar contrato de almacenamiento de FAIR DAO para proporcionar servicios de almacenamiento y gestión de datos para contratos posteriores",
+      "successTag": "En Progreso"
     },
     {
-      "time": "2025年5月1日",
+      "time": "Agosto 2025",
       "icon": "fas fa-code",
-      "title": "FAIR DAO 网站创建",
-      "description": "创建了FAIR DAO网站，域名为 FAIRDAO.NET",
-      "tags": [
-        "开发",
-        "进行中"
-      ]
+      "title": "Desarrollar Contrato de Garantía",
+      "description": "Mejorar la credibilidad de los comerciantes y proporcionar compensación de garantía para los consumidores a través de contratos de garantía",
+      "infoTag": "En Progreso"
+    },
+    {
+      "time": "Julio 2025",
+      "icon": "fas fa-bitcoin-sign",
+      "title": "Desarrollar Contrato de Apalancamiento de Tokens FAIR",
+      "description": "Obtener token de votación FVT mediante el apalancamiento de tokens FAIR",
+      "infoTag": "En Progreso"
+    },
+    {
+      "time": "20 de Mayo de 2025",
+      "icon": "fas fa-crown",
+      "title": "Obtener Corona Sunflare",
+      "description": "Obtener Corona Sunflare y ser comercializable en SunSwap",
+      "successTag": "Hito"
+    },
+    {
+      "time": "6 de Mayo de 2025",
+      "icon": "fas fa-bitcoin-sign",
+      "title": "Lanzar Token FAIR",
+      "description": "Lanzamiento justo del Token FAIR en la plataforma SunPump.",
+      "link": "https://sunpump.meme/token/TU6x2QQoiU6TU6iePvV9Kacv2fADvMT2F6",
+      "successTag": "Hito"
+    },
+    {
+      "time": "Abril 2025",
+      "icon": "fas fa-circle-nodes",
+      "title": "Creación del Sitio Web de FAIR DAO",
+      "description": "Se creó el sitio web de FAIR DAO con dominio FAIRDAO.NET",
+      "successTag": "Hito"
     }
   ]
-
 }

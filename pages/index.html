@@ -16,12 +16,13 @@
                             </div>
                             <div class="column is-6">
                                 <div class="timeline-content">
-                                    <div class="timeline-date">{-item.time-}</div>
+                                    <div class="timeline-date">{-item.time-}<div><a href="{-item.link-}" data-bind="com.detail" data-bind-if="'{-item.link-}'"></a></div></div>
                                     <h3 class="timeline-title">{-item.title-}</h3>
                                     <p class="timeline-description">{-item.description-}</p>
                                     <div class="tags mt-3">
-                                        <span class="tag is-primary">里程碑</span>
-                                        <span class="tag is-info">规划</span>
+                                        <span class="tag is-info" data-bind-if="'{-item.infoTag-}'">{-item.infoTag-}</span>
+                                        <span class="tag is-warning" data-bind-if="'{-item.warningTag-}'">{-item.warningTag-}</span>
+                                        <span class="tag is-success" data-bind-if="'{-item.successTag-}'">{-item.successTag-}</span>
                                     </div>
                                 </div>
                             </div>

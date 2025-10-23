@@ -1,35 +1,55 @@
 {
-  "title": "FAIR DAO Development Roadmap",
+  "title": "FAIR DAO Timeline",
   "items": [
     {
-      "time": "May 20, 2025",
+      "time": "September 2025",
       "icon": "fas fa-rocket",
+      "title": "Create Create2 Deployment Contract",
+      "description": "Create Create2 deployment contract for deploying FAIR DAO contracts",
+      "successTag": "Completed"
+    },
+    {
+      "time": "September 2025",
+      "icon": "fas fa-database",
+      "title": "Develop FAIR DAO Storage Contract",
+      "description": "Develop FAIR DAO storage contract to provide data storage and management services for subsequent contracts",
+      "successTag": "In Progress"
+    },
+    {
+      "time": "August 2025",
+      "icon": "fas fa-code",
+      "title": "Develop Guarantee Contract",
+      "description": "Improve merchant credibility and provide guarantee compensation for consumers through guarantee contracts",
+      "infoTag": "In Progress"
+    },
+    {
+      "time": "July 2025",
+      "icon": "fas fa-bitcoin-sign",
+      "title": "Develop FAIR Token Staking Contract",
+      "description": "Obtain voting token FVT by staking FAIR tokens",
+      "infoTag": "In Progress"
+    },
+    {
+      "time": "May 20, 2025",
+      "icon": "fas fa-crown",
       "title": "Obtain Sunflare Crown",
       "description": "Obtain Sunflare Crown and become tradable on SunSwap",
-      "tags": [
-        "Milestone",
-        "Planning"
-      ]
+      "successTag": "Milestone"
     },
     {
       "time": "May 6, 2025",
-      "icon": "fas fa-code",
+      "icon": "fas fa-bitcoin-sign",
       "title": "Launch FAIR Token",
       "description": "FAIR Token fair launch on SunPump platform.",
-      "tags": [
-        "Development",
-        "In Progress"
-      ]
+      "link": "https://sunpump.meme/token/TU6x2QQoiU6TU6iePvV9Kacv2fADvMT2F6",
+      "successTag": "Milestone"
     },
     {
-      "time": "May 1, 2025",
-      "icon": "fas fa-code",
+      "time": "April 2025",
+      "icon": "fas fa-circle-nodes",
       "title": "FAIR DAO Website Creation",
       "description": "Created FAIR DAO website with domain FAIRDAO.NET",
-      "tags": [
-        "Development",
-        "In Progress"
-      ]
+      "successTag": "Milestone"
     }
   ]
 }

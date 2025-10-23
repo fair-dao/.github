@@ -1,35 +1,55 @@
 {
-  "title": "Feuille de route du développement de FAIR DAO",
+  "title": "Chronologie de FAIR DAO",
   "items": [
     {
-      "time": "20 mai 2025",
+      "time": "Septembre 2025",
       "icon": "fas fa-rocket",
-      "title": "Obtenir la couronne Sunflare",
-      "description": "Obtenir la couronne Sunflare et devenir échangeable sur SunSwap",
-      "tags": [
-        "Jalon",
-        "Planification"
-      ]
+      "title": "Créer un Contrat de Déploiement Create2",
+      "description": "Créer un contrat de déploiement Create2 pour déployer des contrats de FAIR DAO",
+      "successTag": "Terminé"
+    },
+    {
+      "time": "Septembre 2025",
+      "icon": "fas fa-database",
+      "title": "Développer un Contrat de Stockage de FAIR DAO",
+      "description": "Développer un contrat de stockage de FAIR DAO pour fournir des services de stockage et de gestion de données pour les contrats ultérieurs",
+      "successTag": "En cours"
+    },
+    {
+      "time": "Août 2025",
+      "icon": "fas fa-code",
+      "title": "Développer un Contrat de Garantie",
+      "description": "Améliorer la crédibilité des commerçants et fournir une compensation de garantie aux consommateurs via des contrats de garantie",
+      "infoTag": "En cours"
+    },
+    {
+      "time": "Juillet 2025",
+      "icon": "fas fa-bitcoin-sign",
+      "title": "Développer un Contrat de Levier pour les Tokens FAIR",
+      "description": "Obtenir un token de vote FVT en utilisant le levier sur des tokens FAIR",
+      "infoTag": "En cours"
+    },
+    {
+      "time": "20 mai 2025",
+      "icon": "fas fa-crown",
+      "title": "Obtenir la Couronne Sunflare",
+      "description": "Obtenir la Couronne Sunflare et devenir échangeable sur SunSwap",
+      "successTag": "Jalon"
     },
     {
       "time": "6 mai 2025",
-      "icon": "fas fa-code",
-      "title": "Lancement du token FAIR",
-      "description": "Lancement équitable du token FAIR sur la plateforme SunPump.",
-      "tags": [
-        "Développement",
-        "En cours"
-      ]
+      "icon": "fas fa-bitcoin-sign",
+      "title": "Lancement du Token FAIR",
+      "description": "Lancement équitable du Token FAIR sur la plateforme SunPump.",
+      "link": "https://sunpump.meme/token/TU6x2QQoiU6TU6iePvV9Kacv2fADvMT2F6",
+      "successTag": "Jalon"
     },
     {
-      "time": "1er mai 2025",
-      "icon": "fas fa-code",
-      "title": "Création du site web FAIR DAO",
-      "description": "Création du site web FAIR DAO avec le domaine FAIRDAO.NET",
-      "tags": [
-        "Développement",
-        "En cours"
-      ]
+      "time": "Avril 2025",
+      "icon": "fas fa-circle-nodes",
+      "title": "Création du Site Web de FAIR DAO",
+      "description": "Création du site web de FAIR DAO avec le domaine FAIRDAO.NET",
+      "successTag": "Jalon"
     }
   ]
 }

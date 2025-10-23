@@ -1,35 +1,55 @@
 {
-  "title": "Дорожная карта развития FAIR DAO",
+  "title": "Таймлайн FAIR DAO",
   "items": [
     {
-      "time": "20 мая 2025 года",
+      "time": "Сентябрь 2025 года",
       "icon": "fas fa-rocket",
+      "title": "Создание контракта развертывания Create2",
+      "description": "Создать контракт развертывания Create2 для развертывания контрактов FAIR DAO",
+      "successTag": "Завершено"
+    },
+    {
+      "time": "Сентябрь 2025 года",
+      "icon": "fas fa-database",
+      "title": "Разработка контракта хранения FAIR DAO",
+      "description": "Разработать контракт хранения FAIR DAO для предоставления услуг хранения и управления данными для будущих контрактов",
+      "successTag": "В процессе"
+    },
+    {
+      "time": "Август 2025 года",
+      "icon": "fas fa-code",
+      "title": "Разработка контракта гарантии",
+      "description": "Улучшить надежность продавцов и предоставить компенсацию гарантии для потребителей через контракты гарантии",
+      "infoTag": "В процессе"
+    },
+    {
+      "time": "Июль 2025 года",
+      "icon": "fas fa-bitcoin-sign",
+      "title": "Разработка контракта левериджа токена FAIR",
+      "description": "Получить токен голосования FVT с помощью левериджа токена FAIR",
+      "infoTag": "В процессе"
+    },
+    {
+      "time": "20 мая 2025 года",
+      "icon": "fas fa-crown",
       "title": "Получение короны Sunflare",
       "description": "Получить корону Sunflare и стать торговым на SunSwap",
-      "tags": [
-        "Милestone",
-        "Планирование"
-      ]
+      "successTag": "Милestone"
     },
     {
       "time": "6 мая 2025 года",
-      "icon": "fas fa-code",
+      "icon": "fas fa-bitcoin-sign",
       "title": "Запуск токена FAIR",
       "description": "Справедливый запуск токена FAIR на платформе SunPump.",
-      "tags": [
-        "Разработка",
-        "В процессе"
-      ]
+      "link": "https://sunpump.meme/token/TU6x2QQoiU6TU6iePvV9Kacv2fADvMT2F6",
+      "successTag": "Милestone"
     },
     {
-      "time": "1 мая 2025 года",
-      "icon": "fas fa-code",
+      "time": "Апрель 2025 года",
+      "icon": "fas fa-circle-nodes",
       "title": "Создание веб-сайта FAIR DAO",
       "description": "Создан веб-сайт FAIR DAO с доменом FAIRDAO.NET",
-      "tags": [
-        "Разработка",
-        "В процессе"
-      ]
+      "successTag": "Милestone"
     }
   ]
 }

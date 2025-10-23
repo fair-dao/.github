@@ -1,35 +1,55 @@
 {
-  "title": "Lộ trình phát triển FAIR DAO",
+  "title": "Thời gian biểu FAIR DAO",
   "items": [
     {
-      "time": "Ngày 20 tháng 5 năm 2025",
+      "time": "Tháng 9 năm 2025",
       "icon": "fas fa-rocket",
+      "title": "Tạo hợp đồng triển khai Create2",
+      "description": "Tạo hợp đồng triển khai Create2 để triển khai hợp đồng của FAIR DAO",
+      "successTag": "Hoàn thành"
+    },
+    {
+      "time": "Tháng 9 năm 2025",
+      "icon": "fas fa-database",
+      "title": "Phát triển hợp đồng lưu trữ dữ liệu của FAIR DAO",
+      "description": "Phát triển hợp đồng lưu trữ dữ liệu của FAIR DAO để cung cấp dịch vụ lưu trữ và quản lý dữ liệu cho hợp đồng tiếp theo",
+      "successTag": "Đang tiến hành"
+    },
+    {
+      "time": "Tháng 8 năm 2025",
+      "icon": "fas fa-code",
+      "title": "Phát triển hợp đồng bảo đảm",
+      "description": "Nâng cao độ tin cậy của người bán và cung cấp bảo hiểm填偿 cho người tiêu dùng thông qua hợp đồng bảo đảm",
+      "infoTag": "Đang tiến hành"
+    },
+    {
+      "time": "Tháng 7 năm 2025",
+      "icon": "fas fa-bitcoin-sign",
+      "title": "Phát triển hợp đồng sử dụng token FAIR làm vốn",
+      "description": "Nhận token phiếu bầu FVT thông qua việc sử dụng token FAIR làm vốn",
+      "infoTag": "Đang tiến hành"
+    },
+    {
+      "time": "Ngày 20 tháng 5 năm 2025",
+      "icon": "fas fa-crown",
       "title": "Nhận vương miện Sunflare",
       "description": "Nhận vương miện Sunflare và có thể giao dịch trên SunSwap",
-      "tags": [
-        "Cột mốc",
-        "Đang lên kế hoạch"
-      ]
+      "successTag": "Cột mốc"
     },
     {
       "time": "Ngày 6 tháng 5 năm 2025",
-      "icon": "fas fa-code",
+      "icon": "fas fa-bitcoin-sign",
       "title": "Ra mắt Token FAIR",
-      "description": "Token FAIR ra mắt công bằng trên nền tảng SunPump.",
-      "tags": [
-        "Phát triển",
-        "Đang tiến hành"
-      ]
+      "description": "Token FAIR ra mắt công bằng trên nền tảng SunPump",
+      "link": "https://sunpump.meme/token/TU6x2QQoiU6TU6iePvV9Kacv2fADvMT2F6",
+      "successTag": "Cột mốc"
     },
     {
-      "time": "Ngày 1 tháng 5 năm 2025",
-      "icon": "fas fa-code",
+      "time": "Tháng 4 năm 2025",
+      "icon": "fas fa-circle-nodes",
       "title": "Tạo website FAIR DAO",
-      "description": "Đã tạo website FAIR DAO với tên miền FAIRDAO.NET",
-      "tags": [
-        "Phát triển",
-        "Đang tiến hành"
-      ]
+      "description": "Tạo website FAIR DAO với tên miền FAIRDAO.NET",
+      "successTag": "Cột mốc"
     }
   ]
 }

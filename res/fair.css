@@ -34,47 +34,6 @@ body[lang="ar"] .main-content {
     font-family: montserrat;
 }
 
-.hero .title {
-    padding-bottom: 0.25rem;
-}
-
-#Title {
-    padding: 0.25rem 0;
-}
-
-
-.content .items {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.content .item {
-    flex: auto;
-    padding: 1rem;
-    text-align: justify;
-}
-
-.content .item-link a {
-    padding: 0.25rem;
-}
-
-.content .new {
-    color: blue;
-}
-
-.content .item-name {
-    font-weight: 700;
-}
-
-.content .item-detail {
-    font-size: 0.9em;
-}
-
-    .content .item-detail span {
-        padding: 0 0.25rem;
-        display: inline-block;
-    }
 
 .tabs-content > div {
     display: none;
@@ -101,7 +60,8 @@ body[lang="ar"] .main-content {
 }
 
 .post{
-    padding:3rem;
+    max-width:900px;
+    margin:0 auto;
 }
 
 .post-header{
