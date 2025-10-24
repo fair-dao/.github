@@ -1,0 +1,40 @@
+<div class="hero-body" bind-json="ad">
+  <div class="container">
+    <div class="columns is-vcentered">
+      <!-- Left Text Content -->
+      <div class="column is-6">
+        <h1 class="title is-1 has-text-primary">
+          <span data-bind="json.title"></span>
+        </h1>
+        <p class="subtitle mt-5 is-3" data-bind="json.subtitle"></p>
+        <div class="buttons mt-6">
+          <a
+            class="button is-primary is-medium"
+            href="pages:CONTRIBUTING"
+            data-bind="json.buttons[0]"
+          ></a>
+          <a
+            class="button is-primary is-outlined is-medium"
+            href="pages:WHITEPAPER"
+            data-bind="json.buttons[1]"
+          ></a>
+        </div>
+      </div>
+      <!-- Right Image -->
+      <div class="column is-6">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image">
+              <img
+                src="/res/img/coin.png"
+                alt=""
+                data-bind="json.image_alt"
+                class="has-shadow"
+              />
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

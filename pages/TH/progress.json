@@ -1,0 +1,55 @@
+{
+  "title": "FAIR DAO เวลาไลน์",
+  "items": [
+    {
+      "time": "กันยายน 2025",
+      "icon": "fas fa-rocket",
+      "title": "สร้างสัญญา Create2 Deployment",
+      "description": "สร้างสัญญา Create2 Deployment เพื่อใช้ในการติดตั้งสัญญา FAIR DAO",
+      "successTag": "เสร็จสมบูรณ์"
+    },
+    {
+      "time": "กันยายน 2025",
+      "icon": "fas fa-database",
+      "title": "พัฒนาสัญญาการจัดเก็บข้อมูล FAIR DAO",
+      "description": "พัฒนาสัญญาการจัดเก็บข้อมูล FAIR DAO เพื่อจัดหาบริการจัดเก็บและจัดการข้อมูลให้กับสัญญาต่อไป",
+      "infoTag": "กำลังดำเนินการ"
+    },
+    {
+      "time": "สิงหาคม 2025",
+      "icon": "fas fa-code",
+      "title": "พัฒนาสัญญาคำประกัน",
+      "description": "เพิ่มความน่าเชื่อถือของผู้ค้าผ่านสัญญาคำประกันและให้ค่าชดเชยประกันแก่ผู้บริโภค",
+      "infoTag": "กำลังดำเนินการ"
+    },
+    {
+      "time": "กรกฎาคม 2025",
+      "icon": "fas fa-bitcoin-sign",
+      "title": "พัฒนาสัญญา Staking Token FAIR",
+      "description": "โดยการทำ Staking Token FAIR คุณสามารถได้รับ Token รับที่ FVT",
+      "infoTag": "กำลังดำเนินการ"
+    },
+    {
+      "time": "20 พฤษภาคม 2025",
+      "icon": "fas fa-crown",
+      "title": "ได้รับ Crown Sunflare",
+      "description": "ได้รับ Crown Sunflare และสามารถเทรดได้บน SunSwap",
+      "successTag": "ช่วงก้าวหน้าสำคัญ"
+    },
+    {
+      "time": "6 พฤษภาคม 2025",
+      "icon": "fas fa-bitcoin-sign",
+      "title": "เปิดตัว Token FAIR",
+      "description": "Token FAIR ได้รับการเปิดตัวอย่างยุติธรรมบนแพลตฟอร์ม SunPump.",
+      "link": "https://sunpump.meme/token/TU6x2QQoiU6TU6iePvV9Kacv2fADvMT2F6",
+      "successTag": "ช่วงก้าวหน้าสำคัญ"
+    },
+    {
+      "time": "เมษายน 2025",
+      "icon": "fas fa-circle-nodes",
+      "title": "สร้างเว็บไซต์ FAIR DAO",
+      "description": "สร้างเว็บไซต์ FAIR DAO พร้อมโดเมน FAIRDAO.NET",
+      "successTag": "ช่วงก้าวหน้าสำคัญ"
+    }
+  ]
+}

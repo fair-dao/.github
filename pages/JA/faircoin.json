@@ -1,0 +1,13 @@
+{
+  "title": "FAIRトークン",
+  "subtitle": "プレセールなし、チーム割り当てなし、SUNPUMPプラットフォームで公平にローンチされた、FAIR DAOエコシステムを駆動する実用的かつガバナンス機能を持つトークン。",
+  "details": {
+    "code": "トークンコード",
+    "supply": {
+      "label": "総供給量",
+      "value": "10億"
+    },
+    "standard": "標準",
+    "governance": "ガバナンス"
+  }
+}

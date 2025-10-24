@@ -1,0 +1,21 @@
+{
+  "title": "Processus de Gouvernance",
+  "steps": [
+    {
+      "title": "Soumettre une Proposition",
+      "description": "Tout détenteur de tokens peut soumettre une proposition. Elle comprend des plans détaillés et des raisons pour être considérée par la communauté."
+    },
+    {
+      "title": "Période de Discussion",
+      "description": "Les propositions passent par une période de discussion où les membres peuvent poser des questions et suggérer des améliorations."
+    },
+    {
+      "title": "Période de Vote",
+      "description": "Les détenteurs de tokens votent sur les propositions, avec un pouvoir de vote proportionnel à leurs détentions. Les votes sont enregistrés sur la blockchain."
+    },
+    {
+      "title": "Mise en Œuvre",
+      "description": "Les propositions approuvées par la communauté sont mises en œuvre, avec un suivi clair des progrès."
+    }
+  ]
+}

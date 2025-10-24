@@ -1,0 +1,55 @@
+{
+  "title": "FAIR DAO Thời Gian",
+  "items": [
+    {
+      "time": "Tháng 9 năm 2025",
+      "icon": "fas fa-rocket",
+      "title": "Tạo Hợp đồng Triển khai Create2",
+      "description": "Tạo hợp đồng triển khai Create2 để triển khai các hợp đồng FAIR DAO",
+      "successTag": "Hoàn thành"
+    },
+    {
+      "time": "Tháng 9 năm 2025",
+      "icon": "fas fa-database",
+      "title": "Phát triển Hợp đồng Lưu trữ FAIR DAO",
+      "description": "Phát triển hợp đồng lưu trữ FAIR DAO để cung cấp dịch vụ lưu trữ và quản lý dữ liệu cho các hợp đồng sau",
+      "infoTag": "Đang tiến hành"
+    },
+    {
+      "time": "Tháng 8 năm 2025",
+      "icon": "fas fa-code",
+      "title": "Phát triển Hợp đồng Bảo hành",
+      "description": "Nâng cao độ tin cậy của người bán và cung cấp bồi thường bảo hành cho người tiêu dùng thông qua hợp đồng bảo hành",
+      "infoTag": "Đang tiến hành"
+    },
+    {
+      "time": "Tháng 7 năm 2025",
+      "icon": "fas fa-bitcoin-sign",
+      "title": "Phát triển Hợp đồng Staking Token FAIR",
+      "description": "Bằng cách staking token FAIR, bạn có thể nhận được token bỏ phiếu FVT",
+      "infoTag": "Đang tiến hành"
+    },
+    {
+      "time": "20 tháng 5 năm 2025",
+      "icon": "fas fa-crown",
+      "title": "Nhận Vương miện Sunflare",
+      "description": "Nhận được Vương miện Sunflare và có thể giao dịch trên SunSwap",
+      "successTag": "Cột mốc"
+    },
+    {
+      "time": "6 tháng 5 năm 2025",
+      "icon": "fas fa-bitcoin-sign",
+      "title": "Phát hành Token FAIR",
+      "description": "Token FAIR đã được phát hành công bằng trên nền tảng SunPump.",
+      "link": "https://sunpump.meme/token/TU6x2QQoiU6TU6iePvV9Kacv2fADvMT2F6",
+      "successTag": "Cột mốc"
+    },
+    {
+      "time": "Tháng 4 năm 2025",
+      "icon": "fas fa-circle-nodes",
+      "title": "Tạo Trang web FAIR DAO",
+      "description": "Tạo trang web FAIR DAO với tên miền FAIRDAO.NET",
+      "successTag": "Cột mốc"
+    }
+  ]
+}

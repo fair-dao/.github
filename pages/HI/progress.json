@@ -1,0 +1,55 @@
+{
+  "title": "FAIR DAO समयरेखा",
+  "items": [
+    {
+      "time": "सितंबर 2025",
+      "icon": "fas fa-rocket",
+      "title": "Create2 परिनियोजन अनुबंध बनाएं",
+      "description": "FAIR DAO अनुबंधों को परिनियोजित करने के लिए Create2 परिनियोजन अनुबंध बनाएं",
+      "successTag": "पूरा हुआ"
+    },
+    {
+      "time": "सितंबर 2025",
+      "icon": "fas fa-database",
+      "title": "FAIR DAO भंडारण अनुबंध विकसित करें",
+      "description": "बाद के अनुबंधों के लिए डेटा स्टोरेज और प्रबंधन सेवाएं प्रदान करने के लिए FAIR DAO भंडारण अनुबंध विकसित करें",
+      "infoTag": "चल रहा है"
+    },
+    {
+      "time": "अगस्त 2025",
+      "icon": "fas fa-code",
+      "title": "गारंटी अनुबंध विकसित करें",
+      "description": "गारंटी अनुबंधों के माध्यम से व्यापारियों की प्रतिष्ठा में सुधार करें और उपभोक्ताओं को गारंटी मुआवजा प्रदान करें",
+      "infoTag": "चल रहा है"
+    },
+    {
+      "time": "जुलाई 2025",
+      "icon": "fas fa-bitcoin-sign",
+      "title": "FAIR टोकन स्टेकिंग अनुबंध विकसित करें",
+      "description": "FAIR टोकन्स को स्टेक करके, आप मतदान टोकन्स FVT प्राप्त कर सकते हैं",
+      "infoTag": "चल रहा है"
+    },
+    {
+      "time": "20 मई 2025",
+      "icon": "fas fa-crown",
+      "title": "सनफ्लेयर मुकुट प्राप्त करें",
+      "description": "सनफ्लेयर मुकुट प्राप्त किया, और SunSwap पर व्यापार किया जा सकता है",
+      "successTag": "मील का पत्थर"
+    },
+    {
+      "time": "6 मई 2025",
+      "icon": "fas fa-bitcoin-sign",
+      "title": "FAIR टोकन जारी करें",
+      "description": "FAIR टोकन SunPump प्लेटफॉर्म पर निष्पक्ष रूप से लॉन्च किया गया।",
+      "link": "https://sunpump.meme/token/TU6x2QQoiU6TU6iePvV9Kacv2fADvMT2F6",
+      "successTag": "मील का पत्थर"
+    },
+    {
+      "time": "अप्रैल 2025",
+      "icon": "fas fa-circle-nodes",
+      "title": "FAIR DAO वेबसाइट बनाना",
+      "description": "FAIR DAO वेबसाइट बनाई गई, डोमेन FAIRDAO.NET है",
+      "successTag": "मील का पत्थर"
+    }
+  ]
+}

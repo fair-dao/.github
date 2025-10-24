@@ -1,0 +1,13 @@
+{
+  "title": "FAIR代币",
+  "subtitle": "无预售，无团队分配，在SUNPUMP平台上公平发射，为FAIR DAO生态系统提供动力的实用型和治理型代币。",
+  "details": {
+    "code": "代币符号",
+    "supply": {
+      "label": "总供应量",
+      "value": "10亿"
+    },
+    "standard": "标准",
+    "governance": "治理方式"
+  }
+}

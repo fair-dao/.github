@@ -1,13 +1,24 @@
 {
-  "kvs": {
-    "page-title": "FAIR DAO|Tổ Chức Tự Chủ Phân Căn Trung",
-    "page-des": "FAIR DAO là một tổ chức tự chủ phân cấp trung công khai và minh bạch|Người dùng, nhà phát triển, nhà thiết kế và chủ sở hữu $FAIR đều có thể tham gia quản trị, cùng nhau xây dựng hệ sinh thái, thúc đẩy phát triển bền vững của FAIR DAO và mang lại lợi ích cho tất cả các bên tham gia hệ sinh thái",
-    "codeLicense": "Giấy Phép Mã: ",
-    "codeEdit": "Chỉnh Sửa Trang",
-    "coinAddress": "Địa Chỉ Hợp Đồng",
-    "contentLicense": "Giấy Phép Nội Dung Trang Web: ",
-    "trading": "Mua",
-    "whitepaper": "Bản Thuyết Minh",
-    "contributor": "Tham Gia"
-  }
+  "page-title": "FAIR DAO|Tổ chức Tự trị Phân tán",
+  "page-des": "FAIR DAO là một tổ chức tự trị phân tán minh bạch|Người dùng, nhà phát triển, nhà thiết kế và chủ sở hữu $FAIR đều có thể tham gia vào quản trị, cùng xây dựng hệ sinh thái, thúc đẩy phát triển bền vững của FAIR DAO và tập thể mang lại lợi ích cho tất cả các thành viên trong hệ sinh thái",
+  "codeLicense": "Giấy phép Mã nguồn: ",
+  "codeEdit": "Chỉnh sửa Trang web",
+  "coinAddress": "Địa chỉ Hợp đồng",
+  "contentLicense": "Giấy phép Nội dung Trang web: ",
+  "trading": "Giao dịch",
+  "whitepaper": "Báo cáo trắng",
+  "contributor": "Đóng góp",
+  "about": "Giới thiệu",
+  "contact": "Liên hệ",
+  "join": "Tham gia",
+  "mission": "Sứ mệnh",
+  "vision": "Tầm nhìn",
+  "team": "Đội ngũ",
+  "joinUs": "Tham gia cùng chúng tôi",
+  "coin": "Token",
+  "governance": "Quản trị",
+  "progress": "Tiến độ",
+  "community": "Cộng đồng",
+  "document": "Tài liệu",
+  "detail": "Chi tiết"
 }

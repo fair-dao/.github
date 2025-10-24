@@ -1,0 +1,13 @@
+{
+  "title": "Token FAIR",
+  "subtitle": "Sin pre-venta, sin asignación al equipo, lanzado de forma justa en la plataforma SUNPUMP, un token utilitario y de gobernanza que impulsa el ecosistema FAIR DAO.",
+  "details": {
+    "code": "Código del Token",
+    "supply": {
+      "label": "Suministro Total",
+      "value": "1 mil millones"
+    },
+    "standard": "Estandar",
+    "governance": "Gobernanza"
+  }
+}

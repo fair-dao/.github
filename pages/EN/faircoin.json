@@ -1,0 +1,13 @@
+{
+  "title": "FAIR Token",
+  "subtitle": "No pre-sale, no team allocation, fairly launched on the SUNPUMP platform, a utility and governance token that powers the FAIR DAO ecosystem.",
+  "details": {
+    "code": "Token Symbol",
+    "supply": {
+      "label": "Total Supply",
+      "value": "1 billion"
+    },
+    "standard": "Standard",
+    "governance": "Governance"
+  }
+}

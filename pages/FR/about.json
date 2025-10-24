@@ -1,0 +1,18 @@
+{
+  "title": "À propos de FAIR DAO",
+  "subtitle": "Une organisation autonome décentralisée basée sur les principes de justice, de transparence et de gouvernance communautaire.",
+  "features": [
+    {
+      "title": "Gouvernance Equitable",
+      "description": "Notre processus de décision garantit à chaque membre une voix proportionnelle à sa contribution à la communauté."
+    },
+    {
+      "title": "Transparence Complète",
+      "description": "Toutes les transactions, décisions et opérations sont enregistrées sur la blockchain, entièrement visibles pour tous."
+    },
+    {
+      "title": "Poussé par la Communauté",
+      "description": "Les membres de la communauté déterminent entièrement la direction et le développement de FAIR DAO."
+    }
+  ]
+}

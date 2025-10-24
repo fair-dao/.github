@@ -1,0 +1,18 @@
+{
+  "title": "Giới thiệu về FAIR DAO",
+  "subtitle": "DAO đổi mới dựa trên hệ thống quản trị phân tán và minh bạch",
+  "features": [
+    {
+      "title": "Quản trị công bằng",
+      "description": "Thiết lập quyền bỏ phiếu theo cấp để tất cả các thành viên đều có cơ hội ra quyết định công bằng"
+    },
+    {
+      "title": "Toàn diện minh bạch",
+      "description": "Với công nghệ blockchain, tất cả các giao dịch và quyết định đều công khai và có thể theo dõi"
+    },
+    {
+      "title": "Do cộng đồng điều khiển",
+      "description": "Các thành viên cộng đồng định hướng và phát triển DAO"
+    }
+  ]
+}

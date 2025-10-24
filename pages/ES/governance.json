@@ -1,0 +1,21 @@
+{
+  "title": "Proceso de Gobernanza",
+  "steps": [
+    {
+      "title": "Enviar Propuesta",
+      "description": "Cualquier poseedor de tokens puede enviar una propuesta. Incluye planes detallados y razones para ser consideradas por la comunidad."
+    },
+    {
+      "title": "Periodo de Discusión",
+      "description": "Las propuestas pasan por un período de discusión donde los miembros pueden hacer preguntas y sugerir mejoras."
+    },
+    {
+      "title": "Periodo de Votación",
+      "description": "Los poseedores de tokens votan en las propuestas, con el poder de voto proporcional a sus tenencias. Los votos se registran en blockchain."
+    },
+    {
+      "title": "Implementación",
+      "description": "Las propuestas aprobadas por la comunidad se implementan, con un seguimiento claro del progreso."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "title": "FAIR 토큰",
+  "subtitle": "사전 판매 없음, 팀 할당 없음, SUNPUMP 플랫폼에서 공정하게 출시된, FAIR DAO 생태계를 구동하는 실용 및 거버넌스 토큰입니다.",
+  "details": {
+    "code": "토큰 코드",
+    "supply": {
+      "label": "총 공급량",
+      "value": "10억"
+    },
+    "standard": "표준",
+    "governance": "거버넌스"
+  }
+}

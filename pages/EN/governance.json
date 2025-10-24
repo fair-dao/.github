@@ -1,0 +1,21 @@
+{
+  "title": "Governance Process",
+  "steps": [
+    {
+      "title": "Submit Proposal",
+      "description": "Any token holder can submit a proposal. It contains detailed plans and reasons for community consideration."
+    },
+    {
+      "title": "Discussion Period",
+      "description": "Proposals go through a discussion phase where members can ask questions and suggest improvements."
+    },
+    {
+      "title": "Voting Phase",
+      "description": "Token holders vote on proposals, with voting power proportional to their shares. Votes are recorded on the blockchain."
+    },
+    {
+      "title": "Implementation",
+      "description": "Approved proposals are implemented by the community, with progress transparently tracked."
+    }
+  ]
+}

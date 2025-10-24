@@ -2,19 +2,21 @@
 html {
     font-size: 16px;
 }
-.main-content {
-    border-top: 0.5px #f5f5f5 solid;
-    min-height:70vh;
+.main-content {   
+    margin-top: 3rem;
+    min-height:100vh;
 }
 /* Arabic special styles */
 body[lang="ar"] .main-content {
     direction: rtl;
 }
 
-.header{
-    padding:0.5rem;
-}
 
+
+/* 假设导航高度为80px */
+.main-content .section {
+   scroll-margin-top: 4rem;
+}
 
 [data-bind-if], [data-bind], [data-bind-for] > * {
     display: none !important;
@@ -29,6 +31,12 @@ body[lang="ar"] .main-content {
 .logo-title {
     font-weight: 900;
     font-family: montserrat;
+}
+
+.navbar{
+    padding: 1rem 2rem;
+    font-size: 1.25rem;
+    border-bottom: 1px #f3f3f3 solid;
 }
 
 .navbar i {
@@ -64,6 +72,15 @@ body[lang="ar"] .main-content {
     font-size:1.5rem;
     color:var(--bulma-text-weak);
 }
+.field.has-addons{
+    align-items: center;
+}
+#about .card{
+    min-height: 250px;
+}
+.control p{
+    padding-left:1rem;
+}
 .post{
     max-width:900px;
     margin:0 auto;
@@ -93,6 +110,71 @@ body[lang="ar"] .main-content {
 
 
 
+/* 治理流程时间线样式 */
+.timeline-steps {
+  position: relative;
+}
+
+.timeline-steps::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: #6c5ce7;
+  transform: translateX(-50%);
+}
+
+.step-content {
+  position: relative;
+}
+
+.step-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #6c5ce7;
+  color: white;
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+  .timeline-steps::before {
+    left: 2rem;
+  }
+  
+  .timeline-step .columns.is-vcentered {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .timeline-step .column.is-5 {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  
+  .timeline-step .column.is-5:nth-child(2) {
+    margin-left: 4rem;
+  }
+  
+  .timeline-step .column.is-5:nth-child(3) {
+    margin-left: 4rem;
+  }
+  .step-content {
+    text-align: left !important;
+    margin: 0rem !important ;
+  }
+}
+
 @media screen and (max-width: 744px) {
     html {
         font-size: 12px;
@@ -101,3 +183,11 @@ body[lang="ar"] .main-content {
         padding:1rem;
     }
 }
+
+/* id为ad的section渐变背景样式 */
+#ad {
+        background: linear-gradient(to bottom, white 0%, #caddff82 80%);
+        padding: 1.5rem 0;
+    }
+
+

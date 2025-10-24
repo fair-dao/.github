@@ -1,0 +1,55 @@
+{
+  "title": "Chronologie de FAIR DAO",
+  "items": [
+    {
+      "time": "Septembre 2025",
+      "icon": "fas fa-rocket",
+      "title": "Créer un Contrat de Déploiement Create2",
+      "description": "Créer un contrat de déploiement Create2 pour déployer les contrats FAIR DAO",
+      "successTag": "Terminé"
+    },
+    {
+      "time": "Septembre 2025",
+      "icon": "fas fa-database",
+      "title": "Développer le Contrat de Stockage de FAIR DAO",
+      "description": "Développer un contrat de stockage FAIR DAO pour fournir des services de stockage et de gestion de données aux contrats ultérieurs",
+      "infoTag": "En Cours"
+    },
+    {
+      "time": "Août 2025",
+      "icon": "fas fa-code",
+      "title": "Développer le Contrat de Garantie",
+      "description": "Améliorer la crédibilité des commerçants et fournir une compensation de garantie aux consommateurs par le biais de contrats de garantie",
+      "infoTag": "En Cours"
+    },
+    {
+      "time": "Juillet 2025",
+      "icon": "fas fa-bitcoin-sign",
+      "title": "Développer le Contrat de Staking du Token FAIR",
+      "description": "En stakant des tokens FAIR, vous pouvez obtenir des tokens de vote FVT",
+      "infoTag": "En Cours"
+    },
+    {
+      "time": "20 Mai 2025",
+      "icon": "fas fa-crown",
+      "title": "Obtenir la Couronne Sunflare",
+      "description": "Obtention de la Couronne Sunflare et possibilité de négocier sur SunSwap",
+      "successTag": "Jalon"
+    },
+    {
+      "time": "6 Mai 2025",
+      "icon": "fas fa-bitcoin-sign",
+      "title": "Lancer le Token FAIR",
+      "description": "Le token FAIR a été lancé de manière équitable sur la plateforme SunPump.",
+      "link": "https://sunpump.meme/token/TU6x2QQoiU6TU6iePvV9Kacv2fADvMT2F6",
+      "successTag": "Jalon"
+    },
+    {
+      "time": "Avril 2025",
+      "icon": "fas fa-circle-nodes",
+      "title": "Création du Site Web de FAIR DAO",
+      "description": "Création du site web de FAIR DAO avec le domaine FAIRDAO.NET",
+      "successTag": "Jalon"
+    }
+  ]
+}

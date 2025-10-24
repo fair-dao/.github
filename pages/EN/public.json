@@ -1,11 +1,24 @@
 {
   "page-title": "FAIR DAO|Decentralized Autonomous Organization",
-  "page-des": "FAIR DAO is an open and transparent decentralized autonomous organization|Users, developers, designers, and $FAIR holders can all participate in governance, build the ecosystem together, promote the continuous development of FAIR DAO, and let all ecosystem participants benefit together",
+  "page-des": "FAIR DAO is a transparent decentralized autonomous organization|Users, developers, designers, and $FAIR holders can all participate in governance, build the ecosystem together, promote the sustainable development of FAIR DAO, and benefit all ecological participants collectively",
   "codeLicense": "Code License: ",
   "codeEdit": "Edit Webpage",
   "coinAddress": "Contract Address",
   "contentLicense": "Website Content License: ",
   "trading": "Trading",
   "whitepaper": "Whitepaper",
-  "contributor": "Participate"
+  "contributor": "Contribute",
+  "about": "About",
+  "contact": "Contact",
+  "join": "Join",
+  "mission": "Mission",
+  "vision": "Vision",
+  "team": "Team",
+  "joinUs": "Join Us",
+  "coin": "Token",
+  "governance": "Governance",
+  "progress": "Progress",
+  "community": "Community",
+  "document": "Document",
+  "detail": "Detail"
 }

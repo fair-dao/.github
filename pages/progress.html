@@ -1,0 +1,57 @@
+<!-- Timeline Section -->
+
+  <div class="container" bind-json="progress">
+    <div class="columns is-centered">
+      <div class="column is-10">
+        <div class="content has-text-centered mb-6">
+          <h1 class="title is-3 has-text-primary" data-bind="json.title"></h1>
+        </div>
+        <div class="timeline" data-bind-for="json.items">
+          <div class="timeline-item">
+            <div class="timeline-icon">
+              <i class="{-item.icon-}"></i>
+            </div>
+            <div class="columns">
+              <div class="column is-6" data-bind-if="{-item.index-} % 2==1">
+                <!-- Right content empty for alternating layout -->
+              </div>
+              <div class="column is-6">
+                <div class="timeline-content">
+                  <div class="timeline-date">
+                    {-item.time-}
+                    <div>
+                      <a
+                        href="{-item.link-}"
+                        data-bind="com.detail"
+                        data-bind-if="'{-item.link-}'"
+                      ></a>
+                    </div>
+                  </div>
+                  <h3 class="timeline-title">{-item.title-}</h3>
+                  <p class="timeline-description">{-item.description-}</p>
+                  <div class="tags mt-3">
+                    <span class="tag is-info" data-bind-if="'{-item.infoTag-}'"
+                      >{-item.infoTag-}</span
+                    >
+                    <span
+                      class="tag is-warning"
+                      data-bind-if="'{-item.warningTag-}'"
+                      >{-item.warningTag-}</span
+                    >
+                    <span
+                      class="tag is-success"
+                      data-bind-if="'{-item.successTag-}'"
+                      >{-item.successTag-}</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="column is-6" data-bind-if="{-item.index-} % 2 == 0">
+                <!-- Right content empty for alternating layout -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

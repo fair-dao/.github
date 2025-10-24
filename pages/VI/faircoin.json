@@ -1,0 +1,13 @@
+{
+  "title": "Token FAIR",
+  "subtitle": "Không bán trước, không phân配 cho đội ngũ, được phát hành công bằng trên nền tảng SUNPUMP, một token tiện ích và quản trị điều khiển hệ sinh thái FAIR DAO.",
+  "details": {
+    "code": "Mã token",
+    "supply": {
+      "label": "Tổng cung ứng",
+      "value": "1 tỷ"
+    },
+    "standard": "Tiêu chuẩn",
+    "governance": "Quản trị"
+  }
+}

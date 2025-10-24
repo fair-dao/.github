@@ -163,7 +163,7 @@ function processBind(element, json, item) {
 }
 
 function loadData() {
-    // <div bind-html="page/header.html"></div> or <div bind-html="page/header"></div> (page/header_cn.html)
+    // <div bind-html="page/header.html"></div> or <div bind-html="page/header"></div> (page/ZH/header.html)
     document.querySelectorAll("[" + BIND_HTML + "]").forEach(async (e) => {
         let page = e.getAttribute(BIND_HTML);
         if (!page.endsWith(".html")) {
@@ -192,15 +192,11 @@ function getLang() {
     let lang = getQuery("lang");
     let lsLang = localStorage.getItem("lang");
     if (!lang && lsLang) return lsLang;
-    if (!lang) {
-        lang = navigator.language.toUpperCase();
-        let langs = lang.split("-");
-        if (langs.length > 1) {
-            lang = langs[1];
-        } else lang = lang[0];
-    } else {
-        lang = lang.toUpperCase();
+    if (!lang) {        
+        let langs = lang.split("-");       
+        lang = langs[0];   
     }
+    lang = lang.toLowerCase();    
     if (lang != lsLang) {
         localStorage.setItem("lang", lang);
     }
@@ -227,6 +223,9 @@ function headerLoaded(e) {
                 let code = this.getAttribute("code");
                 localStorage.setItem("lang", code);
                 let href = location.href;
+                if (href.includes("#")){
+                    href = href.split("#")[0];
+                }
                 let oldLangKey = "pages/" + lang + "/";
                 if (href.includes(oldLangKey)) {
                     href = href.replace(oldLangKey, "pages/" + code + "/");

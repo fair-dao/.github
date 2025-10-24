@@ -1,0 +1,55 @@
+{
+  "title": "FAIR DAO タイムライン",
+  "items": [
+    {
+      "time": "2025年9月",
+      "icon": "fas fa-rocket",
+      "title": "Create2デプロイコントラクトを作成する",
+      "description": "FAIR DAOコントラクトをデプロイするためのCreate2デプロイコントラクトを作成する",
+      "successTag": "完了"
+    },
+    {
+      "time": "2025年9月",
+      "icon": "fas fa-database",
+      "title": "FAIR DAOストレージコントラクトを開発する",
+      "description": "後続のコントラクトにデータストレージと管理サービスを提供するためのFAIR DAOストレージコントラクトを開発する",
+      "infoTag": "進行中"
+    },
+    {
+      "time": "2025年8月",
+      "icon": "fas fa-code",
+      "title": "保証コントラクトを開発する",
+      "description": "保証コントラクトを通じて業者の信頼性を向上させ、消費者に保証補償を提供する",
+      "infoTag": "進行中"
+    },
+    {
+      "time": "2025年7月",
+      "icon": "fas fa-bitcoin-sign",
+      "title": "FAIRトークンステーキングコントラクトを開発する",
+      "description": "FAIRトークンをステークすることで、投票トークンFVTを獲得できます",
+      "infoTag": "進行中"
+    },
+    {
+      "time": "2025年5月20日",
+      "icon": "fas fa-crown",
+      "title": "サンフレアクラウンを獲得する",
+      "description": "サンフレアクラウンを獲得し、SunSwapで取引可能に",
+      "successTag": "マイルストーン"
+    },
+    {
+      "time": "2025年5月6日",
+      "icon": "fas fa-bitcoin-sign",
+      "title": "FAIRトークンを発行する",
+      "description": "FAIRトークンはSunPumpプラットフォームで公平に発行されました。",
+      "link": "https://sunpump.meme/token/TU6x2QQoiU6TU6iePvV9Kacv2fADvMT2F6",
+      "successTag": "マイルストーン"
+    },
+    {
+      "time": "2025年4月",
+      "icon": "fas fa-circle-nodes",
+      "title": "FAIR DAOウェブサイトを作成する",
+      "description": "FAIR DAOウェブサイトを作成し、ドメインはFAIRDAO.NETです",
+      "successTag": "マイルストーン"
+    }
+  ]
+}

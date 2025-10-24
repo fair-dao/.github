@@ -1,0 +1,55 @@
+{
+  "title": "تاريخ FAIR DAO",
+  "items": [
+    {
+      "time": " سبتمبر 2025",
+      "icon": "fas fa-rocket",
+      "title": "إنشاء العقد التوزيعي Create2",
+      "description": "إنشاء العقد التوزيعي Create2 لتنزيل عقد FAIR DAO",
+      "successTag": "مكتمل"
+    },
+    {
+      "time": " سبتمبر 2025",
+      "icon": "fas fa-database",
+      "title": "تطوير عقد تخزين FAIR DAO",
+      "description": "تطوير عقد تخزين FAIR DAO لتوفير خدمات تخزين البيانات والإدارة للعقود اللاحقة",
+      "infoTag": "جاري التنفيذ"
+    },
+    {
+      "time": " أغسطس 2025",
+      "icon": "fas fa-code",
+      "title": "تطوير عقد ضمان",
+      "description": "تعزيز سمعة التجار وحصول المستهلكين على تعويضات ضمان عبر العقد الضماني",
+      "infoTag": "جاري التنفيذ"
+    },
+    {
+      "time": " يوليو 2025",
+      "icon": "fas fa-bitcoin-sign",
+      "title": "تطوير عقد الترهيز لعملة FAIR",
+      "description": "من خلال ترهيز عملة FAIR، يمكنك الحصول على عملة تصويت FVT",
+      "infoTag": "جاري التنفيذ"
+    },
+    {
+      "time": "20 مايو 2025",
+      "icon": "fas fa-crown",
+      "title": "حصول على تاج Sunflare",
+      "description": "حصل على تاج Sunflare ويمكن التداول فيه على SunSwap",
+      "successTag": "معالم هامة"
+    },
+    {
+      "time": "6 مايو 2025",
+      "icon": "fas fa-bitcoin-sign",
+      "title": "إصدار عملة FAIR",
+      "description": "عملة FAIR تم إطلاقها على منصة SunPump بشكل عادل.",
+      "link": "https://sunpump.meme/token/TU6x2QQoiU6TU6iePvV9Kacv2fADvMT2F6",
+      "successTag": "معالم هامة"
+    },
+    {
+      "time": " أبريل 2025",
+      "icon": "fas fa-circle-nodes",
+      "title": "إنشاء موقع FAIR DAO",
+      "description": "تم إنشاء موقع FAIR DAO، وبعنوان النطاق FAIRDAO.NET",
+      "successTag": "معالم هامة"
+    }
+  ]
+}

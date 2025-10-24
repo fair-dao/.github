@@ -1,0 +1,70 @@
+<!-- About FAIR DAO Section -->
+
+<div class="container" bind-json="about">
+  <div class="has-text-centered mb-10">
+    <h2 class="title is-3 mb-4 has-text-primary" data-bind="json.title"></h2>
+    <p class="subtitle is-4 mb-6" data-bind="json.subtitle"></p>
+  </div>
+
+  <div class="columns is-multiline">
+    <!-- Feature Card 1 -->
+    <div class="column is-4">
+      <div class="card">
+        <div class="card-content">
+          <div class="content">
+            <div class="is-flex justify-content-center mb-4">
+              <div class="box is-primary p-3">
+                <i class="fas fa-balance-scale is-size-3 has-text-primary"></i>
+              </div>
+            </div>
+            <h3
+              class="title is-5 has-text-primary has-text-centered"
+              data-bind="json.features[0].title"
+            ></h3>
+            <p class="mt-3" data-bind="json.features[0].description"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Feature Card 2 -->
+    <div class="column is-4">
+      <div class="card">
+        <div class="card-content">
+          <div class="content">
+            <div class="is-flex justify-content-center mb-4">
+              <div class="box is-primary p-3">
+                <i class="fas fa-eye is-size-3 has-text-primary"></i>
+              </div>
+            </div>
+            <h3
+              class="title is-5 has-text-primary has-text-centered"
+              data-bind="json.features[1].title"
+            ></h3>
+            <p class="mt-3" data-bind="json.features[1].description"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Feature Card 3 -->
+    <div class="column is-4">
+      <div class="card">
+        <div class="card-content">
+          <div class="content">
+            <div class="is-flex justify-content-center mb-4">
+              <div class="box is-primary p-3">
+                <i class="fas fa-users is-size-3 has-text-primary"></i>
+              </div>
+            </div>
+            <h3
+              class="title is-5 has-text-primary has-text-centered"
+              data-bind="json.features[2].title"
+            ></h3>
+            <p class="mt-3" data-bind="json.features[2].description"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

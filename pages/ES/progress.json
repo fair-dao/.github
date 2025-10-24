@@ -25,22 +25,22 @@
     {
       "time": "Julio 2025",
       "icon": "fas fa-bitcoin-sign",
-      "title": "Desarrollar Contrato de Apalancamiento de Tokens FAIR",
-      "description": "Obtener token de votación FVT mediante el apalancamiento de tokens FAIR",
+      "title": "Desarrollar Contrato de Apalancamiento de Token FAIR",
+      "description": "Al apalancar tokens FAIR, puede obtener tokens de voto FVT",
       "infoTag": "En Progreso"
     },
     {
-      "time": "20 de Mayo de 2025",
+      "time": "20 de Mayo 2025",
       "icon": "fas fa-crown",
       "title": "Obtener Corona Sunflare",
-      "description": "Obtener Corona Sunflare y ser comercializable en SunSwap",
+      "description": "Obtuvo la Corona Sunflare y puede negociarse en SunSwap",
       "successTag": "Hito"
     },
     {
-      "time": "6 de Mayo de 2025",
+      "time": "6 de Mayo 2025",
       "icon": "fas fa-bitcoin-sign",
       "title": "Lanzar Token FAIR",
-      "description": "Lanzamiento justo del Token FAIR en la plataforma SunPump.",
+      "description": "Token FAIR lanzado con equidad en la plataforma SunPump.",
       "link": "https://sunpump.meme/token/TU6x2QQoiU6TU6iePvV9Kacv2fADvMT2F6",
       "successTag": "Hito"
     },

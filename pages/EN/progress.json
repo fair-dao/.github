@@ -26,21 +26,21 @@
       "time": "July 2025",
       "icon": "fas fa-bitcoin-sign",
       "title": "Develop FAIR Token Staking Contract",
-      "description": "Obtain voting token FVT by staking FAIR tokens",
+      "description": "By staking FAIR tokens, you can obtain voting tokens FVT",
       "infoTag": "In Progress"
     },
     {
       "time": "May 20, 2025",
       "icon": "fas fa-crown",
       "title": "Obtain Sunflare Crown",
-      "description": "Obtain Sunflare Crown and become tradable on SunSwap",
+      "description": "Obtained Sunflare Crown and can be traded on SunSwap",
       "successTag": "Milestone"
     },
     {
       "time": "May 6, 2025",
       "icon": "fas fa-bitcoin-sign",
-      "title": "Launch FAIR Token",
-      "description": "FAIR Token fair launch on SunPump platform.",
+      "title": "Release FAIR Token",
+      "description": "FAIR token launched fairly on SunPump platform.",
       "link": "https://sunpump.meme/token/TU6x2QQoiU6TU6iePvV9Kacv2fADvMT2F6",
       "successTag": "Milestone"
     },
