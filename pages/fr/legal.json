@@ -1,0 +1,88 @@
+{
+    "disclaimers": {
+        "title": "Avis de non-responsabilité",
+        "subitems": [
+            {
+                "description": "FAIR DAO est une organisation autonome décentralisée composée de tous les détenteurs de jetons FAIR. FAIR DAO n'est pas une entité juridique et ne vise pas à gérer de manière centralisée l'offre de jetons FAIR."
+            },
+            {
+                "description": "Les jetons FAIR n'ont pas d'utilité intrinsèque avant leur émission, les jetons FAIR ne représentent aucune revendication sur des actifs du monde réel ou des actifs financiers, et ne fournissent ni ne garantissent une valeur de retour."
+            },
+            {
+                "description": "Les détenteurs de jetons FAIR ne doivent pas s'attendre à de telles exigences ou retours. Les jetons FAIR sont une pièce de monnaie méme typique sans valeur intrinsèque, valeur inhérente ou valeur d'investissement."
+            },
+            {
+                "description": "Tout le contenu de FAIR DAO ne constitue pas une forme quelconque de conseil en investissement ou de conseil commercial. Les utilisateurs assument leurs propres risques lors de l'utilisation des projets de cette organisation."
+            },
+            {
+                "description": "Les services fournis par FAIR DAO sont fournis 'tel quel' et 'disponibles', sans aucune forme de garantie, expresse ou implicite. FAIR DAO ne garantit pas la disponibilité, l'exactitude, la fiabilité ou la sécurité des services. La technologie blockchain et les cryptomonnaies impliquent des risques importants, y compris mais sans s'y limiter, la volatilité du marché, les défauts techniques, les changements réglementaires, etc."
+            }
+        ]
+    },
+    "service": {
+        "title": "Contrat de service",
+        "description": "Le présent Contrat de Service (ci-après dénommé 'Contrat de Service') est un accord entre l'utilisateur (ci-après dénommé 'Utilisateur') et FAIR DAO (ci-après dénommé 'Organisation') concernant l'utilisation des services fournis par l'Organisation (ci-après dénommés 'Services').",
+        "update": "Le présent Contrat de Service prend effet le 1er mai 2025.",
+        "subitems": [
+            {
+                "title": "Acceptation du contrat",
+                "description": "En accédant et en utilisant les sites web, applications, contrats intelligents ou autres services de FAIR DAO (ci-après dénommés 'Services'), vous acceptez d'être lié par les présentes Conditions d'Utilisation (ci-après dénommées 'Conditions'). Si vous n'acceptez pas une partie quelconque des présentes Conditions, vous devez cesser immédiatement d'utiliser tous les Services."
+            },
+            {
+                "title": "Description du service",
+                "description": "FAIR DAO est une organisation autonome décentralisée gouvernée conjointement par les détenteurs de jetons FAIR. Les services que nous proposons comprennent, sans s'y limiter, l'accès à des sites web, l'interaction avec des contrats intelligents, la participation à la gouvernance communautaire, etc. Veuillez noter que FAIR DAO n'est pas une entreprise traditionnelle ni une entité juridique, mais une organisation décentralisée basée sur la technologie blockchain."
+            },
+            {
+                "title": "Éligibilité de l'utilisateur",
+                "description": "Vous devez avoir au moins 18 ans ou atteindre l'âge de la majorité légale dans votre juridiction pour utiliser nos Services. Vous déclarez et garantissez que votre utilisation de nos Services ne violera pas les lois ou réglementations applicables. Si vous utilisez nos Services au nom d'une entité quelconque, vous déclarez et garantissez que vous avez l'autorité de lier cette entité aux présentes Conditions."
+            },
+            {
+                "title": "Compte et sécurité",
+                "description": "L'utilisation de certains Services peut nécessiter que vous créiez ou utilisiez un portefeuille de cryptomonnaies. Vous êtes responsable de maintenir la confidentialité de vos clés privées de portefeuille et de vos informations d'identification. FAIR DAO ne stockera, ne maintiendra ni ne récupérera vos clés privées de portefeuille ou vos informations d'identification. Vous êtes entièrement responsable de toutes les activités effectuées sous votre compte."
+            },
+            {
+                "title": "Règles d'utilisation des services",
+                "description": "Lorsque vous utilisez nos Services, vous acceptez : <br /> - De respecter toutes les lois et réglementations applicables<br /> - De ne pas participer à des activités illégales, y compris mais sans s'y limiter, le blanchiment d'argent, le financement du terrorisme ou la fraude<br /> - De ne pas tenter d'interférer avec, de perturber ou de endommager le fonctionnement normal des Services<br /> - De ne pas enfreindre les droits de propriété intellectuelle ou autres droits des tiers<br /> - De ne pas publier ou distribuer de logiciels malveillants, virus ou autres contenus nuisibles<br /> - De ne pas engager dans des activités qui pourraient exposer FAIR DAO à une responsabilité juridique"
+            },
+            {
+                "title": "Propriété intellectuelle",
+                "description": "Les droits de propriété intellectuelle des sites web, applications, codes, documents, logos et autres contenus de FAIR DAO appartiennent à la communauté FAIR DAO ou à leurs propriétaires respectifs. Sauf autorisation expresse, vous ne pouvez pas copier, modifier, distribuer ou utiliser autrement ces contenus."
+            },
+            {
+                "title": "Limitation de responsabilité",
+                "description": "Dans la mesure maximale permise par la loi, FAIR DAO et ses contributeurs et développeurs ne seront pas responsables de tout dommage direct, indirect, accessoire, spécial ou consécutif résultant de l'utilisation ou de l'impossibilité d'utiliser les Services, y compris mais sans s'y limiter, la perte de profits, la perte de données ou les coûts d'achat de biens ou services de substitution"
+            },
+            {
+                "title": "Modifications du contrat",
+                "description": "FAIR DAO peut modifier les présentes Conditions de temps à autre par le biais de processus de gouvernance communautaire. Les Conditions modifiées seront publiées sur le site web et prendront effet à partir de la date de publication. Votre utilisation continue des Services sera considérée comme une acceptation des Conditions modifiées."
+            },
+            {
+                "title": "Résiliation",
+                "description": "Vous pouvez cesser d'utiliser nos Services à tout moment. FAIR DAO peut également résilier ou suspendre la fourniture de Services à vous pour quelque raison que ce soit, y compris mais sans s'y limiter, en cas de violation par vous des présentes Conditions."
+            },
+            {
+                "title": "Autres conditions",
+                "description": "Si une partie quelconque des présentes Conditions est jugée invalide ou inapplicable, les autres parties resteront pleinement valables. Les présentes Conditions constituent l'accord complet entre vous et FAIR DAO concernant l'utilisation des Services et remplacent toutes les communications et accords antérieurs."
+            }
+        ]
+    },
+    "privacy": {
+        "title": "Politique de confidentialité",
+        "description": "En utilisant les Services de FAIR DAO, vous nous confiez vos informations. Nous comprenons que cette responsabilité est d'une grande importance, c'est pourquoi nous avons toujours été engagés à protéger vos informations et à vous donner le contrôle. Cette Politique de Confidentialité vise à vous aider à comprendre quelles informations nous collectons.",
+        "update": "Cette Politique de Confidentialité prend effet le 1er mai 2025.",
+        "subitems": [
+            {
+                "title": "Collecte d'informations",
+                "description": "Nous voulons que vous compreniez quels types d'informations nous collectons lorsque vous utilisez des produits de FAIR DAO. Nous collectons des informations pour fournir de meilleurs services à tous les utilisateurs, et nous déduirons le contenu de base nécessaire à partir des informations collectées (comme la langue que vous parlez, le pays ou la région dans laquelle vous vous trouvez). Si vous n'êtes pas connecté à votre compte, nous stockons les informations collectées avec des identifiants uniques liés au navigateur, à l'application ou au dispositif que vous utilisez. De cette façon, nous pouvons conserver vos préférences entre les sessions de navigation et prendre d'autres mesures.",
+            },
+            {
+                "title": "Transfert de données",
+                "description": "Nous maintenons des serveurs dans le monde entier, de sorte que les serveurs que nous utilisons pour traiter vos informations peuvent ne pas se trouver dans votre pays/région. Les lois sur la protection des données varient d'un pays à l'autre, et la force de la protection des données varie également d'un pays à l'autre. Quel que soit l'endroit où vos informations sont traitées, nous adopterons uniformément les mesures de protection décrites dans cette politique. En outre, nous respecterons également certains cadres juridiques liés au transfert de données. Après réception d'une plainte écrite formelle, nous contacterons le plaignant. Nous coopérerons avec les autorités réglementaires concernées (y compris les autorités locales de protection des données) pour résoudre toute plainte liée au transfert de vos données qui ne peut pas être résolue directement par nous et par vous."
+            },
+            {
+                "title": "Modifications de la politique",
+                "description": "Nous pouvons réviser cette Politique de Confidentialité de temps à autre. Sans votre consentement exprès, nous ne réduirons pas les droits que vous bénéficiez aux termes de cette Politique de Confidentialité. Nous indiquerons toujours la date de publication des derniers changements apportés et fournirons un accès aux versions archivées pour que vous puissiez les consulter. Pour les modifications importantes, nous vous enverrons un avis sérieux (y compris pour certains services, nous enverrons des notifications par e-mail expliquant les modifications apportées à la Politique de Confidentialité)."
+            }
+        ]
+    }
+}

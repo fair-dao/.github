@@ -1,0 +1,88 @@
+{
+    "disclaimers": {
+        "title": "Disclaimers",
+        "subitems": [
+            {
+                "description": "FAIR DAO is a decentralized autonomous organization composed of all FAIR token holders. FAIR DAO is not a legal entity and does not aim to centrally manage the FAIR token supply."
+            },
+            {
+                "description": "FAIR tokens do not have inherent utility prior to issuance, FAIR tokens do not represent any claim to any real-world assets or financial assets, nor do they provide or guarantee return value."
+            },
+            {
+                "description": "FAIR token holders should not expect any such requirements or returns. FAIR tokens are a typical meme coin with no intrinsic value, inherent value, or investment value."
+            },
+            {
+                "description": "All content of FAIR DAO does not constitute any form of investment advice or trading advice. Users should bear their own risks when using this organization's projects."
+            },
+            {
+                "description": "Services provided by FAIR DAO are provided on an 'as is' and 'available' basis without any form of warranty, whether express or implied. FAIR DAO does not guarantee the availability, accuracy, reliability, or security of services. Blockchain technology and cryptocurrencies involve significant risks, including but not limited to market volatility, technical flaws, regulatory changes, etc."
+            }
+        ]
+    },
+    "service": {
+        "title": "Service Agreement",
+        "description": "This Service Agreement (hereinafter referred to as 'Service Agreement') is an agreement between the user (hereinafter referred to as 'User') and FAIR DAO (hereinafter referred to as 'Organization') regarding the use of services provided by the Organization (hereinafter referred to as 'Services').",
+        "update": "This Service Agreement is effective as of May 1, 2025.",
+        "subitems": [
+            {
+                "title": "Acceptance of Agreement",
+                "description": "By accessing and using FAIR DAO's websites, applications, smart contracts, or other services (hereinafter referred to as 'Services'), you agree to be bound by these Terms of Service (hereinafter referred to as 'Terms'). If you do not agree with any part of these Terms, you should immediately stop using all Services."
+            },
+            {
+                "title": "Service Description",
+                "description": "FAIR DAO is a decentralized autonomous organization jointly governed by FAIR token holders. The services we provide include, but are not limited to, website access, smart contract interaction, community governance participation, etc. Please note that FAIR DAO is not a traditional company or legal entity, but a decentralized organization based on blockchain technology."
+            },
+            {
+                "title": "User Eligibility",
+                "description": "You must be at least 18 years of age, or reach the legal age of majority in your jurisdiction, to use our Services. You represent and warrant that your use of our Services will not violate any applicable laws or regulations. If you use our Services on behalf of any entity, you represent and warrant that you have the authority to bind that entity to these Terms."
+            },
+            {
+                "title": "Account and Security",
+                "description": "Using certain Services may require you to create or use a cryptocurrency wallet. You are responsible for maintaining the confidentiality of your wallet private keys and access credentials. FAIR DAO will not store, maintain, or recover your wallet private keys or access credentials. You are fully responsible for all activities under your account."
+            },
+            {
+                "title": "Service Usage Rules",
+                "description": "When using our Services, you agree to: <br /> - Comply with all applicable laws and regulations<br /> - Not engage in any illegal activities, including but not limited to money laundering, terrorism financing, or fraud<br /> - Not attempt to interfere with, disrupt, or damage the normal operation of the Services<br /> - Not infringe on others' intellectual property or other rights<br /> - Not post or distribute any malware, viruses, or other harmful content<br /> - Not engage in any activities that may cause FAIR DAO to assume legal liability"
+            },
+            {
+                "title": "Intellectual Property",
+                "description": "The intellectual property rights of FAIR DAO's websites, applications, code, documents, logos, and other content belong to the FAIR DAO community or their respective owners. Unless explicitly authorized, you may not copy, modify, distribute, or otherwise use these contents."
+            },
+            {
+                "title": "Limitation of Liability",
+                "description": "To the maximum extent permitted by law, FAIR DAO and its contributors and developers shall not be liable for any direct, indirect, incidental, special, or consequential damages arising from the use or inability to use the Services, including but not limited to loss of profits, data loss, or costs of purchasing substitute goods or services"
+            },
+            {
+                "title": "Agreement Modifications",
+                "description": "FAIR DAO may modify these Terms from time to time through community governance processes. The modified Terms will be posted on the website and will take effect from the date of posting. Your continued use of the Services will be deemed acceptance of the modified Terms."
+            },
+            {
+                "title": "Termination",
+                "description": "You may stop using our Services at any time. FAIR DAO may also terminate or suspend providing Services to you for any reason, including but not limited to your violation of these Terms."
+            },
+            {
+                "title": "Other Terms",
+                "description": "If any part of these Terms is deemed invalid or unenforceable, the remaining parts shall continue to be fully valid. These Terms constitute the complete agreement between you and FAIR DAO regarding the use of the Services and supersede all prior communications and agreements."
+            }
+        ]
+    },
+    "privacy": {
+        "title": "Privacy Policy",
+        "description": "By using FAIR DAO Services, you trust us with your information. We understand that this responsibility is of great importance, and therefore we have always been committed to protecting your information and giving you control. This Privacy Policy is designed to help you understand what information we collect.",
+        "update": "This Privacy Policy is effective as of May 1, 2025.",
+        "subitems": [
+            {
+                "title": "Information Collection",
+                "description": "We want you to understand what types of information we collect when you use FAIR DAO products. We collect information to provide better services to all users, and we will infer basic content needed based on the collected information (such as which language you speak, which country or region you are in). If you are not logged into your account, we store collected information with unique identifiers tied to the browser, app, or device you use. This way, we can retain your preferences between browsing sessions and perform some other measures."
+            },
+            {
+                "title": "Data Transfer",
+                "description": "We maintain servers around the world, so the servers we use to process your information may not be located in your country/region. Data protection laws vary by country/region, and the strength of data protection varies by country/region. Regardless of where your information is processed, we will uniformly adopt the protection measures described in this policy. In addition, we will also comply with certain legal frameworks related to data transmission. After receiving a formal written complaint, we will contact the complainant. We will cooperate with the relevant regulatory authorities (including local data protection authorities) to resolve any complaints related to the transmission of your data that cannot be directly resolved by us and you."
+            },
+            {
+                "title": "Policy Changes",
+                "description": "We may revise this Privacy Policy from time to time. Without your explicit consent, we will not reduce the rights you enjoy under this Privacy Policy. We will always indicate the publication date of the last changes made, and will provide access to archived versions for your review. For major changes, we will send you a serious notice (including for some services, we will send notifications by email explaining the changes to the Privacy Policy)."
+            }
+        ]
+    }
+}

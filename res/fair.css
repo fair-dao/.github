@@ -3,7 +3,7 @@ html {
     font-size: 16px;
 }
 .main-content {   
-    margin-top: 3rem;
+    margin-top: 4rem;
     min-height:100vh;
 }
 /* Arabic special styles */
@@ -23,7 +23,9 @@ a{
 [data-bind-if], [data-bind], [data-bind-for] > * {
     display: none !important;
 }
-
+.title,.subtitle{
+    line-height: 1.8;
+}
 
 .mid svg {
     width: 300px;

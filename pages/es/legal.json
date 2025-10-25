@@ -1,0 +1,88 @@
+{
+    "disclaimers": {
+        "title": "Descargos de responsabilidad",
+        "subitems": [
+            {
+                "description": "FAIR DAO es una organización autónoma descentralizada compuesta por todos los titulares de tokens FAIR. FAIR DAO no es una entidad legal ni tiene como objetivo administrar de forma centralizada el suministro de tokens FAIR."
+            },
+            {
+                "description": "Los tokens FAIR no tienen utilidad inherente antes de su emisión, los tokens FAIR no representan ningún derecho sobre ningún activo del mundo real o activo financiero, ni proporcionan ni garantizan un valor de retorno."
+            },
+            {
+                "description": "Los titulares de tokens FAIR no deben esperar tales requisitos o retornos. Los tokens FAIR son una moneda meme típica sin valor intrínseco, valor inherente o valor de inversión."
+            },
+            {
+                "description": "Todo el contenido de FAIR DAO no constituye ningún tipo de asesoramiento de inversión o asesoramiento comercial. Los usuarios asumen sus propios riesgos al utilizar los proyectos de esta organización."
+            },
+            {
+                "description": "Los servicios proporcionados por FAIR DAO se proporcionan 'tal cual' y 'disponibles', sin ninguna forma de garantía, ya sea expresa o implícita. FAIR DAO no garantiza la disponibilidad, precisión, fiabilidad o seguridad de los servicios. La tecnología blockchain y las criptomonedas implican riesgos significativos, incluyendo pero no limitado a volatilidad del mercado, fallas técnicas, cambios regulatorios, etc."
+            }
+        ]
+    },
+    "service": {
+        "title": "Acuerdo de servicio",
+        "description": "Este Acuerdo de Servicio (en lo sucesivo denominado 'Acuerdo de Servicio') es un acuerdo entre el usuario (en lo sucesivo denominado 'Usuario') y FAIR DAO (en lo sucesivo denominado 'Organización') en relación con el uso de los servicios proporcionados por la Organización (en lo sucesivo denominados 'Servicios').",
+        "update": "Este Acuerdo de Servicio entra en vigor el 1 de mayo de 2025.",
+        "subitems": [
+            {
+                "title": "Aceptación del acuerdo",
+                "description": "Al acceder y utilizar los sitios web, aplicaciones, contratos inteligentes u otros servicios de FAIR DAO (en lo sucesivo denominados 'Servicios'), aceptas estar sujeto a estos Términos de Servicio (en lo sucesivo denominados 'Términos'). Si no estás de acuerdo con alguna parte de estos Términos, debes dejar de usar todos los Servicios de inmediato."
+            },
+            {
+                "title": "Descripción del servicio",
+                "description": "FAIR DAO es una organización autónoma descentralizada gobernada conjuntamente por los titulares de tokens FAIR. Los servicios que proporcionamos incluyen, entre otros, acceso a sitios web, interacción con contratos inteligentes, participación en la gobernanza comunitaria, etc. Ten en cuenta que FAIR DAO no es una empresa tradicional ni una entidad legal, sino una organización descentralizada basada en tecnología blockchain."
+            },
+            {
+                "title": "Elegibilidad del usuario",
+                "description": "Debes tener al menos 18 años de edad o alcanzar la edad legal de mayoría en tu jurisdicción para usar nuestros Servicios. Declaras y garantizas que el uso de nuestros Servicios no violará ninguna ley o regulación aplicable. Si usas nuestros Servicios en nombre de cualquier entidad, declaras y garantizas que tienes autoridad para comprometer a dicha entidad a estos Términos."
+            },
+            {
+                "title": "Cuenta y seguridad",
+                "description": "El uso de ciertos Servicios puede requerir que crees o uses una billetera de criptomonedas. Eres responsable de mantener la confidencialidad de las claves privadas de tu billetera y las credenciales de acceso. FAIR DAO no almacenará, mantendrá ni recuperará las claves privadas de tu billetera o las credenciales de acceso. Eres plenamente responsable de todas las actividades realizadas en tu cuenta."
+            },
+            {
+                "title": "Reglas de uso del servicio",
+                "description": "Al usar nuestros Servicios, aceptas: <br /> - Cumplir con todas las leyes y regulaciones aplicables<br /> - No participar en actividades ilegales, incluyendo pero no limitado a blanqueo de dinero, financiamiento del terrorismo o fraude<br /> - No intentar interferir, interrumpir o dañar el funcionamiento normal de los Servicios<br /> - No infringir los derechos de propiedad intelectual u otros derechos de terceros<br /> - No publicar ni distribuir malware, virus u otro contenido dañino<br /> - No participar en actividades que puedan hacer que FAIR DAO asuma responsabilidad legal"
+            },
+            {
+                "title": "Propiedad intelectual",
+                "description": "Los derechos de propiedad intelectual de los sitios web, aplicaciones, código, documentos, logotipos y otro contenido de FAIR DAO pertenecen a la comunidad FAIR DAO o a sus respectivos propietarios. Salvo autorización expresa, no podrás copiar, modificar, distribuir o usar de otra manera estos contenidos."
+            },
+            {
+                "title": "Limitación de responsabilidad",
+                "description": "En la máxima medida permitida por la ley, FAIR DAO y sus colaboradores y desarrolladores no serán responsables de ningún daño directo, indirecto, incidental, especial o consecuente derivado del uso o la incapacidad de uso de los Servicios, incluyendo pero no limitado a pérdida de beneficios, pérdida de datos o costos de compra de bienes o servicios sustitutos"
+            },
+            {
+                "title": "Modificaciones del acuerdo",
+                "description": "FAIR DAO puede modificar estos Términos de vez en cuando a través de procesos de gobernanza comunitaria. Los Términos modificados se publicarán en el sitio web y entrarán en vigor a partir de la fecha de publicación. El uso continuado de los Servicios por tu parte se considerará aceptación de los Términos modificados."
+            },
+            {
+                "title": "Terminación",
+                "description": "Puedes dejar de usar nuestros Servicios en cualquier momento. FAIR DAO también puede terminar o suspender la prestación de Servicios a ti por cualquier motivo, incluyendo pero no limitado a tu violación de estos Términos."
+            },
+            {
+                "title": "Otros términos",
+                "description": "Si cualquier parte de estos Términos se considera inválida o inejecutable, las partes restantes seguirán siendo plenamente válidas. Estos Términos constituyen el acuerdo completo entre tú y FAIR DAO con respecto al uso de los Servicios y reemplazan todas las comunicaciones y acuerdos previos."
+            }
+        ]
+    },
+    "privacy": {
+        "title": "Política de privacidad",
+        "description": "Al usar los Servicios de FAIR DAO, confías en nosotros con tu información. Entendemos que esta responsabilidad es de gran importancia, por lo que siempre hemos estado comprometidos a proteger tu información y darte control. Esta Política de Privacidad está diseñada para ayudarte a entender qué información recopilamos.",
+        "update": "Esta Política de Privacidad entra en vigor el 1 de mayo de 2025.",
+        "subitems": [
+            {
+                "title": "Recopilación de información",
+                "description": "Queremos que comprendas qué tipos de información recopilamos cuando usas productos de FAIR DAO. Recopilamos información para proporcionar mejores servicios a todos los usuarios, y inferiremos el contenido básico necesario basado en la información recopilada (como qué idioma hablas, en qué país o región te encuentras). Si no has iniciado sesión en tu cuenta, almacenamos la información recopilada con identificadores únicos vinculados al navegador, aplicación o dispositivo que usas. De esta manera, podemos retener tus preferencias entre sesiones de navegación y realizar algunas otras medidas."
+            },
+            {
+                "title": "Transferencia de datos",
+                "description": "Mantenemos servidores en todo el mundo, por lo que los servidores que usamos para procesar tu información pueden no estar ubicados en tu país/región. Las leyes de protección de datos varían según el país/región, y la fuerza de la protección de datos también varía según el país/región. Independientemente de dónde se procese tu información, adoptaremos uniformemente las medidas de protección descritas en esta política. Además, también cumpliremos con ciertos marcos legales relacionados con la transmisión de datos. Después de recibir una queja escrita formal, nos pondremos en contacto con el reclamante. Cooperaremos con las autoridades regulatorias pertinentes (incluyendo las autoridades locales de protección de datos) para resolver cualquier queja relacionada con la transmisión de tus datos que no pueda resolverse directamente por nosotros y por ti."
+            },
+            {
+                "title": "Cambios en la política",
+                "description": "Podemos revisar esta Política de Privacidad de vez en cuando. Sin tu consentimiento expreso, no reduciremos los derechos que disfrutas según los términos de esta Política de Privacidad. Siempre indicaremos la fecha de publicación de los últimos cambios realizados, y proporcionaremos acceso a versiones archivadas para que las revises. Para cambios importantes, te enviaremos un aviso serio (incluyendo para algunos servicios, enviaremos notificaciones por correo electrónico explicando los cambios en la Política de Privacidad)."
+            }
+        ]
+    }
+}
