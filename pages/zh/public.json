@@ -20,5 +20,16 @@
   "progress": "进度",
   "community": "社区",
   "document": "文档",
-  "detail": "详情"
+  "disclaimers":"免责声明",
+  "privacypolicy":"隐私政策",
+  "serviceagreement":"服务条款",
+  "allrightsreserved":"保留所有权利",
+  "resources":"资源",
+  "faq":"常见问题",
+  "blog":"博客",
+  "forum":"论坛",
+  "links":"链接",
+  "detail": "详情",
+  "legal":"法律",
+  "fairvision":"去中心化治理，创造更公平的未来"
 }

@@ -10,7 +10,9 @@ html {
 body[lang="ar"] .main-content {
     direction: rtl;
 }
-
+a{
+    color:var(--bulma-navbar-item-color);
+}
 
 
 /* 假设导航高度为80px */
@@ -63,13 +65,11 @@ body[lang="ar"] .main-content {
 .footer {
     background-color: var(--bulma-scheme-main);
     padding: 1.25rem;
-    font-size: 1.25rem;
-    line-height: 2.5rem;
+    line-height: 1.85rem;
     background: var(--bulma-background);
     color: var(--bulma-text-weak);
 }
 .footer i{
-    font-size:1.5rem;
     color:var(--bulma-text-weak);
 }
 .field.has-addons{
