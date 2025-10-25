@@ -1,0 +1,88 @@
+{
+    "disclaimers": {
+        "title": "Tuyên bố từ chối trách nhiệm",
+        "subitems": [
+            {
+                "description": "FAIR DAO là một tổ chức phi tập trung độc lập bao gồm tất cả những người sở hữu token FAIR. FAIR DAO không phải là một cá nhân pháp nhân và không cố gắng quản lý phân phối token FAIR theo cách tập trung"
+            },
+            {
+                "description": "Token FAIR không có ích bản chất cho đến khi được thiết kế và phát hành. Token FAIR không đại diện cho quyền sở hữu tài sản vật chất hoặc tài chính nào và không cung cấp hoặc bảo đảm quyền hoàn tiền"
+            },
+            {
+                "description": "Những người sở hữu token FAIR không nên mong đợi quyền yêu cầu hoặc hoàn tiền như vậy. Token FAIR là một loại tiền ảo tiêu chuẩn không có giá trị nội tại, tự nhiên hoặc đầu tư"
+            },
+            {
+                "description": "Tất cả nội dung của FAIR DAO không phải là tư vấn đầu tư hoặc kinh doanh dưới bất kỳ hình thức nào. Người dùng phải chịu trách nhiệm hoàn toàn khi sử dụng dự án này"
+            },
+            {
+                "description": "Dịch vụ mà FAIR DAO cung cấp được cung cấp 'theo nguyên trạng' và 'khi có sẵn' mà không có bất kỳ bảo đảm nào cả rõ ràng hoặc ngụ ý. FAIR DAO không đảm bảo khả năng truy cập, chính xác, tin cậy hoặc an toàn của dịch vụ. Công nghệ blockchain và tiền ảo krypto liên quan đến những rủi ro nghiêm trọng, bao gồm nhưng không giới hạn于 sự biến động thị trường, lỗi kỹ thuật, thay đổi tiêu chuẩn và các vấn đề khác"
+            }
+        ]
+    },
+    "service": {
+        "title": "Điều khoản dịch vụ",
+        "description": "Các Điều khoản dịch vụ này ('Điều khoản') là một thỏa thuận giữa người dùng ('Bạn') và FAIR DAO ('Chúng tôi') về việc sử dụng dịch vụ được cung cấp bởi chúng tôi ('Dịch vụ')",
+        "update": "Các điều khoản dịch vụ này sẽ có hiệu lực từ ngày 1 tháng 5 năm 2025",
+        "subitems": [
+            {
+                "title": "Chấp nhận điều khoản",
+                "description": "Khi bạn truy cập và sử dụng trang web, ứng dụng, hợp đồng thông minh hoặc bất kỳ dịch vụ nào khác của FAIR DAO ('Dịch vụ'), bạn đồng ý tuân thủ các điều lệ dịch vụ này ('Điều lệ'). Nếu bạn không đồng ý với bất kỳ điều lệ nào trong các điều lệ này, bạn nên ngừng sử dụng tất cả dịch vụ ngay lập tức"
+            },
+            {
+                "title": "Mô tả dịch vụ",
+                "description": "FAIR DAO là một tổ chức phi tập trung độc lập được vận hành cùng nhau bởi những người sở hữu token FAIR. Các dịch vụ mà chúng tôi cung cấp bao gồm nhưng không giới hạn于 truy cập vào trang web, tương tác với hợp đồng thông minh, tham gia vào quản trị cộng đồng, v.v. Xin lưu ý rằng FAIR DAO không phải là một doanh nghiệp thông thường hoặc một cá nhân pháp nhân, mà thay vào đó là một tổ chức phi tập trung dựa trên công nghệ blockchain"
+            },
+            {
+                "title": "Trình độ đủ tuổi của người dùng",
+                "description": "Để sử dụng dịch vụ của chúng tôi, bạn phải đủ 18 tuổi hoặc đã đạt tuổi trưởng thành theo pháp luật tại quốc gia管辖 của bạn. Bạn tuyên bố và đảm bảo rằng việc sử dụng dịch vụ của chúng tôi không vi phạm bất kỳ pháp luật hoặc quy định nào có hiệu lực. Nếu bạn sử dụng dịch vụ của chúng tôi thay mặt cho một cá nhân pháp nhân, bạn tuyên bố và đảm bảo rằng bạn có quyền ràng buộc cá nhân pháp nhân đó theo các điều lệ này"
+            },
+            {
+                "title": "Tài khoản và bảo mật",
+                "description": "Việc sử dụng một số dịch vụ có thể yêu cầu tạo hoặc sử dụng ví tiền điện tử. Bạn chịu trách nhiệm bảo mật khóa riêng tư của ví tiền và thông tin đăng nhập của bạn. FAIR DAO không lưu trữ, quản lý hoặc khôi phục khóa riêng tư của ví tiền hoặc thông tin đăng nhập của bạn. Bạn chịu trách nhiệm hoàn toàn cho mọi hoạt động được thực hiện dưới tài khoản của bạn"
+            },
+            {
+                "title": "Quy tắc sử dụng dịch vụ",
+                "description": "Bằng cách sử dụng dịch vụ của chúng tôi, bạn đồng ý: <br /> - Tuân thủ tất cả pháp luật và quy định có hiệu lực<br /> - Không tham gia vào hoạt động bất hợp pháp, bao gồm nhưng không giới hạn于 rửa tiền, tài trợ bạo lực hoặc gian lận<br /> - Không cố gắng can thiệp vào, phá hủy hoặc gây hại cho hoạt động bình thường của dịch vụ<br /> - Không vi phạm bản quyền hoặc quyền sở hữu trí tuệ của người khác<br /> - Không phân phối phần mềm độc hại, virus hoặc nội dung nguy hiểm khác<br /> - Không tham gia vào hoạt động có thể khiến FAIR DAO chịu trách nhiệm pháp lý"
+            },
+            {
+                "title": "Quyền sở hữu trí tuệ",
+                "description": "Quyền sở hữu trí tuệ đối với trang web, ứng dụng, mã, tài liệu, nhãn hiệu và nội dung khác của FAIR DAO thuộc về cộng đồng FAIR DAO hoặc chủ sở hữu liên quan. Trừ khi được cấp phép rõ ràng, bạn không được sao chép, sửa đổi, phân phối hoặc sử dụng nội dung này theo bất kỳ cách nào khác"
+            },
+            {
+                "title": "Giới hạn trách nhiệm",
+                "description": "Trên phạm vi được cho phép bởi pháp luật, FAIR DAO và các thành viên, nhà phát triển không chịu trách nhiệm cho bất kỳ thiệt hại trực tiếp, gián tiếp, ngẫu nhiên, đặc biệt hoặc hậu quả nào phát sinh từ việc sử dụng hoặc không thể sử dụng dịch vụ, bao gồm nhưng không giới hạn于 mất lợi nhuận, mất dữ liệu hoặc chi phí thay thế hàng hóa hoặc dịch vụ"
+            },
+            {
+                "title": "Thay đổi điều khoản",
+                "description": "FAIR DAO có thể thay đổi các điều lệ này theo thời gian thông qua quy trình quản trị cộng đồng. Các điều lệ đã sửa đổi sẽ được công bố trên trang web và có hiệu lực kể từ ngày công bố. Việc bạn tiếp tục sử dụng dịch vụ sẽ được coi là chấp nhận các điều lệ đã sửa đổi"
+            },
+            {
+                "title": "Kết thúc",
+                "description": "Bạn có thể ngừng sử dụng dịch vụ của chúng tôi bất cứ lúc nào. FAIR DAO cũng có thể chấm dứt hoặc đình chỉ việc cung cấp dịch vụ cho bạn vì bất kỳ lý do nào, bao gồm nhưng không giới hạn于 việc bạn vi phạm các điều lệ này"
+            },
+            {
+                "title": "Các điều khoản khác",
+                "description": "Nếu bất kỳ phần nào trong các điều lệ này được coi là vô hiệu lực hoặc không thể thi hành, các phần khác sẽ vẫn giữ nguyên đầy đủ hiệu lực. Các điều lệ này là thỏa thuận đầy đủ giữa bạn và FAIR DAO về việc sử dụng dịch vụ và thay thế tất cả các giao tiếp và thỏa thuận trước đó"
+            }
+        ]
+    },
+    "privacy": {
+        "title": "Chính sách bảo mật",
+        "description": "Bằng cách sử dụng dịch vụ của FAIR DAO, bạn tin tưởng chúng tôi với thông tin của mình. Chúng tôi hiểu trách nhiệm này quan trọng, vì vậy chúng tôi luôn cố gắng bảo vệ thông tin của bạn và đưa quyền kiểm soát cho bạn. Chính sách bảo mật này được phát triển để giúp bạn hiểu những gì chúng tôi thu thập thông tin\n",
+        "update": "Chính sách bảo mật này sẽ có hiệu lực từ ngày 1 tháng 5 năm 2025",
+        "subitems": [
+            {
+                "title": "Thu thập thông tin",
+                "description": "Chúng tôi muốn bạn hiểu loại thông tin mà chúng tôi thu thập khi bạn sử dụng sản phẩm của FAIR DAO. Chúng tôi thu thập thông tin để cung cấp dịch vụ tốt hơn cho tất cả người dùng, và chúng tôi sẽ tóm tắt nội dung cơ bản cần thiết dựa trên thông tin thu thập (ví dụ: ngôn ngữ bạn nói, bạn đang ở quốc gia hay khu vực nào). Nếu bạn không đăng nhập vào tài khoản của mình, chúng tôi sẽ lưu trữ thông tin được thu thập cùng với một mã nhận dạng duy nhất được liên kết với trình duyệt, ứng dụng hoặc thiết bị mà bạn sử dụng. Bằng cách này, chúng tôi có thể duy trì trải nghiệm của bạn giữa các phiên xem và các hoạt động khác"
+            },
+            {
+                "title": "Chuyển giao thông tin",
+                "description": "Chúng tôi hỗ trợ máy chủ trên toàn thế giới, vì vậy máy chủ chúng tôi sử dụng để xử lý thông tin của bạn có thể không nằm trong quốc gia/khu vực của bạn. Pháp luật về bảo vệ dữ liệu khác nhau giữa các quốc gia/khu vực, và mức độ bảo vệ dữ liệu cũng khác nhau giữa các quốc gia/khu vực. Dù thông tin của bạn được xử lý ở đâu, chúng tôi đều tuân thủ các biện pháp bảo vệ được nêu trong chính sách này một cách nhất quán. Ngoài ra, chúng tôi cũng tuân thủ một số khung pháp luật liên quan đến chuyển giao dữ liệu. Khi nhận được yêu cầu được lập thành văn, chúng tôi sẽ liên hệ với người yêu cầu. Chúng tôi sẽ hợp tác với các cơ quan quản lý liên quan (bao gồm các cơ quan bảo vệ dữ liệu địa phương) để giải quyết bất kỳ yêu cầu nào liên quan đến chuyển giao dữ liệu của bạn mà không thể giải quyết trực tiếp giữa chúng tôi và bạn"
+            },
+            {
+                "title": "Thay đổi chính sách",
+                "description": "Chúng tôi thường xuyên xem xét chính sách bảo mật này mà không cần sự đồng ý rõ ràng của bạn. Chúng tôi sẽ không giảm quyền lợi mà bạn có theo các điều khoản của chính sách bảo mật này. Chúng tôi luôn giữ ngày công bố cho những thay đổi gần nhất và cung cấp quyền truy cập vào phiên bản lưu trữ cho bạn xem xét. Trong trường hợp có những thay đổi quan trọng, chúng tôi sẽ thông báo cho bạn một cách nghiêm túc (bao gồm đối với một số dịch vụ, thông báo qua email mô tả những thay đổi trong chính sách bảo mật)"
+            }
+        ]
+    }
+}
