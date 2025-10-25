@@ -11,4 +11,4 @@ layout: default # 引用 _layouts/default.html
         </div>
         <div class="subtitle mt-5 mr-4 has-text-right" data-bind="json.privacy.update"></div>     
     </div>
-</div>
+</div>  
