@@ -1,0 +1,11 @@
+{
+    "title":"Trung tâm Tài liệu",
+    "description":"Đây là trung tâm tài liệu, chứa tất cả các tài liệu.",
+    "subitems":[
+        {
+            "title":"Tài liệu Hợp đồng Kho dữ liệu Người dùng",
+            "description":"Hợp đồng Kho dữ liệu Người dùng là dịch vụ lưu trữ dữ liệu backend chính của FAIR DAO, cung cấp các khả năng lưu trữ dữ liệu an toàn và linh hoạt cho các hợp đồng thông minh khác, cùng với các cơ chế kiểm soát truy cập toàn diện.",
+            "link":"https://storage.fairdao.net/"
+        }
+    ]
+}

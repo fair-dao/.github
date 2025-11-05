@@ -1,0 +1,11 @@
+{
+    "title":"Centre de Documentation",
+    "description":"Il s'agit du centre de documentation, qui contient tous les documents.",
+    "subitems":[
+        {
+            "title":"Document du Contrat de Référentiel de Données Utilisateur",
+            "description":"Le Contrat de Référentiel de Données Utilisateur est le principal service de stockage de données backend de FAIR DAO, fournissant des capacités de stockage de données sécurisées et flexibles pour d'autres contrats intelligents, ainsi que des mécanismes complets de contrôle d'accès.",
+            "link":"https://storage.fairdao.net/"
+        }
+    ]
+}

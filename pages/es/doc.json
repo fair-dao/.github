@@ -1,0 +1,11 @@
+{
+    "title":"Centro de Documentación",
+    "description":"Este es el centro de documentación, que contiene todos los documentos.",
+    "subitems":[
+        {
+            "title":"Documento del Contrato del Repositorio de Datos de Usuario",
+            "description":"El Contrato del Repositorio de Datos de Usuario es el servicio principal de almacenamiento de datos backend de FAIR DAO, que proporciona capacidades seguras y flexibles de almacenamiento de datos para otros contratos inteligentes, junto con mecanismos completos de control de acceso.",
+            "link":"https://storage.fairdao.net/"
+        }
+    ]
+}
