@@ -1,6 +1,5 @@
 {
-  "pageTitle": "Cómo Comprar",
-  "buySale": "Trading de Token Fair",
-  "buySaleDes": "Ve a la página de venta de tokens FAIR en SunPump para realizar pedidos",
-  "buyNow": "Comprar Ahora"
+  "trading": "Trading de Tokens Fair",
+  "description": "Puedes intercambiar tokens Fair a través de las siguientes plataformas:",
+  "tradingNow": "Comprar Ahora"
 }

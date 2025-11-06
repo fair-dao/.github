@@ -1,6 +1,5 @@
 {
-  "pageTitle": "Cách giao dịch",
-  "buySale": "Giao dịch token Fair",
-  "buySaleDes": "Truy cập trang bán token FAIR của SunPump để đặt đơn hàng",
-  "buyNow": "Giao dịch ngay"
+  "trading": "Giao dịch token Fair",
+  "description": "Bạn có thể giao dịch token Fair thông qua các nền tảng sau:",
+  "tradingNow": "Giao dịch ngay"
 }

@@ -4,7 +4,7 @@ En la actualidad, con la ola de Web3 que arrasa el mundo, las Organizaciones Aut
 ## Estructura de Gobernanza
 FAIR DAO participa en la gobernanza mediante la tenencia de tokens FAIR, que son una criptomoneda Meme emitida de forma justa en la plataforma SunPump de la red Tron, sin pré-ventas ni asignaciones para el equipo. La gobernanza adopta un doble mecanismo de participación por contribución y votación por tokens, lo que garantiza los derechos de los partidarios fundamentales mientras incentiva el comportamiento de participación real.
 ## Mecanismo de Toma de Decisiones
-El proceso de toma de decisiones de la organización se divide en tres fases: presentación de propuestas, discusión comunitaria y ejecución por votación. Cualquier miembro que posea tokens FAIR y los haya apostado puede presentar propuestas. Las propuestas pasan por un período de discusión comunitaria de 72 horas, durante el cual los colaboradores principales pueden proporcionar opiniones profesionales para su mejora.
+El proceso de toma de decisiones de la organización se divide en cuatro fases: presentación de propuestas, discusión comunitaria, fase de votación y fase de ejecución. Cualquier miembro que posea tokens FAIR y los haya apostado puede presentar propuestas. Las propuestas pasan por un período de discusión comunitaria de 72 horas, durante el cual los colaboradores principales pueden proporcionar opiniones profesionales para su mejora.
 ## Cómo Participar
 FAIR DAO da la bienvenida a todas las personas y organizaciones que compartan el concepto de gobernanza justa a unirse, con métodos de participación flexibles:
 ### Poseer Tokens de Gobernanza
@@ -14,8 +14,7 @@ Puedes ganar reconocimiento contribuyendo con tus habilidades, y cuando las cont
 * Participa en el desarrollo técnico. Te damos la bienvenida a enviar contribuciones PR o informar problemas en cada proyecto de FAIR DAO. Consulta [Guía de Contribución](../CONTRIBUTING.md) y [Código de Conducta de Colaboradores](../CODE_OF_CONDUCT.md)
 * Participa en creación de contenido, operación comunitaria y otros campos
 ## Descargo de Responsabilidad
-FAIR DAO es una organización autónoma descentralizada compuesta por todos los titulares de tokens FAIR. FAIR DAO no es una entidad legal ni tiene como objetivo administrar centralmente el suministro de tokens FAIR. Los tokens FAIR no tienen utilidad inherente antes de su emisión. Los tokens FAIR no representan ningún derecho de reclamación sobre ningún activo del mundo real o financiero, ni proporcionan ni garantizan valor de retorno. Los titulares de tokens FAIR no deben esperar tales reclamaciones o retornos. Los tokens FAIR son una moneda meme típica, sin valor intrínseco, valor inherente o valor de inversión.
-Todo el contenido de FAIR DAO no constituye ningún tipo de asesoramiento de inversión o comercial. Los usuarios asumen riesgos propios al usar los proyectos de la organización.
+Consulte [Descargo de Responsabilidad](https://fairdao.net/pages/disclaimers.html)
 ## Contáctanos
 ### Sitio Web Oficial: https://fairdao.net
 ### Grupo de Telegram: https://t.me/fairdaogroup

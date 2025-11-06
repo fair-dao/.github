@@ -1,54 +1,61 @@
 <!-- _layouts/default.html -->
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="FAIR DAO|FAIR|FAIR tokens are launched fairly on the SunPump platform, with no presale, no additional issuance, and no allocation plans"
-    />
-    <title>FAIR DAO</title>
-    <base href="/" />
-    <link rel="icon" type="image/png" href="res/fair-512.png" />
-    <link href="res/manifest.webmanifest" rel="manifest" />
-    <link rel="apple-touch-icon" sizes="512x512" href="res/fair-512.png" />
-    <link rel="apple-touch-icon" sizes="192x192" href="res/fair-192.png" />
-    <link rel="stylesheet" href="res/bulma.min.css" />
-    <link href="res/timeline.css" rel="stylesheet" />
-    <link href="res/fair.css" rel="stylesheet" />
-    <link rel="stylesheet" href="res/css/fontawesome.min.css" />
-    <link rel="stylesheet" href="res/css/solid.min.css" />
-    <link rel="stylesheet" href="res/css/brands.min.css" />
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description"
+    content="FAIR DAO|FAIR|FAIR tokens are launched fairly on the SunPump platform, with no presale, no additional issuance, and no allocation plans" />
+  <title>FAIR DAO</title>
+  <base href="/" />
+  <link rel="icon" type="image/png" href="res/fair-512.png" />
+  <link href="res/manifest.webmanifest" rel="manifest" />
+  <link rel="apple-touch-icon" sizes="512x512" href="res/fair-512.png" />
+  <link rel="apple-touch-icon" sizes="192x192" href="res/fair-192.png" />
+  <link rel="stylesheet" href="res/bulma.min.css" />
+  <link href="res/timeline.css" rel="stylesheet" />
+  <link href="res/fair.css" rel="stylesheet" />
+  <link rel="stylesheet" href="res/css/fontawesome.min.css" />
+  <link rel="stylesheet" href="res/css/solid.min.css" />
+  <link rel="stylesheet" href="res/css/brands.min.css" />
   </head>
 
-  <body>
-    <div>
-      <header
-        class="header"
-        bind-html="/pages/header.html"
-        bind-html-loaded="headerLoaded(e)"
-      ></header>
-      <div class="body">
-        <main class="main-content">
- <div class="section" bind-json="legal"  id="service">
-            <div class="container">
-                <div class="has-text-centered">
-              <div class="title is-2 mt-6" data-bind="json.service.title"></div>
-              </div>
-              <div class="subtitle is-4 mt-5" data-bind="json.service.description"></div>
-              <div data-bind-for="json.service.subitems">
-                <div class="title is-4 mt-3">{-item.index+1-}. {-item.title-}</div>
-                <div class="subtitle is-5 mt-2">{-item.description-}</div>
-              </div>
-                 <div class="subtitle mt-5 mr-4 has-text-right" data-bind="json.service.update"></div>     
+<body>
+  <div>
+    <header class="header" bind-html="/pages/header.html" bind-html-loaded="headerLoaded(e)"></header>
+    <div class="body">
+      <main class="main-content">
+        <section class="section">
+          <div class="container" bind-json="trading">
+            <div class="content has-text-centered mb-6">
+              <h1 class="title is-4 has-text-primary" data-bind="json.trading"></h1>
             </div>
-          
-</div>
-        </main>
+
+            <div class="content subtitle is-5 mt-2" data-bind="json.description"></div>
+            <div>
+              <div class="title is-4 mt-3">1. SunPUMP</div>
+              <div class="subtitle is-5 mt-2"><a
+                  href="https://sunpump.meme/token/TU6x2QQoiU6TU6iePvV9Kacv2fADvMT2F6"
+                  data-bind="json.tradingNow"></a></div>
+            </div>
+            <div>
+              <div class="title is-4 mt-3">2. Transit</div>
+              <div class="subtitle is-5 mt-2"><a
+                  href="https://swap.transit.finance/#/chart?chain=TRX&token=TU6x2QQoiU6TU6iePvV9Kacv2fADvMT2F6"
+                  data-bind="json.tradingNow"></a></div>
+            </div>
+          </div>
+        </section>
+
+      </main>
       </div>
       <footer class="footer" bind-html="/pages/footer.html"></footer>
     </div>
+  
     <script src="/res/fair.js"></script>
-  </body>
+  
+
+</body>
+
 </html>

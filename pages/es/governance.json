@@ -3,19 +3,19 @@
   "steps": [
     {
       "title": "Enviar Propuesta",
-      "description": "Cualquier poseedor de tokens puede enviar una propuesta. Incluye planes detallados y razones para ser consideradas por la comunidad."
+      "description": "Cualquier titular de token puede presentar una propuesta. Contiene planes detallados y razones para que la comunidad los examine."
     },
     {
-      "title": "Periodo de Discusión",
-      "description": "Las propuestas pasan por un período de discusión donde los miembros pueden hacer preguntas y sugerir mejoras."
+      "title": "Discusión Comunitaria",
+      "description": "La propuesta pasa por una etapa de discusión, donde los miembros pueden hacer preguntas y proponer mejoras."
     },
     {
-      "title": "Periodo de Votación",
-      "description": "Los poseedores de tokens votan en las propuestas, con el poder de voto proporcional a sus tenencias. Los votos se registran en blockchain."
+      "title": "Fase de Votación",
+      "description": "Los titulares de tokens votan por las propuestas, con el poder de voto proporcional a su participación. Los votos se registran en la cadena de bloques."
     },
     {
-      "title": "Implementación",
-      "description": "Las propuestas aprobadas por la comunidad se implementan, con un seguimiento claro del progreso."
+      "title": "Fase de Implementación",
+      "description": "Las propuestas aprobadas son implementadas por la comunidad, y el progreso se rastrea de forma transparente."
     }
   ]
 }

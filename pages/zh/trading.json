@@ -1,6 +1,5 @@
 {
-  "pageTitle": "如何购买",
-  "buySale": "Fair 代币交易",
-  "buySaleDes": "进入SunPump FAIR代币销售页面下单",
-  "buyNow": "立即交易"
+  "trading": "Fair 代币交易",
+  "description": "可以通过以下平台进行Fair代币的交易:",
+  "tradingNow": "立即交易"
 }

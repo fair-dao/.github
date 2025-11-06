@@ -1,6 +1,5 @@
 {
-  "pageTitle": "購入方法",
-  "buySale": "Fairトークン取引",
-  "buySaleDes": "SunPump FAIRトークン販売ページにアクセスして注文します",
-  "buyNow": "今すぐ取引"
+  "trading": "Fairトークン取引",
+  "description": "以下のプラットフォームを通じてFairトークンを取引することができます：",
+  "tradingNow": "今すぐ取引"
 }

@@ -1,6 +1,5 @@
 {
-  "pageTitle": "구매 방법",
-  "buySale": "Fair 토큰 거래",
-  "buySaleDes": "SunPump FAIR 토큰 판매 페이지로 이동하여 주문하세요",
-  "buyNow": "지금 거래"
+  "trading": "페어 토큰 거래",
+  "description": "다음 플랫폼을 통해 페어 토큰을 거래할 수 있습니다:",
+  "tradingNow": "지금 거래"
 }

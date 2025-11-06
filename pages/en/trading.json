@@ -1,6 +1,5 @@
 {
-  "pageTitle": "How to Buy",
-  "buySale": "Fair Token Trading",
-  "buySaleDes": "Go to SunPump FAIR token sale page to place orders",
-  "buyNow": "Trade Now"
+  "trading": "Fair Token Trading",
+  "description": "You can trade Fair tokens through the following platforms:",
+  "tradingNow": "Trade Now"
 }

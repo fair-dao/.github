@@ -3,19 +3,19 @@
   "steps": [
     {
       "title": "Đề xuất",
-      "description": "Những người sở hữu token FAIR có thể đưa ra các đề xuất mới. Đề xuất phải chứa mục tiêu rõ ràng và kế hoạch thực hiện."
+      "description": "Bất kỳ chủ sở hữu token nào đều có thể đưa ra đề xuất. Nó bao gồm các kế hoạch chi tiết và lý do để cộng đồng xem xét."
     },
     {
-      "title": "Thời gian thảo luận",
-      "description": "Cộng đồng thảo luận về đề xuất và cung cấp phản hồi. Trong giai đoạn này, người đề xuất có thể chỉnh sửa theo nhu cầu."
+      "title": "Thảo luận cộng đồng",
+      "description": "Đề xuất trải qua giai đoạn thảo luận, nơi các thành viên có thể đặt câu hỏi và đề xuất cải thiện."
     },
     {
-      "title": "Thời gian bỏ phiếu",
-      "description": "Sau khi thời gian thảo luận kết thúc, quá trình bỏ phiếu bắt đầu. Quyền bỏ phiếu tỷ lệ thuận với số lượng token FAIR sở hữu."
+      "title": "Giai đoạn bỏ phiếu",
+      "description": "Chủ sở hữu token bỏ phiếu cho các đề xuất, với quyền bỏ phiếu tỷ lệ thuận với cổ phần của họ. Các phiếu được đăng ký trên blockchain."
     },
     {
-      "title": "Thực hiện",
-      "description": "Nếu bỏ phiếu được chấp thuận, đề xuất sẽ được thực hiện. Tất cả quá trình thực hiện đều được ghi vào blockchain và có thể theo dõi một cách minh bạch."
+      "title": "Giai đoạn thực hiện",
+      "description": " Các đề xuất được chấp thuận được thực hiện bởi cộng đồng, và tiến trình được theo dõi một cách minh bạch."
     }
   ]
 }

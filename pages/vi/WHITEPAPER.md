@@ -4,7 +4,7 @@ Những ngày nay, khi làn sóng Web3 đang xâm chiếm thế giới, các T�
 ## Cấu trúc quản trị
 FAIR DAO tham gia quản trị bằng cách sở hữu token FAIR, một loại tiền mã hóa Meme được phát hành một cách công bằng trên nền tảng SunPump của mạng lưới Tron, không có bán sớm hay phân bổ cho đội ngũ nào. Quản trị áp dụng cơ chế kép tham gia thông qua đóng góp và bình chọn thông qua token, đảm bảo quyền lợi của những người ủng hộ cơ bản đồng thời khuyến khích hành vi tham gia thực tế.
 ## Cơ chế ra quyết định
-Quy trình ra quyết định của tổ chức được chia thành ba giai đoạn: nộp đề xuất, thảo luận cộng đồng và thực hiện bằng bình chọn. Bất kỳ thành viên nào sở hữu token FAIR và đang质押 token đều có thể nộp đề xuất. Các đề xuất sẽ trải qua một giai đoạn thảo luận cộng đồng kéo dài 72 giờ, trong thời gian đó các nhà đóng góp chính có thể đưa ra những ý kiến chuyên nghiệp để cải thiện chúng.
+Quy trình ra quyết định của tổ chức được chia thành bốn giai đoạn: nộp đề xuất, thảo luận cộng đồng, giai đoạn bình chọn và giai đoạn thực hiện. Bất kỳ thành viên nào sở hữu token FAIR và đang质押 token đều có thể nộp đề xuất. Các đề xuất sẽ trải qua một giai đoạn thảo luận cộng đồng kéo dài 72 giờ, trong thời gian đó các nhà đóng góp chính có thể đưa ra những ý kiến chuyên nghiệp để cải thiện chúng.
 ## Cách thức tham gia
 FAIR DAO hoan nghênh tất cả cá nhân và tổ chức đồng ý với khái niệm quản trị công bằng, với các phương thức tham gia linh hoạt:
 ### Sở hữu token quản trị
@@ -14,8 +14,7 @@ Bạn có thể nhận được sự công nhận bằng cách đóng góp với
 * Tham gia phát triển kỹ thuật. Chúng tôi hoan nghênh đóng góp PR hoặc báo cáo sự cố trong từng dự án của FAIR DAO. Vui lòng tham khảo [Hướng dẫn đóng góp](../CONTRIBUTING.md) và [Quy tắc hành vi của nhà đóng góp](../CODE_OF_CONDUCT.md)
 * Tham gia tạo ra nội dung, vận hành cộng đồng và các lĩnh vực khác
 ## Tuyên bố miễn trừ trách nhiệm
-FAIR DAO là một tổ chức tự trị phi tập trung bao gồm tất cả chủ sở hữu token FAIR. FAIR DAO không phải là một thực thể pháp lý và không có ý định quản lý cung cấp token FAIR một cách tập trung. Token FAIR không có tính hữu ích nội tại trước khi được phát hành. Token FAIR không đại diện cho bất kỳ quyền sở hữu nào đối với tài sản thực tế hoặc tài chính, cũng như không cung cấp hoặc đảm bảo một giá trị trả lại dưới bất kỳ hình thức nào. Những người sở hữu token FAIR không nên kỳ vọng những quyền sở hữu hoặc trả lại như vậy. Token FAIR là một loại tiền mã hóa Meme điển hình, không có giá trị nội tại, giá trị cố hữu hoặc giá trị đầu tư.
-Tất cả nội dung của FAIR DAO không cấu thành bất kỳ hình thức nào của lời khuyên đầu tư hoặc giao dịch. Người dùng chịu trách nhiệm về rủi ro của mình khi sử dụng các dự án của tổ chức.
+Xem [Tuyên bố miễn trừ trách nhiệm](https://fairdao.net/pages/disclaimers.html)
 ## Liên hệ chúng tôi
 ### Trang web chính thức: https://fairdao.net
 ### Nhóm Telegram: https://t.me/fairdaogroup
