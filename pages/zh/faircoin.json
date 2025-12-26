@@ -9,5 +9,12 @@
     },
     "standard": "标准",
     "governance": "治理方式"
+  },
+  "fr": {
+    "title": "FAIR REWARD 代币",
+    "subtitle": "Fair 奖励性代币，兑换DAO收益的唯一凭证。获取途径只有两种：1. 质押 FAIR 代币； 2. 参与 FAIR DAO 生态建设。",
+    "details": {
+      "supply":"初始供应量"
+    }
   }
 }

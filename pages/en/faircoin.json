@@ -9,5 +9,12 @@
     },
     "standard": "Standard",
     "governance": "Governance"
+  },
+  "fr": {
+    "title": "FAIR REWARD Token",
+    "subtitle": "Fair reward token, there are only two ways to obtain it: 1. Staking FAIR tokens; 2. Participating in FAIR DAO ecosystem building.",
+    "details": {
+      "supply":"Initial Supply"
+    }
   }
 }

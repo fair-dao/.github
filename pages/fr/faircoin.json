@@ -9,5 +9,12 @@
     },
     "standard": "Standard",
     "governance": "Gouvernance"
+  },
+  "fr": {
+    "title": "Token FAIR REWARD",
+    "subtitle": "Token de récompense Fair, il n'y a que deux façons de l'obtenir : 1. Staking de tokens FAIR ; 2. Participation à la construction de l'écosystème FAIR DAO.",
+    "details": {
+      "supply":"Approvisionnement Initial"
+    }
   }
 }

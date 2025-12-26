@@ -8,9 +8,9 @@ Le processus décisionnel de l'organisation se divise en quatre phases : soumiss
 ## Comment Participer
 FAIR DAO accueille chaleureusement tous les individus et organisations qui adhèrent au concept de gouvernance équitable, avec des méthodes de participation flexibles :
 ### Détenir des Jetons de Gouvernance
-Achetez via Sunpump ou obtenez des jetons FAIR par transferts tiers, et mettez en jeu les jetons dans le contrat de garantie pour devenir un participant officiel à la gouvernance. Les personnes qui mettent en jeu peuvent soumettre des propositions, participer aux votes sur les décisions clés, et également participer aux votes d'appel et de vérification de la distribution des contributions pour recevoir des récompenses, encourageant ainsi la détention à long terme et la construction communautaire.
+Achetez via Sunpump ou obtenez des jetons FAIR par transferts tiers, et mettez en jeu les jetons FAIR pour devenir un participant officiel à la gouvernance. Mettre en jeu des jetons FAIR vous permet non seulement de gagner des jetons FR de récompense, mais aussi de soumettre des propositions et de participer aux votes sur les décisions clés. La détention à long terme et la construction communautaire sont encouragées.
 ### Contribuer avec des Compétences Professionnelles
-Vous pouvez obtenir une reconnaissance en contribuant avec vos compétences, et lorsque les contributions cumulées atteignent un certain seuil, vous pouvez recevoir des récompenses en jetons FAIR :
+Vous pouvez obtenir une reconnaissance en contribuant avec vos compétences, et lorsque les contributions cumulées atteignent un certain seuil, vous pouvez recevoir des récompenses en jetons FR :
 * Participez au développement technique. Nous accueillons favorablement les contributions PR ou les signalements de problèmes dans chacun des projets de FAIR DAO. Veuillez vous référer au [Guide de Contribution](../CONTRIBUTING.md) et au [Code de Conduite des Contributeurs](../CODE_OF_CONDUCT.md)
 * Participez à la création de contenu, à l'exploitation communautaire et à d'autres domaines
 ## Déclaration de Non-Responsabilité

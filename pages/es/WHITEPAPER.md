@@ -8,9 +8,9 @@ El proceso de toma de decisiones de la organización se divide en cuatro fases: 
 ## Cómo Participar
 FAIR DAO da la bienvenida a todas las personas y organizaciones que compartan el concepto de gobernanza justa a unirse, con métodos de participación flexibles:
 ### Poseer Tokens de Gobernanza
-Compra a través de Sunpump u obtén tokens FAIR mediante transferencias de terceros, y apuesta los tokens en el contrato de garantía para convertirte en un participante formal en la gobernanza. Los apostadores pueden presentar propuestas, participar en votaciones de toma de decisiones clave, y también participar en votaciones de apelación y revisión de distribución de contribuciones para recibir recompensas, lo que fomenta la posesión a largo plazo y la construcción de la comunidad.
+Compra a través de Sunpump u obtén tokens FAIR mediante transferencias de terceros, y apuesta los tokens FAIR para convertirte en un participante formal en la gobernanza. Apostar tokens FAIR no solo te permite ganar tokens FR de recompensa, sino que también te habilita para presentar propuestas y participar en votaciones de toma de decisiones clave. Se fomenta la posesión a largo plazo y la construcción de la comunidad.
 ### Contribuir con Habilidades Profesionales
-Puedes ganar reconocimiento contribuyendo con tus habilidades, y cuando las contribuciones acumuladas alcancen un cierto umbral, podrás recibir recompensas en tokens FAIR:
+Puedes ganar reconocimiento contribuyendo con tus habilidades, y cuando las contribuciones acumuladas alcancen un cierto umbral, podrás recibir recompensas en tokens FR:
 * Participa en el desarrollo técnico. Te damos la bienvenida a enviar contribuciones PR o informar problemas en cada proyecto de FAIR DAO. Consulta [Guía de Contribución](../CONTRIBUTING.md) y [Código de Conducta de Colaboradores](../CODE_OF_CONDUCT.md)
 * Participa en creación de contenido, operación comunitaria y otros campos
 ## Descargo de Responsabilidad

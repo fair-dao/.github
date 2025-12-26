@@ -9,5 +9,12 @@
     },
     "standard": "Tiêu chuẩn",
     "governance": "Quản trị"
+  },
+  "fr": {
+    "title": "Token FAIR REWARD",
+    "subtitle": "Token thưởng Fair, chỉ có hai cách để nhận được: 1. Đặt cược token FAIR; 2. Tham gia xây dựng hệ sinh thái FAIR DAO.",
+    "details": {
+      "supply": "Cung ứng ban đầu"
+    }
   }
 }

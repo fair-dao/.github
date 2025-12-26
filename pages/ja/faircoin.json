@@ -9,5 +9,12 @@
     },
     "standard": "標準",
     "governance": "ガバナンス"
+  },
+  "fr": {
+    "title": "FAIR REWARD トークン",
+    "subtitle": "Fair 報酬トークン，獲得する方法は2つのみ：1. FAIR トークンのステーキング；2. FAIR DAO エコシステム構築への参加。",
+    "details": {
+      "supply": "初期供給量"
+    }
   }
 }

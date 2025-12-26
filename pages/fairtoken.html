@@ -1,34 +1,77 @@
 <!-- FAIR Token Section -->
-  <div class="container" bind-json="faircoin">
-    <div class="has-text-centered mb-8">
-      <h2 class="title is-3 mb-4 has-text-primary" data-bind="json.title"></h2>
-      <p class="subtitle is-4 mt-2 mb-6" data-bind="json.subtitle"></p>
-    </div>
- 
-    <nav class="level is-link">
-      <div class="level-item has-text-centered">
-        <div>
-          <p class="heading" data-bind="json.details.code"></p>
-          <p class="title"><a href="https://sunpump.meme/token/TU6x2QQoiU6TU6iePvV9Kacv2fADvMT2F6" target="_blank">FAIR</a></p>
-        </div>
-      </div>
-      <div class="level-item has-text-centered">
-        <div>
-          <p class="heading" data-bind="json.details.supply.label"></p>
-          <p class="title" data-bind="json.details.supply.value"></p>
-        </div>
-      </div>
-      <div class="level-item has-text-centered">
-        <div>
-          <p class="heading" data-bind="json.details.standard"></p>
-          <p class="title">ERC-20</p>
-        </div>
-      </div>
-      <div class="level-item has-text-centered">
-        <div>
-          <p class="heading" data-bind="json.details.governance"></p>
-          <p class="title">DAO</p>
-        </div>
-      </div>
-    </nav>   
+<div class="container" bind-json="faircoin">
+  <div class="has-text-centered mb-8">
+    <h2 class="title is-3 mb-4 has-text-primary" data-bind="json.title"></h2>
+    <p class="subtitle is-4 mt-2 mb-6" data-bind="json.subtitle"></p>
   </div>
+
+  <nav class="level is-link">
+    <div class="level-item has-text-centered">
+      <div>
+        <p class="heading" data-bind="json.details.code"></p>
+        <p class="title">
+          <a
+            href="https://sunpump.meme/token/TU6x2QQoiU6TU6iePvV9Kacv2fADvMT2F6"
+            target="_blank"
+            >FAIR</a
+          >
+        </p>
+      </div>
+    </div>
+    <div class="level-item has-text-centered">
+      <div>
+        <p class="heading" data-bind="json.details.supply.label"></p>
+        <p class="title" data-bind="json.details.supply.value"></p>
+      </div>
+    </div>
+    <div class="level-item has-text-centered">
+      <div>
+        <p class="heading" data-bind="json.details.standard"></p>
+        <p class="title">ERC-20</p>
+      </div>
+    </div>
+    <div class="level-item has-text-centered">
+      <div>
+        <p class="heading" data-bind="json.details.governance"></p>
+        <p class="title">DAO</p>
+      </div>
+    </div>
+  </nav>
+  <div class="has-text-centered pt-6">
+    <h2 class="title is-4 mb-4 has-text-info pt-4" data-bind="json.fr.title"></h2>
+    <p class="subtitle is-5 mt-2 mb-6" data-bind="json.fr.subtitle"></p>
+  </div>
+
+  <nav class="level is-link is-5">
+    <div class="level-item has-text-centered">
+      <div>
+        <p class="heading" data-bind="json.details.code"></p>
+        <p class="title">
+          <a
+            href="https://sunpump.meme/token/TU6x2QQoiU6TU6iePvV9Kacv2fADvMT2F6"
+            target="_blank"
+            >FR</a
+          >
+        </p>
+      </div>
+    </div>
+    <div class="level-item has-text-centered">
+      <div>
+        <p class="heading" data-bind="json.fr.details.supply"></p>
+        <p class="title">０</p>
+      </div>
+    </div>
+    <div class="level-item has-text-centered">
+      <div>
+        <p class="heading" data-bind="json.details.standard"></p>
+        <p class="title">ERC-20</p>
+      </div>
+    </div>
+    <div class="level-item has-text-centered">
+      <div>
+        <p class="heading" data-bind="json.details.governance"></p>
+        <p class="title">DAO</p>
+      </div>
+    </div>
+  </nav>
+</div>

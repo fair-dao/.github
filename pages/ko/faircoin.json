@@ -9,5 +9,12 @@
     },
     "standard": "표준",
     "governance": "거버넌스"
+  },
+  "fr": {
+    "title": "FAIR REWARD 토큰",
+    "subtitle": "Fair 보상 토큰, 획득 방법은 두 가지 뿐입니다: 1. FAIR 토큰 스테이킹; 2. FAIR DAO 생태계 구축 참여.",
+    "details": {
+      "supply": "초기 공급량"
+    }
   }
 }

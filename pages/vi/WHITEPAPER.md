@@ -8,9 +8,9 @@ Quy trình ra quyết định của tổ chức được chia thành bốn giai 
 ## Cách thức tham gia
 FAIR DAO hoan nghênh tất cả cá nhân và tổ chức đồng ý với khái niệm quản trị công bằng, với các phương thức tham gia linh hoạt:
 ### Sở hữu token quản trị
-Mua thông qua Sunpump hoặc nhận được token FAIR thông qua chuyển nhượng từ bên thứ ba, và质押 token vào hợp đồng bảo đảm để trở thành một tác giả chính thức trong quản trị. Những người质押 có thể nộp đề xuất, tham gia bình chọn về các quyết định quan trọng, cũng như tham gia vào bình chọn xác minh và kháng nghị phân phối đóng góp để nhận được phần thưởng, từ đó khuyến khích sở hữu lâu dài và xây dựng cộng đồng.
+Mua thông qua Sunpump hoặc nhận được token FAIR thông qua chuyển nhượng từ bên thứ ba, và质押 FAIR token để trở thành một tác giả chính thức trong quản trị.质押 FAIR token không chỉ giúp bạn kiếm được token FR thưởng mà còn có thể nộp đề xuất và tham gia bình chọn về các quyết định quan trọng. Khuyến khích sở hữu lâu dài và xây dựng cộng đồng.
 ### Đóng góp bằng kỹ năng chuyên môn
-Bạn có thể nhận được sự công nhận bằng cách đóng góp với kỹ năng của mình, và khi đóng góp tích lũy đạt đến một mức độ nhất định, bạn có thể nhận được phần thưởng bằng token FAIR:
+Bạn có thể nhận được sự công nhận bằng cách đóng góp với kỹ năng của mình, và khi đóng góp tích lũy đạt đến một mức độ nhất định, bạn có thể nhận được phần thưởng bằng token FR:
 * Tham gia phát triển kỹ thuật. Chúng tôi hoan nghênh đóng góp PR hoặc báo cáo sự cố trong từng dự án của FAIR DAO. Vui lòng tham khảo [Hướng dẫn đóng góp](../CONTRIBUTING.md) và [Quy tắc hành vi của nhà đóng góp](../CODE_OF_CONDUCT.md)
 * Tham gia tạo ra nội dung, vận hành cộng đồng và các lĩnh vực khác
 ## Tuyên bố miễn trừ trách nhiệm

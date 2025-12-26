@@ -8,11 +8,11 @@ The organization's decision-making process is divided into four phases: proposal
 ## How to Participate
 FAIR DAO welcomes all individuals and organizations who agree with the concept of fair governance to join, with flexible participation methods:
 ### Hold Governance Tokens
-Purchase through Sunpump or obtain FAIR tokens through third-party transfers, and stake the tokens in the escrow contract to become a formal governance participant. Stakers can submit proposals, participate in key decision-making votes, and also participate in appeal and contribution distribution review votes to receive rewards, encouraging long-term holding and community building.
+Purchase through Sunpump or obtain FAIR tokens through third-party transfers, and stake FAIR tokens to become a formal governance participant. Staking FAIR tokens not only allows you to earn FR reward tokens but also enables you to submit proposals and participate in key decision-making votes. Long-term holding and community building are encouraged.
 ### Contribute Professional Skills
-You can gain recognition by contributing skills, and when cumulative contributions reach a certain threshold, you can receive FAIR token rewards:
+You can gain recognition by contributing skills, and when cumulative contributions reach a certain threshold, you can receive FR token rewards:
 * Participate in technical development. We welcome submitting PR contributions or reporting issues in every project of FAIR DAO. Please refer to [Contribution Guide](../CONTRIBUTING.md) and [Contributor Code of Conduct](../CODE_OF_CONDUCT.md)
-* Participate in content creation, community operation and other fields
+* Participate in content creation, community operation, and other fields
 ## Disclaimer
 Please refer to [Disclaimer](https://fairdao.net/pages/disclaimers.html)
 ## Contact Us

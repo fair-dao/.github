@@ -73,7 +73,7 @@
         "subitems": [
             {
                 "title": "Collecte d'informations",
-                "description": "Nous voulons que vous compreniez quels types d'informations nous collectons lorsque vous utilisez des produits de FAIR DAO. Nous collectons des informations pour fournir de meilleurs services à tous les utilisateurs, et nous déduirons le contenu de base nécessaire à partir des informations collectées (comme la langue que vous parlez, le pays ou la région dans laquelle vous vous trouvez). Si vous n'êtes pas connecté à votre compte, nous stockons les informations collectées avec des identifiants uniques liés au navigateur, à l'application ou au dispositif que vous utilisez. De cette façon, nous pouvons conserver vos préférences entre les sessions de navigation et prendre d'autres mesures.",
+                "description": "Nous voulons que vous compreniez quels types d'informations nous collectons lorsque vous utilisez des produits de FAIR DAO. Nous collectons des informations pour fournir de meilleurs services à tous les utilisateurs, et nous déduirons le contenu de base nécessaire à partir des informations collectées (comme la langue que vous parlez, le pays ou la région dans laquelle vous vous trouvez). Si vous n'êtes pas connecté à votre compte, nous stockons les informations collectées avec des identifiants uniques liés au navigateur, à l'application ou au dispositif que vous utilisez. De cette façon, nous pouvons conserver vos préférences entre les sessions de navigation et prendre d'autres mesures."
             },
             {
                 "title": "Transfert de données",
