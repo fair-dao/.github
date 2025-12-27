@@ -30,4 +30,4 @@ Lors de la signalisation de problèmes, veuillez vous assurer d'inclure les info
 Étant donné que ces problèmes sont publics, veuillez vous assurer de supprimer toutes les informations sensibles lors de l'envoi de fichiers, comme les noms d'utilisateur, les mots de passe, les adresses IP et les noms d'entreprise. Vous pouvez remplacer ces parties par "REDACTED" ou d'autres chaînes, comme "****".
 
 ## Récompenses pour contributions
-Nous encourageons tout le monde à participer aux contributions, et vous pouvez laisser votre adresse de portefeuille TRON (au moins une fois). Nous évaluerons votre niveau de contribution à chaque cycle (mensuel ou trimestriel) et distribuerons des jetons Fair ou d'autres récompenses aux participants actifs.
+Nous encourageons tout le monde à participer aux contributions, et vous pouvez laisser votre adresse de portefeuille TRON (au moins une fois). Nous évaluerons votre niveau de contribution à chaque cycle (mensuel ou trimestriel) et distribuerons des jetons FR comme récompenses aux participants actifs.

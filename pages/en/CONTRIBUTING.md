@@ -30,4 +30,4 @@ Reporting issues, please be sure to include the following information:
 Since these issues are public, please be sure to remove all sensitive information when submitting files, such as usernames, passwords, IP addresses, and company names. You can replace these parts with "REDACTED" or other strings, such as "****".
 
 ## Contribution Rewards
-We encourage everyone to participate in contributions, and you can leave your TRON wallet address (at least once). We will evaluate your contribution level every cycle (month or quarter) and distribute Fair tokens or other rewards to active participants.
+We encourage everyone to participate in contributions, and you can leave your TRON wallet address (at least once). We will evaluate your contribution level every cycle (month or quarter) and distribute FR tokens as rewards to active participants.

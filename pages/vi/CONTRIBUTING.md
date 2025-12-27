@@ -30,4 +30,4 @@ Khi báo cáo vấn đề, vui lòng đảm bảo rằng bạn bao gồm các th
 Vì những vấn đề này là công khai, vui lòng đảm bảo rằng bạn xóa tất cả thông tin nhạy cảm khi gửi tệp, chẳng hạn như tên người dùng, mật khẩu, địa chỉ IP và tên công ty. Bạn có thể thay thế những phần này bằng "REDACTED" hoặc các chuỗi khác, chẳng hạn như "****".
 
 ## Phần thưởng đóng góp
-Chúng tôi khuyến khích mọi người tham gia đóng góp, và bạn có thể để lại địa chỉ ví TRON của mình (ít nhất một lần). Chúng tôi sẽ đánh giá mức độ đóng góp của bạn trong mỗi chu kỳ (tháng hoặc quý) và phân phối代币 Fair hoặc những phần thưởng khác cho những người tham gia tích cực.
+Chúng tôi khuyến khích mọi người tham gia đóng góp, và bạn có thể để lại địa chỉ ví TRON của mình (ít nhất một lần). Chúng tôi sẽ đánh giá mức độ đóng góp của bạn trong mỗi chu kỳ (tháng hoặc quý) và phân phối token FR làm phần thưởng cho những người tham gia tích cực.

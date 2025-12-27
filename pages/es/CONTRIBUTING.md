@@ -30,4 +30,4 @@ Al informar problemas, por favor, asegúrate de incluir la siguiente informació
 Dado que estos problemas son públicos, por favor, asegúrate de eliminar toda información sensible al enviar archivos, como nombres de usuario, contraseñas, direcciones IP y nombres de empresas. Puedes reemplazar estas partes con "REDACTED" u otras cadenas, como "****".
 
 ## Recompensas por contribuciones
-Incentivamos a todos a participar en las contribuciones, y puedes dejar tu dirección de billetera TRON (al menos una vez). Evaluaremos tu nivel de contribución en cada ciclo (mes o trimestre) y distribuiremos tokens Fair u otras recompensas a los participantes activos.
+Incentivamos a todos a participar en las contribuciones, y puedes dejar tu dirección de billetera TRON (al menos una vez). Evaluaremos tu nivel de contribución en cada ciclo (mes o trimestre) y distribuiremos tokens FR como recompensas a los participantes activos.
